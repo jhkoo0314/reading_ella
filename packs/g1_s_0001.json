@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_s_0001",
+    "level": "S",
+    "topic": "Rainy Day Folder Test",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Rainy Day Folder Test",
+    "text": "Our reading team tested two ways to carry take-home papers last month. Mina used a thin plastic folder, but Joon used a zip bag. After one rainy week, Joon's papers stayed drier because the bag closed tightly on the walk home. The team checked each folder and wrote the results in a notebook. When Mina saw the difference, she changed to a zip bag. Two days later, her papers also stayed neat on the walk home. The students talked about the test before choosing a better method. The group learned that a small change in storage can protect school papers better.",
+    "word_count": 102
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mostly about?",
+      "choices": [
+        "Painting a classroom wall",
+        "Packing clothes for a trip",
+        "Learning which holder keeps school papers safe",
+        "Buying decorations for a party"
+      ],
+      "answer_index": 2,
+      "rationale": "The whole passage follows one test and what the group learned from it."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "Which kind of holder did Joon use?",
+      "choices": [
+        "A paint brush",
+        "A zip bag",
+        "A long paper list",
+        "A toy basket"
+      ],
+      "answer_index": 1,
+      "rationale": "The second sentence directly tells which tool or place was used."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the group check or write down?",
+      "choices": [
+        "The results",
+        "The test results",
+        "The lunch menu",
+        "The weather report"
+      ],
+      "answer_index": 0,
+      "rationale": "The fourth sentence explains what the group checked or recorded."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does difference mean in the fifth sentence?",
+      "choices": [
+        "A list of class rules",
+        "A place to store tools",
+        "A loud sound in a room",
+        "The way two things are not the same"
+      ],
+      "answer_index": 3,
+      "rationale": "Difference means the two results did not match each other."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does folder mean in the second sentence?",
+      "choices": [
+        "A person who visits a club",
+        "A kind of snack",
+        "A cover that keeps papers together",
+        "A color on the wall"
+      ],
+      "answer_index": 2,
+      "rationale": "The word meaning comes from how it is used in the passage."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "Why did Mina switch to a zip bag?",
+      "choices": [
+        "The first tool was missing from the class",
+        "She thought it would protect her papers better",
+        "The teacher told the student to stop working",
+        "The group wanted to decorate the room more"
+      ],
+      "answer_index": 1,
+      "rationale": "The student changed after seeing which method worked better."
+    }
+  ]
+}

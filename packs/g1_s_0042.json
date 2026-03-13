@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_s_0042",
+    "level": "S",
+    "topic": "New Word Review Check",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "New Word Review Check",
+    "text": "Our reading club tested two ways to remember new words last month. Lina used a long word list, but Evan used tiny review cards. After five days, Evan answered faster because the small cards were easy to carry. The club counted each correct answer and wrote the totals in a notebook. When Lina saw the difference, she changed to tiny review cards. At the next quiz, she remembered more of the new words. The students talked about the test before choosing a better method. The group learned that small study cards can make practice easier to repeat.",
+    "word_count": 97
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mostly about?",
+      "choices": [
+        "Packing clothes for a trip",
+        "Testing which study tool helps word review",
+        "Buying decorations for a party",
+        "Painting a classroom wall"
+      ],
+      "answer_index": 1,
+      "rationale": "The whole passage follows one test and what the group learned from it."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What did Evan use to study?",
+      "choices": [
+        "Tiny review cards",
+        "A long paper list",
+        "A toy basket",
+        "A paint brush"
+      ],
+      "answer_index": 0,
+      "rationale": "The second sentence directly tells which tool or place was used."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the group check or write down?",
+      "choices": [
+        "The test results",
+        "The lunch menu",
+        "The weather report",
+        "The totals"
+      ],
+      "answer_index": 3,
+      "rationale": "The fourth sentence explains what the group checked or recorded."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does difference mean in the fifth sentence?",
+      "choices": [
+        "A place to store tools",
+        "A loud sound in a room",
+        "The way two things are not the same",
+        "A list of class rules"
+      ],
+      "answer_index": 2,
+      "rationale": "Difference means the two results did not match each other."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does review mean in the third sentence?",
+      "choices": [
+        "A kind of snack",
+        "Look at something again to remember it",
+        "A color on the wall",
+        "A person who visits a club"
+      ],
+      "answer_index": 1,
+      "rationale": "The word meaning comes from how it is used in the passage."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "Why did Lina switch to tiny review cards?",
+      "choices": [
+        "She thought the cards would make review easier to repeat",
+        "The teacher told the student to stop working",
+        "The group wanted to decorate the room more",
+        "The first tool was missing from the class"
+      ],
+      "answer_index": 0,
+      "rationale": "The student changed after seeing which method worked better."
+    }
+  ]
+}

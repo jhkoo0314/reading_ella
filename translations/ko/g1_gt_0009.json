@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "pack_id": "g1_gt_0009",
+    "lang": "ko",
+    "version": "0.1",
+    "source": "rule_based_seed"
+  },
+  "passage": {
+    "title_translated": "Front Desk 우편 테이블",
+    "text_translated": "이 글은 교실이나 집에서 쓰는 한 가지 도움판에 대한 글입니다. 이 도구는 정원 gate 옆에 있고 오후에 사용합니다. 안에는 이름 카드가 있어 하루 일과나 역할을 확인하는 데 도움을 줍니다."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt_translated": "이 글은 주로 무엇에 대한 글인가요?",
+      "choices_translated": [
+        "새 학용품 사기",
+        "반 포스터 그리기",
+        "반납 카드 게시판 사용하기",
+        "시끄러운 복도 청소하기"
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt_translated": "반납 카드 게시판은 어디에 있나요?",
+      "choices_translated": [
+        "싱크대 옆에",
+        "정원 gate 옆에",
+        "문 옆에",
+        "창문 근처에"
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt_translated": "Yuna는 언제 반납 카드 게시판를 사용하나요?",
+      "choices_translated": [
+        "오후에",
+        "아침에",
+        "점심 후에",
+        "잠자기 전에"
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt_translated": "반납 카드 게시판에는 무엇이 있나요?",
+      "choices_translated": [
+        "그림 카드",
+        "이름표",
+        "동물 카드",
+        "이름 카드"
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt_translated": "다섯 번째 문장에서 compare는 무슨 뜻인가요?",
+      "choices_translated": [
+        "무언가를 빨리 숨기다",
+        "모든 일을 끝내다",
+        "두 가지를 함께 살펴보다",
+        "시끄러운 게임을 시작하다"
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt_translated": "다섯 번째 문장에서 notice는 무슨 뜻인가요?",
+      "choices_translated": [
+        "새 그림을 그리다",
+        "중요한 것을 알아차리다",
+        "큰 소리를 내다",
+        "무거운 상자를 나르다"
+      ]
+    }
+  ]
+}

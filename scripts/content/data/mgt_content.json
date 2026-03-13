@@ -1,0 +1,1101 @@
+{
+  "main_idea_distractors": [
+    "Painting a room with brighter colors",
+    "Buying more books for a library sale",
+    "Writing long reports about class rules",
+    "Moving students to a different school"
+  ],
+  "problem_pool": [
+    "The labels were too small to read quickly",
+    "The first plan had too many steps",
+    "Students could not tell what to do next",
+    "The design looked nice but felt confusing",
+    "Important directions were hard to spot"
+  ],
+  "change_pool": [
+    "Larger arrows",
+    "Short signs",
+    "Color blocks",
+    "Simple symbols",
+    "Practice cards"
+  ],
+  "next_pool": [
+    "Use the same clearer style in more places",
+    "Remove every sign from the room",
+    "Ask students to memorize everything",
+    "Make the labels even smaller",
+    "Stop testing the system completely"
+  ],
+  "topics": {
+    "school-projects": {
+      "titles": [
+        "Hallway Sign Project",
+        "Morning Station Redesign",
+        "School Map Update"
+      ],
+      "goals": [
+        "The school helper team wanted younger students to find morning stations more easily",
+        "A student project team wanted first graders to move between stations with less confusion",
+        "The hallway guide team hoped younger students could follow the morning plan faster"
+      ],
+      "first_plans": [
+        "the team made one colorful map with many tiny labels",
+        "the group posted a bright chart filled with long station names",
+        "the helpers used a wall plan with many decorated arrows"
+      ],
+      "problems": [
+        "the labels were too small to read quickly",
+        "students needed too much time to find the next stop",
+        "the chart looked cheerful but felt crowded"
+      ],
+      "feedback_groups": [
+        "Several first graders",
+        "A practice group of younger students",
+        "The youngest class"
+      ],
+      "feedbacks": [
+        "\"The map looks nice, but I cannot find the next table fast.\"",
+        "\"There are too many words for one quick look.\"",
+        "\"I like the colors, but I still do not know where to turn.\""
+      ],
+      "change_ones": [
+        "grouped each station with one simple symbol",
+        "made bigger arrows for every stop",
+        "cut the long labels into short station names"
+      ],
+      "change_twos": [
+        "placed matching floor dots under the signs",
+        "used the same color for each station area",
+        "spread the directions farther apart on the wall"
+      ],
+      "change_threes": [
+        "added short reminder cards at each corner",
+        "hung one extra sign before every turn",
+        "put quick-check boards near the busiest doors"
+      ],
+      "benefits": [
+        "students could check their direction again when they forgot the first step",
+        "children could stop and confirm the route without asking for help",
+        "the signs gave one more clear clue before each change"
+      ],
+      "improved_results": [
+        "most students reached the reading, math, and writing stations without extra help",
+        "the younger class moved through the morning path with fewer wrong turns",
+        "almost every student finished the station walk more quickly than before"
+      ],
+      "principles": [
+        "clear direction clues worked better than pretty decoration",
+        "simple signs helped more than crowded details",
+        "students needed fewer words and stronger visual clues"
+      ],
+      "next_steps": [
+        "the school decided to update the rest of the hallway in the same clearer style",
+        "the team planned to redesign the afternoon station path as well",
+        "the helpers chose to use the new sign system in more grade-one areas"
+      ],
+      "problem_answers": [
+        "The labels were too small to read quickly",
+        "Students needed too much time to find the next stop",
+        "The chart felt too crowded to scan quickly"
+      ],
+      "q3_prompts": [
+        "What did the team add at each corner?",
+        "What did the group hang before every turn?",
+        "What did the helpers put near the busiest doors?"
+      ],
+      "q3_answers": [
+        "Short reminder cards",
+        "One extra sign",
+        "Quick-check boards"
+      ],
+      "vocab_prompts": [
+        "What does crowded mean in the second sentence?",
+        "What does confirm mean in the fifth sentence?",
+        "What does decoration mean in the seventh sentence?"
+      ],
+      "vocab_answers": [
+        "Too full and hard to read",
+        "Make sure something is correct",
+        "Pretty-looking parts that are not the main help"
+      ],
+      "why_answers": [
+        "The new signs gave students clearer directions at each step",
+        "The redesign reduced extra words and made the route easier to follow",
+        "Students could understand the next move more quickly"
+      ],
+      "next_answers": [
+        "Use the same clearer style in more school areas",
+        "Redesign another hallway with the new system",
+        "Expand the new sign system to other grade-one spaces"
+      ],
+      "main_answers": [
+        "Improving school signs so younger students can follow stations",
+        "Redesigning a hallway guide for first graders",
+        "Making a school path easier for younger students to use"
+      ]
+    },
+    "community-events": {
+      "titles": [
+        "Fair Booth Sign Update",
+        "Charity Walk Checkpoint Redesign",
+        "Festival Map Project"
+      ],
+      "goals": [
+        "The neighborhood fair team wanted children to find activity booths more easily",
+        "A charity walk team hoped younger visitors could follow the event path without getting lost",
+        "The festival helper group wanted families to reach key booths more smoothly"
+      ],
+      "first_plans": [
+        "the team printed one large event map with long booth names",
+        "the group used tall posters filled with many small arrows",
+        "the helpers placed bright signs that mixed too many details together"
+      ],
+      "problems": [
+        "children stopped too often because they could not tell which booth came next",
+        "the arrows were hard to match with the real path",
+        "the signs looked exciting but gave too much information at once"
+      ],
+      "feedback_groups": [
+        "Several families",
+        "A practice group of children",
+        "Event volunteers"
+      ],
+      "feedbacks": [
+        "\"We can read the map, but the path is still hard to follow.\"",
+        "\"The names are clear, yet I cannot tell where the next game is.\"",
+        "\"The signs are pretty, but I keep missing the turn.\""
+      ],
+      "change_ones": [
+        "shortened every booth name to two easy words",
+        "matched each activity zone with one shape",
+        "used larger arrows and fewer colors on each sign"
+      ],
+      "change_twos": [
+        "placed the same shapes on the ground near each booth",
+        "added a symbol line that repeated from sign to sign",
+        "moved the signs lower so younger children could read them"
+      ],
+      "change_threes": [
+        "set up quick maps at busy corners",
+        "added helper signs before each turn",
+        "placed one reminder board beside the snack area and stage"
+      ],
+      "benefits": [
+        "children could check the route again in the middle of the event",
+        "families saw the next step before reaching a crowded corner",
+        "visitors had one more simple clue when the path changed direction"
+      ],
+      "improved_results": [
+        "more families reached the game booths without asking volunteers for help",
+        "the practice group followed the event path with fewer stops",
+        "children moved between booths more smoothly during the next test"
+      ],
+      "principles": [
+        "clear wayfinding helped more than exciting decoration",
+        "repeated symbols made the route easier to remember",
+        "simple event clues worked better than long booth labels"
+      ],
+      "next_steps": [
+        "the fair team planned to use the same sign style for the evening concert area",
+        "the event group chose to update the rest of the festival path in the same way",
+        "volunteers decided to redesign more community signs with the new system"
+      ],
+      "problem_answers": [
+        "Children could not tell which booth came next",
+        "The arrows were hard to match with the real path",
+        "The signs gave too much information at once"
+      ],
+      "q3_prompts": [
+        "What did the team place on the ground near each booth?",
+        "What did the group add before each turn?",
+        "What did the helpers set up at busy corners?"
+      ],
+      "q3_answers": [
+        "The same shapes",
+        "Helper signs",
+        "Quick maps"
+      ],
+      "vocab_prompts": [
+        "What does repeated mean in the seventh sentence?",
+        "What does volunteers mean in the sixth sentence?",
+        "What does decoration mean in the seventh sentence?"
+      ],
+      "vocab_answers": [
+        "Shown again and again in the same way",
+        "People who help without being paid",
+        "Pretty parts that are not the main guide"
+      ],
+      "why_answers": [
+        "The new signs broke the route into clearer steps",
+        "The repeated shapes made the event path easier to follow",
+        "Families could spot the next direction faster"
+      ],
+      "next_answers": [
+        "Use the clearer sign style in more event areas",
+        "Update the rest of the festival path with the new system",
+        "Redesign more community event signs in the same way"
+      ],
+      "main_answers": [
+        "Improving event signs so children can follow a community path",
+        "Redesigning festival directions for younger visitors",
+        "Making community booths easier for families to find"
+      ]
+    },
+    "science": {
+      "titles": [
+        "Lab Table Label Project",
+        "Seed Test Chart Redesign",
+        "Weather Station Update"
+      ],
+      "goals": [
+        "The science room team wanted first graders to understand experiment steps more easily",
+        "A lab helper group hoped younger students could track plant tests with less confusion",
+        "The weather station team wanted children to read simple science directions more clearly"
+      ],
+      "first_plans": [
+        "the group used one chart packed with tiny labels and long arrows",
+        "the helpers posted a colorful board with too many experiment notes",
+        "the team made a direction wall that mixed several steps in one box"
+      ],
+      "problems": [
+        "students could not tell which science step came first",
+        "the labels were detailed but too hard to scan quickly",
+        "children missed the next move because each box held too much text"
+      ],
+      "feedback_groups": [
+        "A first-grade test class",
+        "Several younger students",
+        "The plant club"
+      ],
+      "feedbacks": [
+        "\"I can read some of it, but I do not know the first step.\"",
+        "\"There are many clues here, but they feel mixed together.\"",
+        "\"The board is bright, yet I still forget what to do next.\""
+      ],
+      "change_ones": [
+        "split the science task into one step per card",
+        "used one icon for each type of tool",
+        "made the start point and finish point much larger"
+      ],
+      "change_twos": [
+        "placed sample tools under the matching cards",
+        "added one short action word below every icon",
+        "used the same arrow style across the whole board"
+      ],
+      "change_threes": [
+        "set a mini reminder sign beside each table",
+        "hung a quick-check card near the water station",
+        "placed one extra guide at the measuring table"
+      ],
+      "benefits": [
+        "students could compare the real tool with the picture right away",
+        "children got a clear hint again when they reached a new table",
+        "the extra guide repeated the next action before mistakes happened"
+      ],
+      "improved_results": [
+        "most students finished the test steps with fewer teacher reminders",
+        "the younger class tracked the plant experiment more accurately on the next day",
+        "children followed the science path in a steadier order during the new trial"
+      ],
+      "principles": [
+        "one clear step at a time worked better than dense directions",
+        "students learned faster when the board matched the real tools",
+        "short action words helped more than long science notes"
+      ],
+      "next_steps": [
+        "the team decided to update the rest of the lab tables in the same style",
+        "the helpers planned to redesign more science boards with one-step cards",
+        "the class chose to use the new clear format for future experiments too"
+      ],
+      "problem_answers": [
+        "Students could not tell which science step came first",
+        "The labels were too hard to scan quickly",
+        "Each box held too much text"
+      ],
+      "q3_prompts": [
+        "What did the team place under the matching cards?",
+        "What did the helpers add below every icon?",
+        "What did the group set beside each table?"
+      ],
+      "q3_answers": [
+        "Sample tools",
+        "One short action word",
+        "A mini reminder sign"
+      ],
+      "vocab_prompts": [
+        "What does dense mean in the seventh sentence?",
+        "What does accurately mean in the sixth sentence?",
+        "What does icon mean in the fourth sentence?"
+      ],
+      "vocab_answers": [
+        "Packed too closely together",
+        "In a correct and careful way",
+        "A small picture that stands for something"
+      ],
+      "why_answers": [
+        "The redesign showed one science step more clearly at a time",
+        "Students could match the signs with the real tools and actions",
+        "Shorter clues reduced confusion during the experiment"
+      ],
+      "next_answers": [
+        "Update more science tables with the same clearer system",
+        "Use one-step cards on more experiment boards",
+        "Apply the new format to future science activities"
+      ],
+      "main_answers": [
+        "Improving science directions so younger students can follow experiments",
+        "Redesigning a lab guide for first graders",
+        "Making science steps easier for children to understand"
+      ]
+    },
+    "environment": {
+      "titles": [
+        "Recycling Corner Redesign",
+        "Garden Tool Sign Update",
+        "Energy Saver Board Project"
+      ],
+      "goals": [
+        "The eco club wanted younger students to sort recycling more correctly",
+        "A green team hoped first graders could use the garden tool area with less confusion",
+        "The energy saver group wanted children to follow eco jobs more easily"
+      ],
+      "first_plans": [
+        "the team used one poster that listed every rule in small writing",
+        "the helpers made large bins with labels that looked similar to one another",
+        "the group posted bright signs that mixed pictures, rules, and reminders together"
+      ],
+      "problems": [
+        "students still dropped paper and plastic into the wrong bins",
+        "the labels looked alike, so younger students hesitated",
+        "important eco steps were hidden inside too much information"
+      ],
+      "feedback_groups": [
+        "A practice class",
+        "Several first graders",
+        "Garden helpers"
+      ],
+      "feedbacks": [
+        "\"I can see the bins, but I am not sure which one is right.\"",
+        "\"The pictures are pretty, yet the labels feel too similar.\"",
+        "\"There are many rules here, and I forget the important part.\""
+      ],
+      "change_ones": [
+        "gave each bin one strong color and one simple symbol",
+        "shortened every rule to a few clear words",
+        "made the most important eco action larger than the rest"
+      ],
+      "change_twos": [
+        "placed the same color signs above the matching shelves",
+        "added one example item next to each bin",
+        "spread the directions into smaller sections around the area"
+      ],
+      "change_threes": [
+        "set a reminder card by the door to the recycling corner",
+        "hung a quick-check board beside the tool hooks",
+        "added one more sign near the compost box"
+      ],
+      "benefits": [
+        "students saw a real example before making a choice",
+        "children could check the key rule again before they used the area",
+        "the extra sign repeated the most important action at the last moment"
+      ],
+      "improved_results": [
+        "more students sorted their materials correctly on the next clean-up day",
+        "the younger class used the garden area with fewer mistakes",
+        "children completed eco jobs more confidently after the redesign"
+      ],
+      "principles": [
+        "clear examples helped more than long rule lists",
+        "strong colors and simple symbols reduced hesitation",
+        "the most important eco message should stand out first"
+      ],
+      "next_steps": [
+        "the eco club planned to redesign more green spaces with the same system",
+        "the team decided to update the rest of the recycling area in the clearer style",
+        "helpers chose to use the same sign ideas for other school eco projects"
+      ],
+      "problem_answers": [
+        "Students still put materials into the wrong bins",
+        "The labels looked too similar",
+        "Important eco steps were hidden in too much information"
+      ],
+      "q3_prompts": [
+        "What did the team place next to each bin?",
+        "What did the group hang beside the tool hooks?",
+        "What did the helpers set by the door to the recycling corner?"
+      ],
+      "q3_answers": [
+        "One example item",
+        "A quick-check board",
+        "A reminder card"
+      ],
+      "vocab_prompts": [
+        "What does hesitation mean in the seventh sentence?",
+        "What does compost mean in the fifth sentence?",
+        "What does example mean in the fifth sentence?"
+      ],
+      "vocab_answers": [
+        "A pause caused by not feeling sure",
+        "A place for food scraps and plant waste",
+        "Something that shows what to do"
+      ],
+      "why_answers": [
+        "The new system showed clearer differences between each eco choice",
+        "Students could use examples and colors to make faster decisions",
+        "Important eco actions were easier to see first"
+      ],
+      "next_answers": [
+        "Use the same clearer system in more eco areas",
+        "Update the rest of the recycling space in the new style",
+        "Apply the same sign ideas to other green projects"
+      ],
+      "main_answers": [
+        "Improving eco signs so younger students can sort materials correctly",
+        "Redesigning an environmental work area for first graders",
+        "Making green jobs easier for children to follow"
+      ]
+    },
+    "history": {
+      "titles": [
+        "Museum Timeline Redesign",
+        "History Corner Update",
+        "Story Exhibit Sign Project"
+      ],
+      "goals": [
+        "The history corner team wanted younger students to understand a story timeline more easily",
+        "A museum helper group hoped first graders could move through a past-events exhibit with less confusion",
+        "The display team wanted children to follow a history wall in the right order"
+      ],
+      "first_plans": [
+        "the team used one long timeline filled with tiny dates and notes",
+        "the helpers made decorated signs with too many story details in each box",
+        "the group posted a colorful wall that mixed old objects and directions together"
+      ],
+      "problems": [
+        "students could not tell which event came first",
+        "the notes were interesting but too dense for one quick look",
+        "children liked the pictures but missed the order of events"
+      ],
+      "feedback_groups": [
+        "A first-grade visitor group",
+        "Several younger students",
+        "Museum guides"
+      ],
+      "feedbacks": [
+        "\"I can see the pictures, but I do not know where the story starts.\"",
+        "\"There are many facts here, and the order feels hard to follow.\"",
+        "\"The display is pretty, yet I still skip a step in the timeline.\""
+      ],
+      "change_ones": [
+        "split the timeline into short event cards",
+        "used one strong date strip across the whole wall",
+        "placed a start arrow and end arrow at the clearest points"
+      ],
+      "change_twos": [
+        "matched each event with one simple picture symbol",
+        "made the event titles larger than the extra facts",
+        "added one short question under every event card"
+      ],
+      "change_threes": [
+        "set a quick-order board near the entrance",
+        "hung one reminder sign halfway through the wall",
+        "placed a check-your-order card beside the final exhibit"
+      ],
+      "benefits": [
+        "students could stop and rebuild the event order in their minds",
+        "children got another clue before the wall changed direction",
+        "the final card let them check whether they followed the whole story"
+      ],
+      "improved_results": [
+        "more students retold the timeline in the correct order after the next visit",
+        "the younger group reached the final exhibit with fewer mistakes",
+        "children followed the history wall more steadily during the second test"
+      ],
+      "principles": [
+        "short event cards helped more than long fact boxes",
+        "students needed the order of events to stand out first",
+        "clear sequence clues mattered more than extra decoration"
+      ],
+      "next_steps": [
+        "the museum planned to redesign more history walls with the same sequence system",
+        "the team decided to update the rest of the exhibit in the clearer style",
+        "helpers chose to use the new timeline format in other story displays"
+      ],
+      "problem_answers": [
+        "Students could not tell which event came first",
+        "The notes were too dense for a quick look",
+        "Children missed the order of events"
+      ],
+      "q3_prompts": [
+        "What did the team place near the entrance?",
+        "What did the helpers add under every event card?",
+        "What did the group place beside the final exhibit?"
+      ],
+      "q3_answers": [
+        "A quick-order board",
+        "One short question",
+        "A check-your-order card"
+      ],
+      "vocab_prompts": [
+        "What does sequence mean in the seventh sentence?",
+        "What does exhibit mean in the sixth sentence?",
+        "What does retold mean in the sixth sentence?"
+      ],
+      "vocab_answers": [
+        "The order in which things happen",
+        "A display that people come to see",
+        "Told again in your own words"
+      ],
+      "why_answers": [
+        "The redesign made the event order easier to see and remember",
+        "Students received clearer clues about where the story began and ended",
+        "Shorter event cards reduced confusion about the timeline"
+      ],
+      "next_answers": [
+        "Use the same sequence system on more history displays",
+        "Update the rest of the exhibit in the clearer style",
+        "Apply the new timeline format to other story walls"
+      ],
+      "main_answers": [
+        "Improving a history timeline so younger students can follow it",
+        "Redesigning a museum wall for first graders",
+        "Making a story exhibit easier for children to understand"
+      ]
+    },
+    "art": {
+      "titles": [
+        "Art Gallery Label Update",
+        "Painting Walk Redesign",
+        "Color Exhibit Map Project"
+      ],
+      "goals": [
+        "The student gallery team wanted younger visitors to move through the art show more easily",
+        "An art hallway group hoped first graders could find painting stations with less confusion",
+        "The exhibit helper team wanted children to understand the order of the art walk"
+      ],
+      "first_plans": [
+        "the team used stylish labels with long artist notes in tiny print",
+        "the helpers posted bright arrows that changed colors too often",
+        "the group made an art map with many decorative borders around each direction"
+      ],
+      "problems": [
+        "students spent too much time reading the labels instead of following the path",
+        "the changing colors made the route harder to track",
+        "the borders looked beautiful but hid the important directions"
+      ],
+      "feedback_groups": [
+        "Younger visitors",
+        "A practice class",
+        "Gallery helpers"
+      ],
+      "feedbacks": [
+        "\"I like the art, but I do not know which room is next.\"",
+        "\"The signs are bright, yet the path still feels mixed up.\"",
+        "\"The labels look special, but the arrows are hard to notice.\""
+      ],
+      "change_ones": [
+        "shortened each label to one easy title line",
+        "used one color family for the whole art route",
+        "made the arrows thicker and easier to spot"
+      ],
+      "change_twos": [
+        "placed matching floor dots under important paintings",
+        "added one simple symbol for each art room",
+        "moved extra artist facts onto separate side cards"
+      ],
+      "change_threes": [
+        "set a route check sign between the two busiest rooms",
+        "hung one reminder board beside the painting corner",
+        "placed a quick map near the gallery entrance"
+      ],
+      "benefits": [
+        "visitors could confirm the next room before turning",
+        "children saw the route clue again in the middle of the gallery",
+        "the extra map repeated the path without covering the artwork"
+      ],
+      "improved_results": [
+        "more students followed the art walk in the right order during the next event",
+        "the practice class reached each station with fewer wrong turns",
+        "younger visitors moved through the gallery more smoothly after the redesign"
+      ],
+      "principles": [
+        "clear route clues supported the artwork instead of competing with it",
+        "simple color systems helped more than many changing decorations",
+        "important directions should stand out from extra art facts"
+      ],
+      "next_steps": [
+        "the gallery team planned to update the rest of the art walk with the same style",
+        "helpers chose to redesign more exhibit signs in the clearer format",
+        "the school decided to use the new route system for future art shows"
+      ],
+      "problem_answers": [
+        "Students spent too much time reading the labels",
+        "The changing colors made the route harder to track",
+        "The borders hid the important directions"
+      ],
+      "q3_prompts": [
+        "What did the team place under important paintings?",
+        "What did the helpers move onto separate side cards?",
+        "What did the group place near the gallery entrance?"
+      ],
+      "q3_answers": [
+        "Matching floor dots",
+        "Extra artist facts",
+        "A quick map"
+      ],
+      "vocab_prompts": [
+        "What does competing mean in the seventh sentence?",
+        "What does confirm mean in the fifth sentence?",
+        "What does decorative mean in the second sentence?"
+      ],
+      "vocab_answers": [
+        "Trying to take attention away from something else",
+        "Check that something is correct",
+        "Made to look pretty"
+      ],
+      "why_answers": [
+        "The new route clues were easier to notice",
+        "One clear color system guided visitors better",
+        "Important directions stood out more clearly"
+      ],
+      "next_answers": [
+        "Use the same clear route style for more art exhibits",
+        "Redesign more gallery signs with the new format",
+        "Apply the route system to future school art shows"
+      ],
+      "main_answers": [
+        "Improving art exhibit signs so younger visitors can follow the route",
+        "Redesigning an art walk for first graders",
+        "Making a gallery path easier for children to understand"
+      ]
+    },
+    "travel": {
+      "titles": [
+        "Station Route Redesign",
+        "Bus Tour Sign Update",
+        "Trip Transfer Map Project"
+      ],
+      "goals": [
+        "The trip planning team wanted younger students to follow a bus tour route more easily",
+        "A station helper group hoped first graders could move between travel stops with less confusion",
+        "The map team wanted children to understand a transfer path more clearly"
+      ],
+      "first_plans": [
+        "the team used one route map filled with tiny stop names and curved arrows",
+        "the helpers posted colorful travel signs that changed style from stop to stop",
+        "the group made a transfer chart with too many notes in each section"
+      ],
+      "problems": [
+        "students missed where to get off because the stop names were too hard to scan",
+        "the different sign styles made the route feel broken apart",
+        "children lost track of the next stop when each section showed too much text"
+      ],
+      "feedback_groups": [
+        "A practice tour group",
+        "Several younger riders",
+        "Trip leaders"
+      ],
+      "feedbacks": [
+        "\"I can read some names, but I still do not know my next stop.\"",
+        "\"The route looks colorful, yet the parts do not match each other.\"",
+        "\"There are many notes here, and I forget where to change buses.\""
+      ],
+      "change_ones": [
+        "used one strong symbol for each travel stop",
+        "made the get-off points larger than the other notes",
+        "split the transfer path into smaller sign sections"
+      ],
+      "change_twos": [
+        "matched each stop sign with the same color stripe",
+        "added one simple arrow between each travel step",
+        "placed mini maps at every transfer point"
+      ],
+      "change_threes": [
+        "hung a reminder sign near the bus door",
+        "set a quick-check board beside the ticket table",
+        "placed one extra route card before the final turn"
+      ],
+      "benefits": [
+        "students could confirm the next stop before leaving the bus",
+        "children saw the route again at the moment when they needed it most",
+        "the extra card repeated the final change before confusion could grow"
+      ],
+      "improved_results": [
+        "the younger group changed buses with fewer mistakes on the next practice trip",
+        "more students followed the tour route without extra adult reminders",
+        "children reached each travel stop more smoothly after the redesign"
+      ],
+      "principles": [
+        "consistent travel clues helped more than many different sign styles",
+        "students needed the next stop to stand out first",
+        "smaller route sections were easier to follow than one crowded map"
+      ],
+      "next_steps": [
+        "the trip team planned to use the same route style on future tours",
+        "helpers chose to redesign more travel maps with the new system",
+        "the school decided to apply the transfer format to other field trips"
+      ],
+      "problem_answers": [
+        "The stop names were too hard to scan quickly",
+        "Different sign styles made the route feel broken apart",
+        "Each section showed too much text"
+      ],
+      "q3_prompts": [
+        "What did the team place at every transfer point?",
+        "What did the helpers hang near the bus door?",
+        "What did the group add between each travel step?"
+      ],
+      "q3_answers": [
+        "Mini maps",
+        "A reminder sign",
+        "One simple arrow"
+      ],
+      "vocab_prompts": [
+        "What does consistent mean in the seventh sentence?",
+        "What does transfer mean in the third sentence?",
+        "What does confirm mean in the fifth sentence?"
+      ],
+      "vocab_answers": [
+        "Staying the same in a helpful way",
+        "Move from one bus or route to another",
+        "Check that something is correct"
+      ],
+      "why_answers": [
+        "The new travel clues matched each stop more clearly",
+        "Students could spot the next move without reading a crowded map",
+        "Repeated route signs reduced confusion during transfers"
+      ],
+      "next_answers": [
+        "Use the same route style on more school trips",
+        "Redesign more travel maps with the new system",
+        "Apply the transfer format to other field trips"
+      ],
+      "main_answers": [
+        "Improving travel signs so younger students can follow a route",
+        "Redesigning a trip map for first graders",
+        "Making a transfer path easier for children to understand"
+      ]
+    },
+    "technology": {
+      "titles": [
+        "Tablet Station Redesign",
+        "Coding Corner Update",
+        "Robot Path Sign Project"
+      ],
+      "goals": [
+        "The technology team wanted younger students to follow tablet station steps more easily",
+        "A coding corner group hoped first graders could use simple tech tools with less confusion",
+        "The robot path team wanted children to understand start and stop steps more clearly"
+      ],
+      "first_plans": [
+        "the team made one poster with many app icons and long instructions",
+        "the helpers used bright screens that changed too quickly between steps",
+        "the group posted a tool chart that packed several actions into one square"
+      ],
+      "problems": [
+        "students tapped the wrong app because the directions were crowded",
+        "the moving screens changed before younger students finished reading",
+        "children could not tell the order of the tech steps at one glance"
+      ],
+      "feedback_groups": [
+        "A first-grade test group",
+        "Several younger students",
+        "Tech helpers"
+      ],
+      "feedbacks": [
+        "\"I see many pictures, but I still do not know which app to open first.\"",
+        "\"The screen changes quickly, so I lose the step I need.\"",
+        "\"There are too many actions in one box, and I miss the order.\""
+      ],
+      "change_ones": [
+        "split each tech task into one card per step",
+        "made the start button and stop button much larger",
+        "used one strong icon for each app"
+      ],
+      "change_twos": [
+        "placed the same card beside the real tablet station",
+        "added one short action word under every icon",
+        "kept the screen style the same from beginning to end"
+      ],
+      "change_threes": [
+        "set a quick-help board near the charging shelf",
+        "hung a reminder card beside the robot path table",
+        "placed one extra step sign before the final tap"
+      ],
+      "benefits": [
+        "students could compare the sign with the real tool right away",
+        "children saw the same clue again when they reached the tricky part",
+        "the last reminder repeated the final action before mistakes happened"
+      ],
+      "improved_results": [
+        "more students completed the tablet path without teacher help on the next test",
+        "the younger class followed the coding routine with fewer wrong taps",
+        "children moved through the robot steps more steadily after the redesign"
+      ],
+      "principles": [
+        "one clear tech step at a time worked better than crowded instructions",
+        "matching the sign to the real tool reduced confusion",
+        "younger students needed strong icons and shorter directions"
+      ],
+      "next_steps": [
+        "the team decided to redesign more tech stations with the same clear format",
+        "helpers planned to use the one-step cards for other coding tools",
+        "the school chose to apply the new sign style to more digital activities"
+      ],
+      "problem_answers": [
+        "Students tapped the wrong app because directions were crowded",
+        "The screens changed too quickly between steps",
+        "Children could not tell the order of the tech steps"
+      ],
+      "q3_prompts": [
+        "What did the team place beside the real tablet station?",
+        "What did the helpers add under every icon?",
+        "What did the group set near the charging shelf?"
+      ],
+      "q3_answers": [
+        "The same card",
+        "One short action word",
+        "A quick-help board"
+      ],
+      "vocab_prompts": [
+        "What does crowded mean in the second sentence?",
+        "What does icon mean in the fourth sentence?",
+        "What does digital mean in the last sentence?"
+      ],
+      "vocab_answers": [
+        "Too full and hard to use quickly",
+        "A small picture that stands for something",
+        "Using electronic tools"
+      ],
+      "why_answers": [
+        "The new design showed one tech action more clearly at a time",
+        "Students could match the sign with the real tool and button",
+        "Shorter clues and stronger icons made the steps easier to follow"
+      ],
+      "next_answers": [
+        "Use the same clear format on more tech stations",
+        "Apply the one-step cards to other coding tools",
+        "Extend the new sign style to more digital activities"
+      ],
+      "main_answers": [
+        "Improving technology directions so younger students can follow them",
+        "Redesigning a tech station guide for first graders",
+        "Making digital steps easier for children to understand"
+      ]
+    },
+    "teamwork": {
+      "titles": [
+        "Team Role Board Redesign",
+        "Group Project Update",
+        "Helper Station Sign Project"
+      ],
+      "goals": [
+        "The class teamwork team wanted younger students to understand group roles more easily",
+        "A project helper group hoped first graders could share jobs with less confusion",
+        "The group-work board team wanted children to follow team steps more clearly"
+      ],
+      "first_plans": [
+        "the team made one role chart with many decorated boxes and small names",
+        "the helpers posted long role lists that placed several jobs in one area",
+        "the group used a colorful board that mixed role names, rules, and timing notes together"
+      ],
+      "problems": [
+        "students forgot which job belonged to them",
+        "the role boxes were hard to compare quickly",
+        "children could not tell what to do first during teamwork time"
+      ],
+      "feedback_groups": [
+        "Several first graders",
+        "A practice group",
+        "Class helpers"
+      ],
+      "feedbacks": [
+        "\"I can read the board, but I still forget my job.\"",
+        "\"There are many names here, and the roles feel mixed together.\"",
+        "\"The chart is colorful, yet I do not know my first team step.\""
+      ],
+      "change_ones": [
+        "gave each role one strong symbol and one short title",
+        "moved the steps into a clear first-second-third order",
+        "made the team starter job larger than the others"
+      ],
+      "change_twos": [
+        "placed matching role cards on each table",
+        "used the same color family for one team at a time",
+        "added one action word under every role title"
+      ],
+      "change_threes": [
+        "set a quick-check sign in the middle of the room",
+        "hung a reminder board beside the supply shelf",
+        "placed one extra team card near the project tray"
+      ],
+      "benefits": [
+        "students could look down and see the same role card at their own table",
+        "children received another clue when they forgot the order of the jobs",
+        "the extra team card repeated the next move before the project slowed down"
+      ],
+      "improved_results": [
+        "more teams started their projects without teacher help during the next lesson",
+        "the younger class shared the jobs with fewer mix-ups after the redesign",
+        "children followed their teamwork order more steadily on the next practice day"
+      ],
+      "principles": [
+        "clear role clues helped more than decorative boxes",
+        "students needed the order of team steps to stand out first",
+        "matching table cards made the whole system easier to remember"
+      ],
+      "next_steps": [
+        "the class planned to use the same role system for other group projects",
+        "helpers chose to redesign more teamwork boards with the clear format",
+        "the school decided to apply the new role style to other shared tasks"
+      ],
+      "problem_answers": [
+        "Students forgot which job belonged to them",
+        "The role boxes were hard to compare quickly",
+        "Children could not tell what to do first"
+      ],
+      "q3_prompts": [
+        "What did the team place on each table?",
+        "What did the helpers set in the middle of the room?",
+        "What did the group add under every role title?"
+      ],
+      "q3_answers": [
+        "Matching role cards",
+        "A quick-check sign",
+        "One action word"
+      ],
+      "vocab_prompts": [
+        "What does mix-ups mean in the sixth sentence?",
+        "What does decorative mean in the seventh sentence?",
+        "What does role mean in the first sentence?"
+      ],
+      "vocab_answers": [
+        "Times when things get confused or switched",
+        "Made mainly to look pretty",
+        "The job a person has in a group"
+      ],
+      "why_answers": [
+        "The new board made each role and step easier to see",
+        "Students could match the table cards with the main board more easily",
+        "Clearer order and shorter titles reduced teamwork confusion"
+      ],
+      "next_answers": [
+        "Use the same clear role system for more projects",
+        "Redesign more teamwork boards with the new format",
+        "Apply the new role style to other shared tasks"
+      ],
+      "main_answers": [
+        "Improving teamwork signs so younger students can share roles",
+        "Redesigning a group project board for first graders",
+        "Making team jobs easier for children to understand"
+      ]
+    },
+    "problem-solving": {
+      "titles": [
+        "Puzzle Corner Redesign",
+        "Fix-It Station Update",
+        "Problem Step Board Project"
+      ],
+      "goals": [
+        "The problem-solving team wanted younger students to follow puzzle steps more easily",
+        "A fix-it station group hoped first graders could use simple repair tools with less confusion",
+        "The step board team wanted children to solve classroom problems in a clearer order"
+      ],
+      "first_plans": [
+        "the group used one board with many repair tips in small writing",
+        "the helpers posted a colorful puzzle map that squeezed several hints into one space",
+        "the team made a step chart with long sentences and tiny arrows"
+      ],
+      "problems": [
+        "students skipped important checks because the board felt crowded",
+        "the hints were helpful but too hard to scan in order",
+        "children often jumped to the last step before finishing the first ones"
+      ],
+      "feedback_groups": [
+        "A first-grade test group",
+        "Several younger students",
+        "Puzzle helpers"
+      ],
+      "feedbacks": [
+        "\"I see the clues, but I still miss the first thing to do.\"",
+        "\"There are good hints here, but the order feels hard to find.\"",
+        "\"The board tells a lot, yet I still jump to the wrong step.\""
+      ],
+      "change_ones": [
+        "split the solving path into one question per card",
+        "made the first check and next check much larger",
+        "used one strong icon for each type of problem"
+      ],
+      "change_twos": [
+        "placed sample tools below the matching cards",
+        "added one short action word for every step",
+        "used the same arrow shape from start to finish"
+      ],
+      "change_threes": [
+        "set a quick-help sign beside the puzzle shelf",
+        "hung one extra reminder before the final check",
+        "placed a small order board near the fix-it tray"
+      ],
+      "benefits": [
+        "students could compare the card and the real tool before choosing",
+        "children received a final clue before skipping an important step",
+        "the extra order board repeated the solving path when they felt unsure"
+      ],
+      "improved_results": [
+        "more students finished the puzzle path without missing steps on the next try",
+        "the younger class used the fix-it station with fewer wrong choices",
+        "children followed the problem-solving order more steadily after the redesign"
+      ],
+      "principles": [
+        "one clear question at a time helped more than many crowded hints",
+        "students needed the order of steps to stand out first",
+        "matching tools and short action words reduced solving mistakes"
+      ],
+      "next_steps": [
+        "the team decided to use the same clear step system in other class challenges",
+        "helpers planned to redesign more fix-it boards with the new format",
+        "the school chose to apply the problem-step style to other learning stations"
+      ],
+      "problem_answers": [
+        "Students skipped important checks because the board felt crowded",
+        "The hints were too hard to scan in order",
+        "Children jumped to the last step too early"
+      ],
+      "q3_prompts": [
+        "What did the team place below the matching cards?",
+        "What did the helpers set beside the puzzle shelf?",
+        "What did the group add for every step?"
+      ],
+      "q3_answers": [
+        "Sample tools",
+        "A quick-help sign",
+        "One short action word"
+      ],
+      "vocab_prompts": [
+        "What does scan mean in the second sentence?",
+        "What does matching mean in the fifth sentence?",
+        "What does challenge mean in the last sentence?"
+      ],
+      "vocab_answers": [
+        "Look over something quickly to find information",
+        "Going with the correct partner or item",
+        "A task that is not easy and needs effort"
+      ],
+      "why_answers": [
+        "The new board broke problem solving into clearer, smaller steps",
+        "Students could use matching tools and short words to make better choices",
+        "The redesign made the order of checks easier to follow"
+      ],
+      "next_answers": [
+        "Use the same clear step system in more class challenges",
+        "Redesign more fix-it boards with the new format",
+        "Apply the problem-step style to other learning stations"
+      ],
+      "main_answers": [
+        "Improving problem-solving signs so younger students can follow steps",
+        "Redesigning a fix-it station for first graders",
+        "Making a solving path easier for children to understand"
+      ]
+    }
+  }
+}

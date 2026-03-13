@@ -1,0 +1,115 @@
+"""Single source of truth for G1 level rules used by pack scripts."""
+
+from typing import Final
+
+
+LEVEL_PROFILES: Final[dict[str, dict[str, object]]] = {
+    "GT": {
+        "grade": "G1",
+        "level": "GT",
+        "label": "GT",
+        "word_count_min": 60,
+        "word_count_max": 110,
+        "sentence_count_min": 5,
+        "sentence_count_max": 8,
+        "skills": [
+            "main_idea",
+            "detail",
+            "detail",
+            "detail",
+            "vocab_in_context",
+            "vocab_in_context",
+        ],
+        "inference_allowed": False,
+        "translation_priority": "high",
+        "tts_priority": "high",
+        "explanation_depth": "simple",
+        "preferred_connectors": ["and", "but", "then"],
+        "passage_rules": [
+            "single_event_or_single_info",
+            "present_tense_preferred",
+            "clear_actor_and_action",
+        ],
+        "choice_rules": [
+            "short_choices",
+            "direct_evidence_preferred",
+            "avoid_overly_tricky_distractors",
+        ],
+        "validator": {
+            "enforce_skill_distribution": True,
+            "warn_if_word_count_outside_range": True,
+            "warn_if_sentence_count_outside_range": True,
+        },
+    },
+    "S": {
+        "grade": "G1",
+        "level": "S",
+        "label": "S",
+        "word_count_min": 90,
+        "word_count_max": 140,
+        "sentence_count_min": 6,
+        "sentence_count_max": 9,
+        "skills": [
+            "main_idea",
+            "detail",
+            "detail",
+            "vocab_in_context",
+            "vocab_in_context",
+            "inference",
+        ],
+        "inference_allowed": True,
+        "translation_priority": "medium",
+        "tts_priority": "medium",
+        "explanation_depth": "standard",
+        "preferred_connectors": ["and", "but", "because", "then"],
+        "passage_rules": [
+            "two_connected_info_units_allowed",
+            "simple_reason_or_sequence_allowed",
+        ],
+        "choice_rules": [
+            "allow_one_or_two_similar_distractors",
+            "two_clues_may_be_needed",
+        ],
+        "validator": {
+            "enforce_skill_distribution": True,
+            "warn_if_word_count_outside_range": True,
+            "warn_if_sentence_count_outside_range": True,
+        },
+    },
+    "MGT": {
+        "grade": "G1",
+        "level": "MGT",
+        "label": "MGT",
+        "word_count_min": 120,
+        "word_count_max": 180,
+        "sentence_count_min": 7,
+        "sentence_count_max": 10,
+        "skills": [
+            "main_idea",
+            "detail",
+            "detail",
+            "vocab_in_context",
+            "inference",
+            "inference",
+        ],
+        "inference_allowed": True,
+        "translation_priority": "low",
+        "tts_priority": "medium",
+        "explanation_depth": "detailed",
+        "preferred_connectors": ["because", "so", "after", "before", "however"],
+        "passage_rules": [
+            "comparison_allowed",
+            "cause_effect_allowed",
+            "reference_tracking_allowed",
+        ],
+        "choice_rules": [
+            "allow_partially_correct_distractors",
+            "best_overall_meaning_choice",
+        ],
+        "validator": {
+            "enforce_skill_distribution": True,
+            "warn_if_word_count_outside_range": True,
+            "warn_if_sentence_count_outside_range": True,
+        },
+    },
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_gt_0073",
+    "level": "GT",
+    "topic": "Weekend Chore Strip",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Weekend Chore Strip",
+    "text": "Our group keeps a dinner helper board on the kitchen wall. After school, Evan points to it before our family walk. The dinner helper board has small notes for watering, feeding, and folding for the day's job. My older sister asks us to match each card to the right person. Sometimes we compare today's note with yesterday's note and notice one small change. We like the dinner helper board because it helps us finish dinner work on time.",
+    "word_count": 78
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        "Buying new school supplies",
+        "Painting a class poster",
+        "Using the dinner helper board",
+        "Cleaning a noisy hallway"
+      ],
+      "answer_index": 2,
+      "rationale": "The whole passage explains how the dinner helper board is used."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "Where is the dinner helper board?",
+      "choices": [
+        "next to the sink",
+        "on the kitchen wall",
+        "by the door",
+        "near the window"
+      ],
+      "answer_index": 1,
+      "rationale": "The first sentence says the dinner helper board is on the kitchen wall."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "When does Evan use the dinner helper board?",
+      "choices": [
+        "After school",
+        "In the morning",
+        "After lunch",
+        "Before bed"
+      ],
+      "answer_index": 0,
+      "rationale": "The second sentence says Evan uses it after school."
+    },
+    {
+      "id": "q4",
+      "skill": "detail",
+      "prompt": "What does the dinner helper board have?",
+      "choices": [
+        "Picture cards",
+        "Name tags",
+        "Animal cards",
+        "Job notes"
+      ],
+      "answer_index": 3,
+      "rationale": "The third sentence says the dinner helper board has job notes."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does compare mean in the fifth sentence?",
+      "choices": [
+        "Hide something quickly",
+        "Finish all the work",
+        "Look at two things together",
+        "Start a noisy game"
+      ],
+      "answer_index": 2,
+      "rationale": "Compare means to look at two things and think about them together."
+    },
+    {
+      "id": "q6",
+      "skill": "vocab_in_context",
+      "prompt": "What does notice mean in the fifth sentence?",
+      "choices": [
+        "Draw a new picture",
+        "See something important",
+        "Make a loud sound",
+        "Carry a heavy box"
+      ],
+      "answer_index": 1,
+      "rationale": "Notice means to see and pay attention to something."
+    }
+  ]
+}

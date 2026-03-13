@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0010",
+    "level": "MGT",
+    "topic": "Puzzle Corner Redesign",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Puzzle Corner Redesign",
+    "text": "The problem-solving team wanted younger students to follow puzzle steps more easily. At first, the group used one board with many repair tips in small writing, but students skipped important checks because the board felt crowded. A first-grade test group said \"I see the clues, but I still miss the first thing to do.\" After hearing that, the team split the solving path into one question per card and placed sample tools below the matching cards. They also set a quick-help sign beside the puzzle shelf so students could compare the card and the real tool before choosing. On the next test day, more students finished the puzzle path without missing steps on the next try. The team noticed that one clear question at a time helped more than many crowded hints. Because of that result, the team decided to use the same clear step system in other class challenges.",
+    "word_count": 153
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Writing long reports about class rules",
+        "Improving problem-solving signs so younger students can follow steps",
+        "Painting a room with brighter colors",
+        "Buying more books for a library sale"
+      ],
+      "answer_index": 1,
+      "rationale": "The whole passage focuses on improving a system for younger students."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first plan?",
+      "choices": [
+        "Students skipped important checks because the board felt crowded",
+        "The labels were too small to read quickly",
+        "The first plan had too many steps",
+        "Students could not tell what to do next"
+      ],
+      "answer_index": 0,
+      "rationale": "The early part of the passage explains what did not work well."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the team place below the matching cards?",
+      "choices": [
+        "Larger arrows",
+        "Short signs",
+        "Color blocks",
+        "Sample tools"
+      ],
+      "answer_index": 3,
+      "rationale": "The middle of the passage tells what the team added or changed."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does scan mean in the second sentence?",
+      "choices": [
+        "A rule about lunch time",
+        "A person who leads the school",
+        "Look over something quickly to find information",
+        "A room that is easy to clean"
+      ],
+      "answer_index": 2,
+      "rationale": "The word meaning comes from the way the passage uses it."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did the new design work better for younger students?",
+      "choices": [
+        "It removed every sign from the area",
+        "The new board broke problem solving into clearer, smaller steps",
+        "It made the room much larger",
+        "It reduced the number of students"
+      ],
+      "answer_index": 1,
+      "rationale": "You have to connect the redesign changes with the later results."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the team most likely do next?",
+      "choices": [
+        "Use the same clear step system in more class challenges",
+        "Use the same clearer style in more places",
+        "Remove every sign from the room",
+        "Ask students to memorize everything"
+      ],
+      "answer_index": 0,
+      "rationale": "The last sentence points to the team's next likely action."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0041",
+    "level": "MGT",
+    "topic": "Morning Station Redesign",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Morning Station Redesign",
+    "text": "A student project team wanted first graders to move between stations with less confusion. At first, the group posted a bright chart filled with long station names, but students needed too much time to find the next stop. A practice group of younger students said \"There are too many words for one quick look.\" After hearing that, the team made bigger arrows for every stop and used the same color for each station area. They also hung one extra sign before every turn so children could stop and confirm the route without asking for help. On the next test day, the younger class moved through the morning path with fewer wrong turns. The team noticed that simple signs helped more than crowded details. Because of that result, the team planned to redesign the afternoon station path as well.",
+    "word_count": 138
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Buying more books for a library sale",
+        "Writing long reports about class rules",
+        "Redesigning a hallway guide for first graders",
+        "Painting a room with brighter colors"
+      ],
+      "answer_index": 2,
+      "rationale": "The whole passage focuses on improving a system for younger students."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first plan?",
+      "choices": [
+        "Students could not tell what to do next",
+        "Students needed too much time to find the next stop",
+        "The labels were too small to read quickly",
+        "The first plan had too many steps"
+      ],
+      "answer_index": 1,
+      "rationale": "The early part of the passage explains what did not work well."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the group hang before every turn?",
+      "choices": [
+        "One extra sign",
+        "Larger arrows",
+        "Short signs",
+        "Color blocks"
+      ],
+      "answer_index": 0,
+      "rationale": "The middle of the passage tells what the team added or changed."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does confirm mean in the fifth sentence?",
+      "choices": [
+        "A room that is easy to clean",
+        "A rule about lunch time",
+        "A person who leads the school",
+        "Make sure something is correct"
+      ],
+      "answer_index": 3,
+      "rationale": "The word meaning comes from the way the passage uses it."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did the new design work better for younger students?",
+      "choices": [
+        "It reduced the number of students",
+        "It removed every sign from the area",
+        "The redesign reduced extra words and made the route easier to follow",
+        "It made the room much larger"
+      ],
+      "answer_index": 2,
+      "rationale": "You have to connect the redesign changes with the later results."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the team most likely do next?",
+      "choices": [
+        "Ask students to memorize everything",
+        "Redesign another hallway with the new system",
+        "Use the same clearer style in more places",
+        "Remove every sign from the room"
+      ],
+      "answer_index": 1,
+      "rationale": "The last sentence points to the team's next likely action."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0082",
+    "level": "MGT",
+    "topic": "Festival Map Project",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Festival Map Project",
+    "text": "The festival helper group wanted families to reach key booths more smoothly. At first, the helpers placed bright signs that mixed too many details together, but the signs looked exciting but gave too much information at once. Event volunteers said \"The signs are pretty, but I keep missing the turn.\" After hearing that, the team used larger arrows and fewer colors on each sign and moved the signs lower so younger children could read them. They also placed one reminder board beside the snack area and stage so visitors had one more simple clue when the path changed direction. On the next test day, children moved between booths more smoothly during the next test. The team noticed that simple event clues worked better than long booth labels. Because of that result, volunteers decided to redesign more community signs with the new system.",
+    "word_count": 142
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Writing long reports about class rules",
+        "Making community booths easier for families to find",
+        "Painting a room with brighter colors",
+        "Buying more books for a library sale"
+      ],
+      "answer_index": 1,
+      "rationale": "The whole passage focuses on improving a system for younger students."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first plan?",
+      "choices": [
+        "The signs gave too much information at once",
+        "The labels were too small to read quickly",
+        "The first plan had too many steps",
+        "Students could not tell what to do next"
+      ],
+      "answer_index": 0,
+      "rationale": "The early part of the passage explains what did not work well."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the helpers set up at busy corners?",
+      "choices": [
+        "Larger arrows",
+        "Short signs",
+        "Color blocks",
+        "Quick maps"
+      ],
+      "answer_index": 3,
+      "rationale": "The middle of the passage tells what the team added or changed."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does decoration mean in the seventh sentence?",
+      "choices": [
+        "A rule about lunch time",
+        "A person who leads the school",
+        "Pretty parts that are not the main guide",
+        "A room that is easy to clean"
+      ],
+      "answer_index": 2,
+      "rationale": "The word meaning comes from the way the passage uses it."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did the new design work better for younger students?",
+      "choices": [
+        "It removed every sign from the area",
+        "Families could spot the next direction faster",
+        "It made the room much larger",
+        "It reduced the number of students"
+      ],
+      "answer_index": 1,
+      "rationale": "You have to connect the redesign changes with the later results."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the team most likely do next?",
+      "choices": [
+        "Redesign more community event signs in the same way",
+        "Use the same clearer style in more places",
+        "Remove every sign from the room",
+        "Ask students to memorize everything"
+      ],
+      "answer_index": 0,
+      "rationale": "The last sentence points to the team's next likely action."
+    }
+  ]
+}

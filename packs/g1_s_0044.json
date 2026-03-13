@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_s_0044",
+    "level": "S",
+    "topic": "Bedtime Routine Trial",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Bedtime Routine Trial",
+    "text": "Our home tested two ways to follow the after-school routine last month. Hana used a simple oral list, but Theo used a step board with photos. After five afternoons, Theo missed fewer steps because the photo board helped him see what came next. My mom timed each routine and wrote the minutes on a chart. When Hana saw the difference, she changed to a step board with photos. By Thursday, she moved from snack time to homework much more smoothly. The students talked about the test before choosing a better method. The group learned that seeing each step can help children move in order.",
+    "word_count": 105
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mostly about?",
+      "choices": [
+        "Buying decorations for a party",
+        "Painting a classroom wall",
+        "Packing clothes for a trip",
+        "Testing which reminder helps after-school steps"
+      ],
+      "answer_index": 3,
+      "rationale": "The whole passage follows one test and what the group learned from it."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What did Theo use to follow the routine?",
+      "choices": [
+        "A toy basket",
+        "A paint brush",
+        "A step board with photos",
+        "A long paper list"
+      ],
+      "answer_index": 2,
+      "rationale": "The second sentence directly tells which tool or place was used."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the group check or write down?",
+      "choices": [
+        "The weather report",
+        "The minutes",
+        "The test results",
+        "The lunch menu"
+      ],
+      "answer_index": 1,
+      "rationale": "The fourth sentence explains what the group checked or recorded."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does difference mean in the fifth sentence?",
+      "choices": [
+        "The way two things are not the same",
+        "A list of class rules",
+        "A place to store tools",
+        "A loud sound in a room"
+      ],
+      "answer_index": 0,
+      "rationale": "Difference means the two results did not match each other."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does routine mean in the first sentence?",
+      "choices": [
+        "A color on the wall",
+        "A person who visits a club",
+        "A kind of snack",
+        "A set of steps done in the usual order"
+      ],
+      "answer_index": 3,
+      "rationale": "The word meaning comes from how it is used in the passage."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "Why did Hana switch to a step board with photos?",
+      "choices": [
+        "The group wanted to decorate the room more",
+        "The first tool was missing from the class",
+        "She thought the photo board would make the order easier to follow",
+        "The teacher told the student to stop working"
+      ],
+      "answer_index": 2,
+      "rationale": "The student changed after seeing which method worked better."
+    }
+  ]
+}

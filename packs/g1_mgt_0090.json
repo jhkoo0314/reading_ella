@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0090",
+    "level": "MGT",
+    "topic": "Problem Step Board Project",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Problem Step Board Project",
+    "text": "The step board team wanted children to solve classroom problems in a clearer order. At first, the team made a step chart with long sentences and tiny arrows, but children often jumped to the last step before finishing the first ones. Puzzle helpers said \"The board tells a lot, yet I still jump to the wrong step.\" After hearing that, the team used one strong icon for each type of problem and used the same arrow shape from start to finish. They also placed a small order board near the fix-it tray so the extra order board repeated the solving path when they felt unsure. On the next test day, children followed the problem-solving order more steadily after the redesign. The team noticed that matching tools and short action words reduced solving mistakes. Because of that result, the school chose to apply the problem-step style to other learning stations.",
+    "word_count": 152
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Writing long reports about class rules",
+        "Making a solving path easier for children to understand",
+        "Painting a room with brighter colors",
+        "Buying more books for a library sale"
+      ],
+      "answer_index": 1,
+      "rationale": "The whole passage focuses on improving a system for younger students."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first plan?",
+      "choices": [
+        "Children jumped to the last step too early",
+        "The labels were too small to read quickly",
+        "The first plan had too many steps",
+        "Students could not tell what to do next"
+      ],
+      "answer_index": 0,
+      "rationale": "The early part of the passage explains what did not work well."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the group add for every step?",
+      "choices": [
+        "Larger arrows",
+        "Short signs",
+        "Color blocks",
+        "One short action word"
+      ],
+      "answer_index": 3,
+      "rationale": "The middle of the passage tells what the team added or changed."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does challenge mean in the last sentence?",
+      "choices": [
+        "A rule about lunch time",
+        "A person who leads the school",
+        "A task that is not easy and needs effort",
+        "A room that is easy to clean"
+      ],
+      "answer_index": 2,
+      "rationale": "The word meaning comes from the way the passage uses it."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did the new design work better for younger students?",
+      "choices": [
+        "It removed every sign from the area",
+        "The redesign made the order of checks easier to follow",
+        "It made the room much larger",
+        "It reduced the number of students"
+      ],
+      "answer_index": 1,
+      "rationale": "You have to connect the redesign changes with the later results."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the team most likely do next?",
+      "choices": [
+        "Apply the problem-step style to other learning stations",
+        "Use the same clearer style in more places",
+        "Remove every sign from the room",
+        "Ask students to memorize everything"
+      ],
+      "answer_index": 0,
+      "rationale": "The last sentence points to the team's next likely action."
+    }
+  ]
+}

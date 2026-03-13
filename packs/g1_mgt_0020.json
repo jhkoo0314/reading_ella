@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0020",
+    "level": "MGT",
+    "topic": "Fix-It Station Update",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Fix-It Station Update",
+    "text": "A fix-it station group hoped first graders could use simple repair tools with less confusion. At first, the helpers posted a colorful puzzle map that squeezed several hints into one space, but the hints were helpful but too hard to scan in order. Several younger students said \"There are good hints here, but the order feels hard to find.\" After hearing that, the team made the first check and next check much larger and added one short action word for every step. They also hung one extra reminder before the final check so children received a final clue before skipping an important step. On the next test day, the younger class used the fix-it station with fewer wrong choices. The team noticed that students needed the order of steps to stand out first. Because of that result, helpers planned to redesign more fix-it boards with the new format.",
+    "word_count": 151
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Painting a room with brighter colors",
+        "Buying more books for a library sale",
+        "Writing long reports about class rules",
+        "Redesigning a fix-it station for first graders"
+      ],
+      "answer_index": 3,
+      "rationale": "The whole passage focuses on improving a system for younger students."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first plan?",
+      "choices": [
+        "The first plan had too many steps",
+        "Students could not tell what to do next",
+        "The hints were too hard to scan in order",
+        "The labels were too small to read quickly"
+      ],
+      "answer_index": 2,
+      "rationale": "The early part of the passage explains what did not work well."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the helpers set beside the puzzle shelf?",
+      "choices": [
+        "Color blocks",
+        "A quick-help sign",
+        "Larger arrows",
+        "Short signs"
+      ],
+      "answer_index": 1,
+      "rationale": "The middle of the passage tells what the team added or changed."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does matching mean in the fifth sentence?",
+      "choices": [
+        "Going with the correct partner or item",
+        "A room that is easy to clean",
+        "A rule about lunch time",
+        "A person who leads the school"
+      ],
+      "answer_index": 0,
+      "rationale": "The word meaning comes from the way the passage uses it."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did the new design work better for younger students?",
+      "choices": [
+        "It made the room much larger",
+        "It reduced the number of students",
+        "It removed every sign from the area",
+        "Students could use matching tools and short words to make better choices"
+      ],
+      "answer_index": 3,
+      "rationale": "You have to connect the redesign changes with the later results."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the team most likely do next?",
+      "choices": [
+        "Remove every sign from the room",
+        "Ask students to memorize everything",
+        "Redesign more fix-it boards with the new format",
+        "Use the same clearer style in more places"
+      ],
+      "answer_index": 2,
+      "rationale": "The last sentence points to the team's next likely action."
+    }
+  ]
+}

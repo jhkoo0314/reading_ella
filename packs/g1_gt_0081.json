@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_gt_0081",
+    "level": "GT",
+    "topic": "Daily Plan Chart",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Daily Plan Chart",
+    "text": "Our group keeps a schedule board under the clock. During the first break, Mina turns it before the first bell. The schedule board has color labels for each part of the school day for the day's job. Our teacher asks us to check the next job and read it aloud. Sometimes we compare today's picture with yesterday's picture and notice one small change. We like the schedule board because it helps us remember the day faster.",
+    "word_count": 76
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        "Buying new school supplies",
+        "Painting a class poster",
+        "Using the schedule board",
+        "Cleaning a noisy hallway"
+      ],
+      "answer_index": 2,
+      "rationale": "The whole passage explains how the schedule board is used."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "Where is the schedule board?",
+      "choices": [
+        "next to the sink",
+        "under the clock",
+        "by the door",
+        "near the window"
+      ],
+      "answer_index": 1,
+      "rationale": "The first sentence says the schedule board is under the clock."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "When does Mina use the schedule board?",
+      "choices": [
+        "During the first break",
+        "In the morning",
+        "After lunch",
+        "Before bed"
+      ],
+      "answer_index": 0,
+      "rationale": "The second sentence says Mina uses it during the first break."
+    },
+    {
+      "id": "q4",
+      "skill": "detail",
+      "prompt": "What does the schedule board have?",
+      "choices": [
+        "Picture cards",
+        "Name tags",
+        "Animal cards",
+        "Color labels"
+      ],
+      "answer_index": 3,
+      "rationale": "The third sentence says the schedule board has color labels."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does compare mean in the fifth sentence?",
+      "choices": [
+        "Hide something quickly",
+        "Finish all the work",
+        "Look at two things together",
+        "Start a noisy game"
+      ],
+      "answer_index": 2,
+      "rationale": "Compare means to look at two things and think about them together."
+    },
+    {
+      "id": "q6",
+      "skill": "vocab_in_context",
+      "prompt": "What does notice mean in the fifth sentence?",
+      "choices": [
+        "Draw a new picture",
+        "See something important",
+        "Make a loud sound",
+        "Carry a heavy box"
+      ],
+      "answer_index": 1,
+      "rationale": "Notice means to see and pay attention to something."
+    }
+  ]
+}

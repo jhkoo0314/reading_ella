@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_9001",
+    "level": "MGT",
+    "topic": "Library Map Project",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "MGT Set #9001",
+    "text": "The school library wanted younger students to find books more easily. At first, the student helpers made a map with many colors, but the labels were very small. Several first graders said the map looked pretty yet took too long to read. After hearing that comment, the helpers grouped the shelves by simple symbols and added larger arrows. They also placed short signs at each corner so students could check their direction again when they forgot the first turn. On the next test day, most students reached the animal and science shelves without extra help. The team noticed that clearer signs worked better than decorative details. Because of that result, the library decided to update the rest of the room in the same way.",
+    "word_count": 133
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Improving library signs so younger students can find books",
+        "Painting the library with many bright colors",
+        "Asking students to read more science books",
+        "Moving the animal shelf to a new room"
+      ],
+      "answer_index": 0,
+      "rationale": "The passage focuses on how the library team improved the map and signs."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first map?",
+      "choices": [
+        "The labels were too small to read quickly",
+        "The map had no colors at all",
+        "The arrows pointed outside the library",
+        "The shelves were missing from the map"
+      ],
+      "answer_index": 0,
+      "rationale": "Students said the map looked pretty but took too long to read because the labels were small."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the helpers place at each corner?",
+      "choices": [
+        "Short signs",
+        "Bean plants",
+        "Reading lamps",
+        "Extra maps"
+      ],
+      "answer_index": 0,
+      "rationale": "The passage says they placed short signs at each corner."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does decorative details mean in the seventh sentence?",
+      "choices": [
+        "Pretty parts that are not the most useful",
+        "Books about art history",
+        "The names of shelf groups",
+        "Special rules for helpers"
+      ],
+      "answer_index": 0,
+      "rationale": "Decorative details are the pretty-looking parts that did not help students as much."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did clearer signs work better for younger students?",
+      "choices": [
+        "They could understand directions faster",
+        "They made the room look larger",
+        "They taught students to draw maps",
+        "They reduced the number of books"
+      ],
+      "answer_index": 0,
+      "rationale": "Younger students needed quick, clear directions, so simpler signs helped them more."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the library most likely do next?",
+      "choices": [
+        "Change more areas to use the clearer sign style",
+        "Remove all maps from the walls",
+        "Ask first graders to build new shelves",
+        "Use smaller labels on every corner"
+      ],
+      "answer_index": 0,
+      "rationale": "The last sentence says the library decided to update the rest of the room in the same way."
+    }
+  ]
+}

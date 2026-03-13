@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_gt_0019",
+    "level": "GT",
+    "topic": "Library Return Cards",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Library Return Cards",
+    "text": "Our group keeps a garden helper chart by the front desk. In the morning, Sora checks it before cleanup time. The garden helper chart has return slips for books and magazines for the day's job. Our teacher asks us to take the right note to the right room. Sometimes we compare today's slip with yesterday's slip and notice one small change. We like the garden helper chart because it helps us finish helper work on time.",
+    "word_count": 76
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        "Using the garden helper chart",
+        "Cleaning a noisy hallway",
+        "Buying new school supplies",
+        "Painting a class poster"
+      ],
+      "answer_index": 0,
+      "rationale": "The whole passage explains how the garden helper chart is used."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "Where is the garden helper chart?",
+      "choices": [
+        "by the door",
+        "near the window",
+        "next to the sink",
+        "by the front desk"
+      ],
+      "answer_index": 3,
+      "rationale": "The first sentence says the garden helper chart is by the front desk."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "When does Sora use the garden helper chart?",
+      "choices": [
+        "Before bed",
+        "On Saturday morning",
+        "In the morning",
+        "After lunch"
+      ],
+      "answer_index": 2,
+      "rationale": "The second sentence says Sora uses it in the morning."
+    },
+    {
+      "id": "q4",
+      "skill": "detail",
+      "prompt": "What does the garden helper chart have?",
+      "choices": [
+        "Animal cards",
+        "Return slips",
+        "Picture cards",
+        "Name tags"
+      ],
+      "answer_index": 1,
+      "rationale": "The third sentence says the garden helper chart has return slips."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does compare mean in the fifth sentence?",
+      "choices": [
+        "Look at two things together",
+        "Start a noisy game",
+        "Hide something quickly",
+        "Finish all the work"
+      ],
+      "answer_index": 0,
+      "rationale": "Compare means to look at two things and think about them together."
+    },
+    {
+      "id": "q6",
+      "skill": "vocab_in_context",
+      "prompt": "What does notice mean in the fifth sentence?",
+      "choices": [
+        "Make a loud sound",
+        "Carry a heavy box",
+        "Draw a new picture",
+        "See something important"
+      ],
+      "answer_index": 3,
+      "rationale": "Notice means to see and pay attention to something."
+    }
+  ]
+}

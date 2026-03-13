@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_gt_0045",
+    "level": "GT",
+    "topic": "Rainy Day Cards",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Rainy Day Cards",
+    "text": "Our group keeps a sky watch chart by the door. During the first break, Hana checks it before calendar time. The sky watch chart has small cards for windy, snowy, and sunny days for the day's job. The weather helper asks us to move the right card and say the weather. Sometimes we compare today's sky word with yesterday's sky word and notice one small change. We like the sky watch chart because it helps us prepare for the day outside.",
+    "word_count": 81
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        "Buying new school supplies",
+        "Painting a class poster",
+        "Using the sky watch chart",
+        "Cleaning a noisy hallway"
+      ],
+      "answer_index": 2,
+      "rationale": "The whole passage explains how the sky watch chart is used."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "Where is the sky watch chart?",
+      "choices": [
+        "under the clock",
+        "by the door",
+        "near the window",
+        "next to the sink"
+      ],
+      "answer_index": 1,
+      "rationale": "The first sentence says the sky watch chart is by the door."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "When does Hana use the sky watch chart?",
+      "choices": [
+        "During the first break",
+        "In the morning",
+        "After lunch",
+        "Before bed"
+      ],
+      "answer_index": 0,
+      "rationale": "The second sentence says Hana uses it during the first break."
+    },
+    {
+      "id": "q4",
+      "skill": "detail",
+      "prompt": "What does the sky watch chart have?",
+      "choices": [
+        "Picture cards",
+        "Name tags",
+        "Animal cards",
+        "Weather cards"
+      ],
+      "answer_index": 3,
+      "rationale": "The third sentence says the sky watch chart has weather cards."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does compare mean in the fifth sentence?",
+      "choices": [
+        "Hide something quickly",
+        "Finish all the work",
+        "Look at two things together",
+        "Start a noisy game"
+      ],
+      "answer_index": 2,
+      "rationale": "Compare means to look at two things and think about them together."
+    },
+    {
+      "id": "q6",
+      "skill": "vocab_in_context",
+      "prompt": "What does notice mean in the fifth sentence?",
+      "choices": [
+        "Draw a new picture",
+        "See something important",
+        "Make a loud sound",
+        "Carry a heavy box"
+      ],
+      "answer_index": 1,
+      "rationale": "Notice means to see and pay attention to something."
+    }
+  ]
+}

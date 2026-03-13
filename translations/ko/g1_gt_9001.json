@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "pack_id": "g1_gt_9001",
+    "lang": "ko",
+    "version": "0.1",
+    "source": "manual"
+  },
+  "passage": {
+    "title_translated": "GT 세트 #9001",
+    "text_translated": "우리 반은 문 옆에 날씨 게시판이 있습니다. 매일 아침 한 학생이 종이 치기 전에 밖을 봅니다. 그 학생은 하늘에 맞게 해, 구름, 비 카드를 옮깁니다. 선생님은 우리에게 영어로 날씨를 말하고 날짜를 쓰게 합니다. 우리는 게시판이 매일 조금씩 달라져서 확인하는 것을 좋아합니다."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt_translated": "이 글은 주로 무엇에 대한 글인가요?",
+      "choices_translated": [
+        "반 날씨 게시판 사용하기",
+        "교실 문 청소하기",
+        "비 오는 그림 그리기",
+        "새 달력 사기"
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt_translated": "날씨 게시판은 어디에 있나요?",
+      "choices_translated": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt_translated": "",
+      "choices_translated": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ]
+}

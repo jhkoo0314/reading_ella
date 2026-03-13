@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0099",
+    "level": "MGT",
+    "topic": "Team Role Board Redesign",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Team Role Board Redesign",
+    "text": "The class teamwork team wanted younger students to understand group roles more easily. At first, the team made one role chart with many decorated boxes and small names, but students forgot which job belonged to them. Several first graders said \"I can read the board, but I still forget my job.\" After hearing that, the team gave each role one strong symbol and one short title and placed matching role cards on each table. They also set a quick-check sign in the middle of the room so students could look down and see the same role card at their own table. On the next test day, more teams started their projects without teacher help during the next lesson. The team noticed that clear role clues helped more than decorative boxes. Because of that result, the class planned to use the same role system for other group projects.",
+    "word_count": 148
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Improving teamwork signs so younger students can share roles",
+        "Painting a room with brighter colors",
+        "Buying more books for a library sale",
+        "Writing long reports about class rules"
+      ],
+      "answer_index": 0,
+      "rationale": "The whole passage focuses on improving a system for younger students."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first plan?",
+      "choices": [
+        "The labels were too small to read quickly",
+        "The first plan had too many steps",
+        "Students could not tell what to do next",
+        "Students forgot which job belonged to them"
+      ],
+      "answer_index": 3,
+      "rationale": "The early part of the passage explains what did not work well."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the team place on each table?",
+      "choices": [
+        "Short signs",
+        "Color blocks",
+        "Matching role cards",
+        "Larger arrows"
+      ],
+      "answer_index": 2,
+      "rationale": "The middle of the passage tells what the team added or changed."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does mix-ups mean in the sixth sentence?",
+      "choices": [
+        "A person who leads the school",
+        "Times when things get confused or switched",
+        "A room that is easy to clean",
+        "A rule about lunch time"
+      ],
+      "answer_index": 1,
+      "rationale": "The word meaning comes from the way the passage uses it."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did the new design work better for younger students?",
+      "choices": [
+        "The new board made each role and step easier to see",
+        "It made the room much larger",
+        "It reduced the number of students",
+        "It removed every sign from the area"
+      ],
+      "answer_index": 0,
+      "rationale": "You have to connect the redesign changes with the later results."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the team most likely do next?",
+      "choices": [
+        "Use the same clearer style in more places",
+        "Remove every sign from the room",
+        "Ask students to memorize everything",
+        "Use the same clear role system for more projects"
+      ],
+      "answer_index": 3,
+      "rationale": "The last sentence points to the team's next likely action."
+    }
+  ]
+}

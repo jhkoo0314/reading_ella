@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0028",
+    "level": "MGT",
+    "topic": "Robot Path Sign Project",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Robot Path Sign Project",
+    "text": "The robot path team wanted children to understand start and stop steps more clearly. At first, the group posted a tool chart that packed several actions into one square, but children could not tell the order of the tech steps at one glance. Tech helpers said \"There are too many actions in one box, and I miss the order.\" After hearing that, the team used one strong icon for each app and kept the screen style the same from beginning to end. They also placed one extra step sign before the final tap so the last reminder repeated the final action before mistakes happened. On the next test day, children moved through the robot steps more steadily after the redesign. The team noticed that younger students needed strong icons and shorter directions. Because of that result, the school chose to apply the new sign style to more digital activities.",
+    "word_count": 149
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Painting a room with brighter colors",
+        "Buying more books for a library sale",
+        "Writing long reports about class rules",
+        "Making digital steps easier for children to understand"
+      ],
+      "answer_index": 3,
+      "rationale": "The whole passage focuses on improving a system for younger students."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first plan?",
+      "choices": [
+        "The first plan had too many steps",
+        "Students could not tell what to do next",
+        "Children could not tell the order of the tech steps",
+        "The labels were too small to read quickly"
+      ],
+      "answer_index": 2,
+      "rationale": "The early part of the passage explains what did not work well."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the group set near the charging shelf?",
+      "choices": [
+        "Color blocks",
+        "A quick-help board",
+        "Larger arrows",
+        "Short signs"
+      ],
+      "answer_index": 1,
+      "rationale": "The middle of the passage tells what the team added or changed."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does digital mean in the last sentence?",
+      "choices": [
+        "Using electronic tools",
+        "A room that is easy to clean",
+        "A rule about lunch time",
+        "A person who leads the school"
+      ],
+      "answer_index": 0,
+      "rationale": "The word meaning comes from the way the passage uses it."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did the new design work better for younger students?",
+      "choices": [
+        "It made the room much larger",
+        "It reduced the number of students",
+        "It removed every sign from the area",
+        "Shorter clues and stronger icons made the steps easier to follow"
+      ],
+      "answer_index": 3,
+      "rationale": "You have to connect the redesign changes with the later results."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the team most likely do next?",
+      "choices": [
+        "Remove every sign from the room",
+        "Ask students to memorize everything",
+        "Extend the new sign style to more digital activities",
+        "Use the same clearer style in more places"
+      ],
+      "answer_index": 2,
+      "rationale": "The last sentence points to the team's next likely action."
+    }
+  ]
+}

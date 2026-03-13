@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_gt_0004",
+    "level": "GT",
+    "topic": "Door Basket Notes",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Door Basket Notes",
+    "text": "Our group keeps a routine strip beside the toy shelf. After school, Yuna looks at it before dinner. The routine strip has short notes for homework, piano, and reading for the day's job. Dad asks us to finish our routine in order. Sometimes we compare today's note with yesterday's note and notice one small change. We like the routine strip because it helps us clean up faster.",
+    "word_count": 67
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        "Cleaning a noisy hallway",
+        "Buying new school supplies",
+        "Painting a class poster",
+        "Using the routine strip"
+      ],
+      "answer_index": 3,
+      "rationale": "The whole passage explains how the routine strip is used."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "Where is the routine strip?",
+      "choices": [
+        "near the window",
+        "next to the sink",
+        "beside the toy shelf",
+        "by the door"
+      ],
+      "answer_index": 2,
+      "rationale": "The first sentence says the routine strip is beside the toy shelf."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "When does Yuna use the routine strip?",
+      "choices": [
+        "Before bed",
+        "After school",
+        "In the morning",
+        "After lunch"
+      ],
+      "answer_index": 1,
+      "rationale": "The second sentence says Yuna uses it after school."
+    },
+    {
+      "id": "q4",
+      "skill": "detail",
+      "prompt": "What does the routine strip have?",
+      "choices": [
+        "Short notes",
+        "Picture cards",
+        "Name tags",
+        "Animal cards"
+      ],
+      "answer_index": 0,
+      "rationale": "The third sentence says the routine strip has short notes."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does compare mean in the fifth sentence?",
+      "choices": [
+        "Start a noisy game",
+        "Hide something quickly",
+        "Finish all the work",
+        "Look at two things together"
+      ],
+      "answer_index": 3,
+      "rationale": "Compare means to look at two things and think about them together."
+    },
+    {
+      "id": "q6",
+      "skill": "vocab_in_context",
+      "prompt": "What does notice mean in the fifth sentence?",
+      "choices": [
+        "Carry a heavy box",
+        "Draw a new picture",
+        "See something important",
+        "Make a loud sound"
+      ],
+      "answer_index": 2,
+      "rationale": "Notice means to see and pay attention to something."
+    }
+  ]
+}

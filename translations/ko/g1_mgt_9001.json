@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_9001",
+    "lang": "ko",
+    "version": "0.1",
+    "source": "rule_based_seed"
+  },
+  "passage": {
+    "title_translated": "MGT 놓다 #9001",
+    "text_translated": "이 글은 어린 학생들이 더 쉽게 이해하고 움직이도록 안내 체계를 고친 내용입니다. 처음 계획에서는 라벨이 너무 작아서 빨리 읽기 어려웠다. 그래서 팀은 짧은 표지판을 더하거나 바꾸었습니다. 그 결과 학생들이 다음 순서나 방향을 더 쉽게 알 수 있게 되었습니다."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt_translated": "이 글은 주로 무엇에 대한 글인가요?",
+      "choices_translated": [
+        "더 어린 학생들이 찾다 books 수 있도록 도서관 표지판 개선하기",
+        "Painting 도서관 많은 bright colors",
+        "Asking 학생들 read 더 과학 books",
+        "Moving 동물 선반 새로운 room"
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt_translated": "학생들은 처음 지도의 어떤 문제를 말했나요?",
+      "choices_translated": [
+        "라벨이 너무 작아서 빨리 읽기 어려웠다",
+        "지도 had no colors all",
+        "arrows pointed outside 도서관",
+        "shelves were missing from 지도"
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt_translated": "그 helpers은 무엇을 장소 각 코너했나요?",
+      "choices_translated": [
+        "짧은 표지판",
+        "Bean 식물들",
+        "읽기 lamps",
+        "Extra maps"
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt_translated": "일곱 번째 문장에서 decorative details는 무슨 뜻인가요?",
+      "choices_translated": [
+        "Pretty parts 그것 are 않는 most useful",
+        "Books about 미술 역사",
+        "names 선반 groups",
+        "Special rules 도우미들"
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt_translated": "왜 더 분명한 표지판이 더 어린 학생들에게 더 잘 맞았나요?",
+      "choices_translated": [
+        "They 할 수 이해하다 안내 더 빠르게",
+        "They 만들었다 room look 더 큰",
+        "They taught 학생들 draw maps",
+        "They 줄였다 number books"
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt_translated": "도서관은 다음에 무엇을 할 가능성이 가장 큰가요?",
+      "choices_translated": [
+        "Change 더 areas 사용 더 분명한 표지판 방식",
+        "Remove all maps from walls",
+        "Ask 1학년 학생들 build 새로운 shelves",
+        "사용 smaller 라벨 모든 코너"
+      ]
+    }
+  ]
+}

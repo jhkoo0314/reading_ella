@@ -1,0 +1,22 @@
+{
+  "name": "reading-ella",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.26.0",
+  "scripts": {
+    "dev": "pnpm run dev:frontend",
+    "dev:frontend": "pnpm --dir frontend dev",
+    "dev:backend": "python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000",
+    "dev:backend:reload": "python -m uvicorn backend.app.main:app --reload --host 127.0.0.1 --port 8000",
+    "dev:all": "powershell -ExecutionPolicy Bypass -File scripts/dev_all.ps1",
+    "build": "pnpm --dir frontend build",
+    "lint": "pnpm --dir frontend lint",
+    "packs:generate": "python scripts/generate_pack_bank.py --force",
+    "packs:validate": "python scripts/validate_packs.py packs",
+    "translations:generate": "python scripts/generate_local_translations.py",
+    "translations:validate": "python scripts/validate_translations.py translations/ko",
+    "check:final": "python scripts/run_final_checks.py",
+    "install:frontend": "pnpm --dir frontend install",
+    "install:backend": "python -m pip install -r backend/requirements.txt"
+  }
+}

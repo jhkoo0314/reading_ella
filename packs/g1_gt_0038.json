@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_gt_0038",
+    "level": "GT",
+    "topic": "Game Shelf List",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Game Shelf List",
+    "text": "Our group keeps a play choice board by the puzzle shelf. During free time, Lina points to it before outside play. The play choice board has label cards for blocks, puzzles, and balls for the day's job. The play helper asks us to follow the play order without arguing. Sometimes we compare today's label with yesterday's label and notice one small change. We like the play choice board because it helps us find the right toys fast.",
+    "word_count": 77
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        "Painting a class poster",
+        "Using the play choice board",
+        "Cleaning a noisy hallway",
+        "Buying new school supplies"
+      ],
+      "answer_index": 1,
+      "rationale": "The whole passage explains how the play choice board is used."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "Where is the play choice board?",
+      "choices": [
+        "by the puzzle shelf",
+        "by the door",
+        "near the window",
+        "next to the sink"
+      ],
+      "answer_index": 0,
+      "rationale": "The first sentence says the play choice board is by the puzzle shelf."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "When does Lina use the play choice board?",
+      "choices": [
+        "In the morning",
+        "After lunch",
+        "Before bed",
+        "During free time"
+      ],
+      "answer_index": 3,
+      "rationale": "The second sentence says Lina uses it during free time."
+    },
+    {
+      "id": "q4",
+      "skill": "detail",
+      "prompt": "What does the play choice board have?",
+      "choices": [
+        "Name tags",
+        "Animal cards",
+        "Label cards",
+        "Picture cards"
+      ],
+      "answer_index": 2,
+      "rationale": "The third sentence says the play choice board has label cards."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does compare mean in the fifth sentence?",
+      "choices": [
+        "Finish all the work",
+        "Look at two things together",
+        "Start a noisy game",
+        "Hide something quickly"
+      ],
+      "answer_index": 1,
+      "rationale": "Compare means to look at two things and think about them together."
+    },
+    {
+      "id": "q6",
+      "skill": "vocab_in_context",
+      "prompt": "What does notice mean in the fifth sentence?",
+      "choices": [
+        "See something important",
+        "Make a loud sound",
+        "Carry a heavy box",
+        "Draw a new picture"
+      ],
+      "answer_index": 0,
+      "rationale": "Notice means to see and pay attention to something."
+    }
+  ]
+}

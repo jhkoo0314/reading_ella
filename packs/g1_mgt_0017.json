@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0017",
+    "level": "MGT",
+    "topic": "Bus Tour Sign Update",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Bus Tour Sign Update",
+    "text": "A station helper group hoped first graders could move between travel stops with less confusion. At first, the helpers posted colorful travel signs that changed style from stop to stop, but the different sign styles made the route feel broken apart. Several younger riders said \"The route looks colorful, yet the parts do not match each other.\" After hearing that, the team made the get-off points larger than the other notes and added one simple arrow between each travel step. They also set a quick-check board beside the ticket table so children saw the route again at the moment when they needed it most. On the next test day, more students followed the tour route without extra adult reminders. The team noticed that students needed the next stop to stand out first. Because of that result, helpers chose to redesign more travel maps with the new system.",
+    "word_count": 149
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Buying more books for a library sale",
+        "Writing long reports about class rules",
+        "Redesigning a trip map for first graders",
+        "Painting a room with brighter colors"
+      ],
+      "answer_index": 2,
+      "rationale": "The whole passage focuses on improving a system for younger students."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first plan?",
+      "choices": [
+        "Students could not tell what to do next",
+        "Different sign styles made the route feel broken apart",
+        "The labels were too small to read quickly",
+        "The first plan had too many steps"
+      ],
+      "answer_index": 1,
+      "rationale": "The early part of the passage explains what did not work well."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the helpers hang near the bus door?",
+      "choices": [
+        "A reminder sign",
+        "Larger arrows",
+        "Short signs",
+        "Color blocks"
+      ],
+      "answer_index": 0,
+      "rationale": "The middle of the passage tells what the team added or changed."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does transfer mean in the third sentence?",
+      "choices": [
+        "A room that is easy to clean",
+        "A rule about lunch time",
+        "A person who leads the school",
+        "Move from one bus or route to another"
+      ],
+      "answer_index": 3,
+      "rationale": "The word meaning comes from the way the passage uses it."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did the new design work better for younger students?",
+      "choices": [
+        "It reduced the number of students",
+        "It removed every sign from the area",
+        "Students could spot the next move without reading a crowded map",
+        "It made the room much larger"
+      ],
+      "answer_index": 2,
+      "rationale": "You have to connect the redesign changes with the later results."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the team most likely do next?",
+      "choices": [
+        "Ask students to memorize everything",
+        "Redesign more travel maps with the new system",
+        "Use the same clearer style in more places",
+        "Remove every sign from the room"
+      ],
+      "answer_index": 1,
+      "rationale": "The last sentence points to the team's next likely action."
+    }
+  ]
+}

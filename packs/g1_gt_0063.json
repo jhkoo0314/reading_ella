@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_gt_0063",
+    "level": "GT",
+    "topic": "Family Photo Calendar",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Family Photo Calendar",
+    "text": "Our group keeps a chore strip near the family table. In the evening, Sia reads it before bath time. The chore strip has photo cards for each family job for the day's job. Dad asks us to share the work in a fair order. Sometimes we compare today's photo with yesterday's photo and notice one small change. We like the chore strip because it helps us remember who helps next.",
+    "word_count": 70
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        "Using the chore strip",
+        "Cleaning a noisy hallway",
+        "Buying new school supplies",
+        "Painting a class poster"
+      ],
+      "answer_index": 0,
+      "rationale": "The whole passage explains how the chore strip is used."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "Where is the chore strip?",
+      "choices": [
+        "by the door",
+        "near the window",
+        "next to the sink",
+        "near the family table"
+      ],
+      "answer_index": 3,
+      "rationale": "The first sentence says the chore strip is near the family table."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "When does Sia use the chore strip?",
+      "choices": [
+        "After lunch",
+        "Before bed",
+        "In the evening",
+        "In the morning"
+      ],
+      "answer_index": 2,
+      "rationale": "The second sentence says Sia uses it in the evening."
+    },
+    {
+      "id": "q4",
+      "skill": "detail",
+      "prompt": "What does the chore strip have?",
+      "choices": [
+        "Animal cards",
+        "Photo cards",
+        "Picture cards",
+        "Name tags"
+      ],
+      "answer_index": 1,
+      "rationale": "The third sentence says the chore strip has photo cards."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does compare mean in the fifth sentence?",
+      "choices": [
+        "Look at two things together",
+        "Start a noisy game",
+        "Hide something quickly",
+        "Finish all the work"
+      ],
+      "answer_index": 0,
+      "rationale": "Compare means to look at two things and think about them together."
+    },
+    {
+      "id": "q6",
+      "skill": "vocab_in_context",
+      "prompt": "What does notice mean in the fifth sentence?",
+      "choices": [
+        "Make a loud sound",
+        "Carry a heavy box",
+        "Draw a new picture",
+        "See something important"
+      ],
+      "answer_index": 3,
+      "rationale": "Notice means to see and pay attention to something."
+    }
+  ]
+}

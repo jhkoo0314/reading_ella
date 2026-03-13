@@ -1,0 +1,654 @@
+{
+  "main_idea_distractors": [
+    "Cleaning a noisy hallway",
+    "Buying new school supplies",
+    "Painting a class poster",
+    "Planning a lunch picnic"
+  ],
+  "location_pool": [
+    "by the door",
+    "near the window",
+    "next to the sink",
+    "under the clock",
+    "beside the rug",
+    "on the kitchen wall"
+  ],
+  "time_pool": [
+    "In the morning",
+    "After lunch",
+    "Before bed",
+    "On Saturday morning",
+    "During snack time",
+    "In the evening"
+  ],
+  "supply_pool": [
+    "Picture cards",
+    "Name tags",
+    "Animal cards",
+    "Short notes",
+    "Food labels",
+    "Leaf cards"
+  ],
+  "topics": {
+    "school": {
+      "titles": [
+        "Morning Schedule Board",
+        "Class Job Wheel",
+        "Daily Plan Chart"
+      ],
+      "items": [
+        "schedule board",
+        "job wheel",
+        "plan chart"
+      ],
+      "locations": [
+        "by the door",
+        "under the clock",
+        "near the reading shelf"
+      ],
+      "times": [
+        "morning",
+        "homeroom",
+        "the first break"
+      ],
+      "befores": [
+        "the first bell",
+        "reading time",
+        "music class"
+      ],
+      "actions": [
+        "checks it",
+        "turns it",
+        "points to it"
+      ],
+      "supplies_text": [
+        "picture cards for reading, math, lunch, and playtime",
+        "small cards for helper jobs and class turns",
+        "color labels for each part of the school day"
+      ],
+      "supply_labels": [
+        "Picture cards",
+        "Helper cards",
+        "Color labels"
+      ],
+      "guides": [
+        "Our teacher",
+        "Ms. Park",
+        "The class leader"
+      ],
+      "tasks": [
+        "move the right card and say our plan",
+        "check the next job and read it aloud",
+        "follow the chart and start class calmly"
+      ],
+      "objects": [
+        "card",
+        "label",
+        "picture"
+      ],
+      "benefits": [
+        "remember the day faster",
+        "know our order of jobs",
+        "start class in a calm way"
+      ]
+    },
+    "classroom": {
+      "titles": [
+        "Table Helper Chart",
+        "Reading Basket Board",
+        "Center Choice Cards"
+      ],
+      "items": [
+        "helper chart",
+        "reading basket board",
+        "center choice board"
+      ],
+      "locations": [
+        "by the whiteboard",
+        "beside the rug",
+        "near the cubbies"
+      ],
+      "times": [
+        "morning",
+        "center time",
+        "the first break"
+      ],
+      "befores": [
+        "seat work",
+        "story time",
+        "cleanup time"
+      ],
+      "actions": [
+        "checks it",
+        "looks at it",
+        "reads it"
+      ],
+      "supplies_text": [
+        "name tags for table jobs and clean-up turns",
+        "basket cards for picture books and easy readers",
+        "choice cards for blocks, art, and puzzles"
+      ],
+      "supply_labels": [
+        "Name tags",
+        "Basket cards",
+        "Choice cards"
+      ],
+      "guides": [
+        "Our teacher",
+        "Mr. Kim",
+        "The room helper"
+      ],
+      "tasks": [
+        "find our classroom job",
+        "pick the right basket and sit down",
+        "choose one center and get ready"
+      ],
+      "objects": [
+        "tag",
+        "basket card",
+        "choice card"
+      ],
+      "benefits": [
+        "share the room fairly",
+        "find the right books quickly",
+        "move around the room smoothly"
+      ]
+    },
+    "family": {
+      "titles": [
+        "Family Photo Calendar",
+        "Weekend Chore Strip",
+        "Dinner Helper Cards"
+      ],
+      "items": [
+        "family photo calendar",
+        "chore strip",
+        "dinner helper board"
+      ],
+      "locations": [
+        "on the kitchen wall",
+        "by the fridge",
+        "near the family table"
+      ],
+      "times": [
+        "evening",
+        "after school",
+        "Saturday morning"
+      ],
+      "befores": [
+        "dinner",
+        "bath time",
+        "our family walk"
+      ],
+      "actions": [
+        "points to it",
+        "checks it",
+        "reads it"
+      ],
+      "supplies_text": [
+        "photo cards for each family job",
+        "small notes for watering, feeding, and folding",
+        "name cards for setting the table and bringing cups"
+      ],
+      "supply_labels": [
+        "Photo cards",
+        "Job notes",
+        "Name cards"
+      ],
+      "guides": [
+        "Mom",
+        "Dad",
+        "My older sister"
+      ],
+      "tasks": [
+        "match each card to the right person",
+        "finish one home job before dinner",
+        "share the work in a fair order"
+      ],
+      "objects": [
+        "photo",
+        "note",
+        "name card"
+      ],
+      "benefits": [
+        "share the jobs fairly",
+        "remember who helps next",
+        "finish dinner work on time"
+      ]
+    },
+    "home": {
+      "titles": [
+        "Door Basket Notes",
+        "Home Routine Strip",
+        "Toy Shelf Labels"
+      ],
+      "items": [
+        "door basket",
+        "routine strip",
+        "toy shelf chart"
+      ],
+      "locations": [
+        "by the front door",
+        "next to the shoe rack",
+        "beside the toy shelf"
+      ],
+      "times": [
+        "after school",
+        "evening",
+        "before bed"
+      ],
+      "befores": [
+        "homework time",
+        "dinner",
+        "story time"
+      ],
+      "actions": [
+        "opens it",
+        "checks it",
+        "looks at it"
+      ],
+      "supplies_text": [
+        "short notes for homework, piano, and reading",
+        "picture cards for washing, packing, and resting",
+        "labels for blocks, cars, and stuffed animals"
+      ],
+      "supply_labels": [
+        "Short notes",
+        "Picture cards",
+        "Toy labels"
+      ],
+      "guides": [
+        "Mom",
+        "Dad",
+        "My grandma"
+      ],
+      "tasks": [
+        "see what comes first at home",
+        "put each thing in the right place",
+        "finish our routine in order"
+      ],
+      "objects": [
+        "note",
+        "card",
+        "label"
+      ],
+      "benefits": [
+        "keep our home routine clear",
+        "clean up faster",
+        "remember what comes next"
+      ]
+    },
+    "weather": {
+      "titles": [
+        "Weather Board",
+        "Rainy Day Cards",
+        "Sky Watch Chart"
+      ],
+      "items": [
+        "weather board",
+        "rainy day chart",
+        "sky watch chart"
+      ],
+      "locations": [
+        "by the door",
+        "near the window",
+        "next to the date board"
+      ],
+      "times": [
+        "morning",
+        "the first break",
+        "homeroom"
+      ],
+      "befores": [
+        "the first bell",
+        "outside play",
+        "calendar time"
+      ],
+      "actions": [
+        "checks it",
+        "looks at it",
+        "points to it"
+      ],
+      "supplies_text": [
+        "sun, cloud, and rain cards",
+        "small cards for windy, snowy, and sunny days",
+        "picture labels for hot, cold, and rainy weather"
+      ],
+      "supply_labels": [
+        "Weather cards",
+        "Weather cards",
+        "Picture labels"
+      ],
+      "guides": [
+        "Our teacher",
+        "Ms. Han",
+        "The weather helper"
+      ],
+      "tasks": [
+        "move the right card and say the weather",
+        "read the sky words together",
+        "check the chart and write one short sentence"
+      ],
+      "objects": [
+        "card",
+        "sky word",
+        "label"
+      ],
+      "benefits": [
+        "talk about the sky clearly",
+        "notice weather changes",
+        "prepare for the day outside"
+      ]
+    },
+    "animals": {
+      "titles": [
+        "Pet Care Chart",
+        "Animal Corner Board",
+        "Feeding Turn Cards"
+      ],
+      "items": [
+        "pet care chart",
+        "animal corner board",
+        "feeding turn board"
+      ],
+      "locations": [
+        "next to the fish tank",
+        "by the class pet cage",
+        "near the water shelf"
+      ],
+      "times": [
+        "morning",
+        "after lunch",
+        "the first break"
+      ],
+      "befores": [
+        "science time",
+        "cleanup time",
+        "story time"
+      ],
+      "actions": [
+        "checks it",
+        "reads it",
+        "points to it"
+      ],
+      "supplies_text": [
+        "food, water, and cleaning cards",
+        "name tags for feeding and tank check turns",
+        "small pictures for pet care steps"
+      ],
+      "supply_labels": [
+        "Care cards",
+        "Name tags",
+        "Pet pictures"
+      ],
+      "guides": [
+        "Our teacher",
+        "The pet helper",
+        "Mr. Lee"
+      ],
+      "tasks": [
+        "take care of the class pet on time",
+        "follow each care step in order",
+        "check who helps the animal today"
+      ],
+      "objects": [
+        "card",
+        "tag",
+        "picture"
+      ],
+      "benefits": [
+        "care for the pet kindly",
+        "remember the feeding order",
+        "finish pet work safely"
+      ]
+    },
+    "food": {
+      "titles": [
+        "Snack Choice Chart",
+        "Fruit Table Cards",
+        "Lunch Helper Board"
+      ],
+      "items": [
+        "snack chart",
+        "fruit table board",
+        "lunch helper board"
+      ],
+      "locations": [
+        "near the sink",
+        "by the snack table",
+        "next to the cup shelf"
+      ],
+      "times": [
+        "snack time",
+        "morning",
+        "after recess"
+      ],
+      "befores": [
+        "washing hands",
+        "eating together",
+        "cleaning the table"
+      ],
+      "actions": [
+        "checks it",
+        "looks at it",
+        "reads it"
+      ],
+      "supplies_text": [
+        "apple, banana, and grape cards",
+        "name cards for cups, napkins, and trays",
+        "picture labels for fruit, crackers, and milk"
+      ],
+      "supply_labels": [
+        "Fruit cards",
+        "Name cards",
+        "Picture labels"
+      ],
+      "guides": [
+        "The cook",
+        "Our teacher",
+        "The snack helper"
+      ],
+      "tasks": [
+        "pick the right snack job",
+        "set the table in a simple order",
+        "remember what we are serving today"
+      ],
+      "objects": [
+        "card",
+        "name card",
+        "label"
+      ],
+      "benefits": [
+        "prepare snack more quickly",
+        "share food jobs fairly",
+        "keep the table ready"
+      ]
+    },
+    "play": {
+      "titles": [
+        "Game Shelf List",
+        "Play Choice Board",
+        "Toy Turn Cards"
+      ],
+      "items": [
+        "game shelf list",
+        "play choice board",
+        "toy turn chart"
+      ],
+      "locations": [
+        "beside the rug",
+        "near the blocks area",
+        "by the puzzle shelf"
+      ],
+      "times": [
+        "free time",
+        "the first break",
+        "after reading"
+      ],
+      "befores": [
+        "cleanup time",
+        "outside play",
+        "music class"
+      ],
+      "actions": [
+        "checks it",
+        "reads it",
+        "points to it"
+      ],
+      "supplies_text": [
+        "label cards for blocks, puzzles, and balls",
+        "small pictures for indoor games and art trays",
+        "name tags for turn-taking at each play spot"
+      ],
+      "supply_labels": [
+        "Label cards",
+        "Game pictures",
+        "Turn tags"
+      ],
+      "guides": [
+        "Our teacher",
+        "The play helper",
+        "Mr. Park"
+      ],
+      "tasks": [
+        "choose one game area and wait our turn",
+        "put toys back in the correct place",
+        "follow the play order without arguing"
+      ],
+      "objects": [
+        "label",
+        "picture",
+        "turn tag"
+      ],
+      "benefits": [
+        "play more peacefully",
+        "find the right toys fast",
+        "keep the game area neat"
+      ]
+    },
+    "community": {
+      "titles": [
+        "Front Desk Mail Table",
+        "Library Return Cards",
+        "Garden Helper List"
+      ],
+      "items": [
+        "mail table",
+        "return card board",
+        "garden helper chart"
+      ],
+      "locations": [
+        "by the front desk",
+        "near the small library",
+        "next to the garden gate"
+      ],
+      "times": [
+        "afternoon",
+        "morning",
+        "after lunch"
+      ],
+      "befores": [
+        "club time",
+        "our walk home",
+        "cleanup time"
+      ],
+      "actions": [
+        "checks it",
+        "looks at it",
+        "reads it"
+      ],
+      "supplies_text": [
+        "name cards and short notes for each class",
+        "return slips for books and magazines",
+        "watering, weeding, and tool cards"
+      ],
+      "supply_labels": [
+        "Name cards",
+        "Return slips",
+        "Tool cards"
+      ],
+      "guides": [
+        "Mr. Han",
+        "The desk helper",
+        "Our teacher"
+      ],
+      "tasks": [
+        "take the right note to the right room",
+        "return books in a calm way",
+        "help the small garden in order"
+      ],
+      "objects": [
+        "note",
+        "slip",
+        "card"
+      ],
+      "benefits": [
+        "help the community stay organized",
+        "deliver things correctly",
+        "finish helper work on time"
+      ]
+    },
+    "nature": {
+      "titles": [
+        "Leaf Color Chart",
+        "Garden Watch Board",
+        "Tree Season Cards"
+      ],
+      "items": [
+        "leaf color chart",
+        "garden watch board",
+        "tree season board"
+      ],
+      "locations": [
+        "near the window",
+        "by the plant shelf",
+        "next to the class garden box"
+      ],
+      "times": [
+        "morning",
+        "after recess",
+        "science time"
+      ],
+      "befores": [
+        "writing time",
+        "the first bell",
+        "cleanup time"
+      ],
+      "actions": [
+        "checks it",
+        "looks at it",
+        "points to it"
+      ],
+      "supplies_text": [
+        "green, yellow, and brown leaf cards",
+        "small notes for flowers, bugs, and rain",
+        "picture cards for each tree season"
+      ],
+      "supply_labels": [
+        "Leaf cards",
+        "Nature notes",
+        "Season cards"
+      ],
+      "guides": [
+        "Our teacher",
+        "The garden helper",
+        "Ms. Choi"
+      ],
+      "tasks": [
+        "watch the plants and talk about change",
+        "match the season card to the tree",
+        "notice what looks new in nature"
+      ],
+      "objects": [
+        "card",
+        "note",
+        "season card"
+      ],
+      "benefits": [
+        "notice small changes in nature",
+        "talk about seasons clearly",
+        "care for the plants better"
+      ]
+    }
+  }
+}

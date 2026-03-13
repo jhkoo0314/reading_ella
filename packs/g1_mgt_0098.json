@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0098",
+    "level": "MGT",
+    "topic": "Tablet Station Redesign",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Tablet Station Redesign",
+    "text": "The technology team wanted younger students to follow tablet station steps more easily. At first, the team made one poster with many app icons and long instructions, but students tapped the wrong app because the directions were crowded. A first-grade test group said \"I see many pictures, but I still do not know which app to open first.\" After hearing that, the team split each tech task into one card per step and placed the same card beside the real tablet station. They also set a quick-help board near the charging shelf so students could compare the sign with the real tool right away. On the next test day, more students completed the tablet path without teacher help on the next test. The team noticed that one clear tech step at a time worked better than crowded instructions. Because of that result, the team decided to redesign more tech stations with the same clear format.",
+    "word_count": 157
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Writing long reports about class rules",
+        "Improving technology directions so younger students can follow them",
+        "Painting a room with brighter colors",
+        "Buying more books for a library sale"
+      ],
+      "answer_index": 1,
+      "rationale": "The whole passage focuses on improving a system for younger students."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first plan?",
+      "choices": [
+        "Students tapped the wrong app because directions were crowded",
+        "The labels were too small to read quickly",
+        "The first plan had too many steps",
+        "Students could not tell what to do next"
+      ],
+      "answer_index": 0,
+      "rationale": "The early part of the passage explains what did not work well."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the team place beside the real tablet station?",
+      "choices": [
+        "Larger arrows",
+        "Short signs",
+        "Color blocks",
+        "The same card"
+      ],
+      "answer_index": 3,
+      "rationale": "The middle of the passage tells what the team added or changed."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does crowded mean in the second sentence?",
+      "choices": [
+        "A rule about lunch time",
+        "A person who leads the school",
+        "Too full and hard to use quickly",
+        "A room that is easy to clean"
+      ],
+      "answer_index": 2,
+      "rationale": "The word meaning comes from the way the passage uses it."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did the new design work better for younger students?",
+      "choices": [
+        "It removed every sign from the area",
+        "The new design showed one tech action more clearly at a time",
+        "It made the room much larger",
+        "It reduced the number of students"
+      ],
+      "answer_index": 1,
+      "rationale": "You have to connect the redesign changes with the later results."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the team most likely do next?",
+      "choices": [
+        "Use the same clear format on more tech stations",
+        "Use the same clearer style in more places",
+        "Remove every sign from the room",
+        "Ask students to memorize everything"
+      ],
+      "answer_index": 0,
+      "rationale": "The last sentence points to the team's next likely action."
+    }
+  ]
+}

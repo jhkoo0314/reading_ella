@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0067",
+    "level": "MGT",
+    "topic": "Station Route Redesign",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Station Route Redesign",
+    "text": "The trip planning team wanted younger students to follow a bus tour route more easily. At first, the team used one route map filled with tiny stop names and curved arrows, but students missed where to get off because the stop names were too hard to scan. A practice tour group said \"I can read some names, but I still do not know my next stop.\" After hearing that, the team used one strong symbol for each travel stop and matched each stop sign with the same color stripe. They also hung a reminder sign near the bus door so students could confirm the next stop before leaving the bus. On the next test day, the younger group changed buses with fewer mistakes on the next practice trip. The team noticed that consistent travel clues helped more than many different sign styles. Because of that result, the trip team planned to use the same route style on future tours.",
+    "word_count": 159
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Improving travel signs so younger students can follow a route",
+        "Painting a room with brighter colors",
+        "Buying more books for a library sale",
+        "Writing long reports about class rules"
+      ],
+      "answer_index": 0,
+      "rationale": "The whole passage focuses on improving a system for younger students."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first plan?",
+      "choices": [
+        "The labels were too small to read quickly",
+        "The first plan had too many steps",
+        "Students could not tell what to do next",
+        "The stop names were too hard to scan quickly"
+      ],
+      "answer_index": 3,
+      "rationale": "The early part of the passage explains what did not work well."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the team place at every transfer point?",
+      "choices": [
+        "Short signs",
+        "Color blocks",
+        "Mini maps",
+        "Larger arrows"
+      ],
+      "answer_index": 2,
+      "rationale": "The middle of the passage tells what the team added or changed."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does consistent mean in the seventh sentence?",
+      "choices": [
+        "A person who leads the school",
+        "Staying the same in a helpful way",
+        "A room that is easy to clean",
+        "A rule about lunch time"
+      ],
+      "answer_index": 1,
+      "rationale": "The word meaning comes from the way the passage uses it."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did the new design work better for younger students?",
+      "choices": [
+        "The new travel clues matched each stop more clearly",
+        "It made the room much larger",
+        "It reduced the number of students",
+        "It removed every sign from the area"
+      ],
+      "answer_index": 0,
+      "rationale": "You have to connect the redesign changes with the later results."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the team most likely do next?",
+      "choices": [
+        "Use the same clearer style in more places",
+        "Remove every sign from the room",
+        "Ask students to memorize everything",
+        "Use the same route style on more school trips"
+      ],
+      "answer_index": 3,
+      "rationale": "The last sentence points to the team's next likely action."
+    }
+  ]
+}

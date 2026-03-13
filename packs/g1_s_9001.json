@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_s_9001",
+    "level": "S",
+    "topic": "Science Club",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "S Set #9001",
+    "text": "Our science club planted bean seeds in paper cups last month. Mina put her cup near the sunny window, but Joon left his cup on a shelf. After one week, Mina's plant looked taller because it got more light each day. The club measured each stem and wrote the numbers in a notebook. When Joon saw the difference, he moved his cup closer to the window. Two days later, his plant started to grow faster. The club learned that a small change in place can help a plant grow better.",
+    "word_count": 101
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mostly about?",
+      "choices": [
+        "Learning how light helps plants",
+        "Building a shelf for the classroom",
+        "Buying seeds at a market",
+        "Painting cups for art club"
+      ],
+      "answer_index": 0,
+      "rationale": "The whole passage shows how the club learned about light and plant growth."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "Where did Mina put her cup?",
+      "choices": [
+        "Near the sunny window",
+        "Inside a dark box",
+        "Under the teacher's desk",
+        "Next to the door"
+      ],
+      "answer_index": 0,
+      "rationale": "The second sentence says Mina put her cup near the sunny window."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the club write in a notebook?",
+      "choices": [
+        "The stem numbers",
+        "The lunch menu",
+        "The weather report",
+        "The library rules"
+      ],
+      "answer_index": 0,
+      "rationale": "The club measured each stem and wrote the numbers in a notebook."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does difference mean in the fifth sentence?",
+      "choices": [
+        "The way two things are not the same",
+        "A box for storing seeds",
+        "A chart on the wall",
+        "A very small leaf"
+      ],
+      "answer_index": 0,
+      "rationale": "Difference means the plants did not look the same."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does stem mean in the fourth sentence?",
+      "choices": [
+        "The plant's main stalk",
+        "The color of the cup",
+        "The name of the club",
+        "The top of the shelf"
+      ],
+      "answer_index": 0,
+      "rationale": "Stem means the main stalk of the plant."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "Why did Joon move his cup closer to the window?",
+      "choices": [
+        "He thought more light would help his plant",
+        "He wanted to hide the cup from Mina",
+        "He needed space for a new notebook",
+        "He was told to throw the cup away"
+      ],
+      "answer_index": 0,
+      "rationale": "Joon saw Mina's taller plant and inferred that more light would help his own plant."
+    }
+  ]
+}

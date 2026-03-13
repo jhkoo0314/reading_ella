@@ -1,0 +1,301 @@
+grade,level,number,pack_id,topic,topic_slug,topic_group,status,notes
+G1,GT,0001,g1_gt_0001,School Topic 01,gt-school-01,school,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0002,g1_gt_0002,Classroom Topic 01,gt-classroom-01,classroom,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0003,g1_gt_0003,Family Topic 01,gt-family-01,family,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0004,g1_gt_0004,Home Topic 01,gt-home-01,home,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0005,g1_gt_0005,Weather Topic 01,gt-weather-01,weather,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0006,g1_gt_0006,Animals Topic 01,gt-animals-01,animals,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0007,g1_gt_0007,Food Topic 01,gt-food-01,food,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0008,g1_gt_0008,Play Topic 01,gt-play-01,play,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0009,g1_gt_0009,Community Topic 01,gt-community-01,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0010,g1_gt_0010,Nature Topic 01,gt-nature-01,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0011,g1_gt_0011,School Topic 02,gt-school-02,school,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0012,g1_gt_0012,Classroom Topic 02,gt-classroom-02,classroom,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0013,g1_gt_0013,Family Topic 02,gt-family-02,family,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0014,g1_gt_0014,Home Topic 02,gt-home-02,home,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0015,g1_gt_0015,Weather Topic 02,gt-weather-02,weather,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0016,g1_gt_0016,Animals Topic 02,gt-animals-02,animals,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0017,g1_gt_0017,Food Topic 02,gt-food-02,food,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0018,g1_gt_0018,Play Topic 02,gt-play-02,play,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0019,g1_gt_0019,Community Topic 02,gt-community-02,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0020,g1_gt_0020,Nature Topic 02,gt-nature-02,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0021,g1_gt_0021,School Topic 03,gt-school-03,school,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0022,g1_gt_0022,Classroom Topic 03,gt-classroom-03,classroom,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0023,g1_gt_0023,Family Topic 03,gt-family-03,family,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0024,g1_gt_0024,Home Topic 03,gt-home-03,home,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0025,g1_gt_0025,Weather Topic 03,gt-weather-03,weather,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0026,g1_gt_0026,Animals Topic 03,gt-animals-03,animals,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0027,g1_gt_0027,Food Topic 03,gt-food-03,food,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0028,g1_gt_0028,Play Topic 03,gt-play-03,play,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0029,g1_gt_0029,Community Topic 03,gt-community-03,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0030,g1_gt_0030,Nature Topic 03,gt-nature-03,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0031,g1_gt_0031,School Topic 04,gt-school-04,school,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0032,g1_gt_0032,Classroom Topic 04,gt-classroom-04,classroom,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0033,g1_gt_0033,Family Topic 04,gt-family-04,family,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0034,g1_gt_0034,Home Topic 04,gt-home-04,home,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0035,g1_gt_0035,Weather Topic 04,gt-weather-04,weather,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0036,g1_gt_0036,Animals Topic 04,gt-animals-04,animals,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0037,g1_gt_0037,Food Topic 04,gt-food-04,food,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0038,g1_gt_0038,Play Topic 04,gt-play-04,play,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0039,g1_gt_0039,Community Topic 04,gt-community-04,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0040,g1_gt_0040,Nature Topic 04,gt-nature-04,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0041,g1_gt_0041,School Topic 05,gt-school-05,school,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0042,g1_gt_0042,Classroom Topic 05,gt-classroom-05,classroom,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0043,g1_gt_0043,Family Topic 05,gt-family-05,family,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0044,g1_gt_0044,Home Topic 05,gt-home-05,home,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0045,g1_gt_0045,Weather Topic 05,gt-weather-05,weather,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0046,g1_gt_0046,Animals Topic 05,gt-animals-05,animals,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0047,g1_gt_0047,Food Topic 05,gt-food-05,food,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0048,g1_gt_0048,Play Topic 05,gt-play-05,play,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0049,g1_gt_0049,Community Topic 05,gt-community-05,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0050,g1_gt_0050,Nature Topic 05,gt-nature-05,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0051,g1_gt_0051,School Topic 06,gt-school-06,school,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0052,g1_gt_0052,Classroom Topic 06,gt-classroom-06,classroom,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0053,g1_gt_0053,Family Topic 06,gt-family-06,family,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0054,g1_gt_0054,Home Topic 06,gt-home-06,home,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0055,g1_gt_0055,Weather Topic 06,gt-weather-06,weather,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0056,g1_gt_0056,Animals Topic 06,gt-animals-06,animals,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0057,g1_gt_0057,Food Topic 06,gt-food-06,food,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0058,g1_gt_0058,Play Topic 06,gt-play-06,play,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0059,g1_gt_0059,Community Topic 06,gt-community-06,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0060,g1_gt_0060,Nature Topic 06,gt-nature-06,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0061,g1_gt_0061,School Topic 07,gt-school-07,school,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0062,g1_gt_0062,Classroom Topic 07,gt-classroom-07,classroom,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0063,g1_gt_0063,Family Topic 07,gt-family-07,family,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0064,g1_gt_0064,Home Topic 07,gt-home-07,home,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0065,g1_gt_0065,Weather Topic 07,gt-weather-07,weather,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0066,g1_gt_0066,Animals Topic 07,gt-animals-07,animals,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0067,g1_gt_0067,Food Topic 07,gt-food-07,food,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0068,g1_gt_0068,Play Topic 07,gt-play-07,play,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0069,g1_gt_0069,Community Topic 07,gt-community-07,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0070,g1_gt_0070,Nature Topic 07,gt-nature-07,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0071,g1_gt_0071,School Topic 08,gt-school-08,school,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0072,g1_gt_0072,Classroom Topic 08,gt-classroom-08,classroom,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0073,g1_gt_0073,Family Topic 08,gt-family-08,family,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0074,g1_gt_0074,Home Topic 08,gt-home-08,home,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0075,g1_gt_0075,Weather Topic 08,gt-weather-08,weather,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0076,g1_gt_0076,Animals Topic 08,gt-animals-08,animals,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0077,g1_gt_0077,Food Topic 08,gt-food-08,food,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0078,g1_gt_0078,Play Topic 08,gt-play-08,play,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0079,g1_gt_0079,Community Topic 08,gt-community-08,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0080,g1_gt_0080,Nature Topic 08,gt-nature-08,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0081,g1_gt_0081,School Topic 09,gt-school-09,school,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0082,g1_gt_0082,Classroom Topic 09,gt-classroom-09,classroom,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0083,g1_gt_0083,Family Topic 09,gt-family-09,family,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0084,g1_gt_0084,Home Topic 09,gt-home-09,home,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0085,g1_gt_0085,Weather Topic 09,gt-weather-09,weather,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0086,g1_gt_0086,Animals Topic 09,gt-animals-09,animals,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0087,g1_gt_0087,Food Topic 09,gt-food-09,food,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0088,g1_gt_0088,Play Topic 09,gt-play-09,play,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0089,g1_gt_0089,Community Topic 09,gt-community-09,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0090,g1_gt_0090,Nature Topic 09,gt-nature-09,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0091,g1_gt_0091,School Topic 10,gt-school-10,school,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0092,g1_gt_0092,Classroom Topic 10,gt-classroom-10,classroom,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0093,g1_gt_0093,Family Topic 10,gt-family-10,family,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0094,g1_gt_0094,Home Topic 10,gt-home-10,home,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0095,g1_gt_0095,Weather Topic 10,gt-weather-10,weather,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0096,g1_gt_0096,Animals Topic 10,gt-animals-10,animals,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0097,g1_gt_0097,Food Topic 10,gt-food-10,food,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0098,g1_gt_0098,Play Topic 10,gt-play-10,play,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0099,g1_gt_0099,Community Topic 10,gt-community-10,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,GT,0100,g1_gt_0100,Nature Topic 10,gt-nature-10,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0001,g1_s_0001,School Life Topic 01,s-school-life-01,school-life,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0002,g1_s_0002,Study Habits Topic 01,s-study-habits-01,study-habits,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0003,g1_s_0003,Family Jobs Topic 01,s-family-jobs-01,family-jobs,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0004,g1_s_0004,Home Routines Topic 01,s-home-routines-01,home-routines,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0005,g1_s_0005,Health Topic 01,s-health-01,health,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0006,g1_s_0006,Science Topic 01,s-science-01,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0007,g1_s_0007,Travel Topic 01,s-travel-01,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0008,g1_s_0008,Hobby Topic 01,s-hobby-01,hobby,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0009,g1_s_0009,Community Topic 01,s-community-01,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0010,g1_s_0010,Nature Topic 01,s-nature-01,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0011,g1_s_0011,School Life Topic 02,s-school-life-02,school-life,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0012,g1_s_0012,Study Habits Topic 02,s-study-habits-02,study-habits,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0013,g1_s_0013,Family Jobs Topic 02,s-family-jobs-02,family-jobs,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0014,g1_s_0014,Home Routines Topic 02,s-home-routines-02,home-routines,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0015,g1_s_0015,Health Topic 02,s-health-02,health,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0016,g1_s_0016,Science Topic 02,s-science-02,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0017,g1_s_0017,Travel Topic 02,s-travel-02,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0018,g1_s_0018,Hobby Topic 02,s-hobby-02,hobby,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0019,g1_s_0019,Community Topic 02,s-community-02,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0020,g1_s_0020,Nature Topic 02,s-nature-02,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0021,g1_s_0021,School Life Topic 03,s-school-life-03,school-life,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0022,g1_s_0022,Study Habits Topic 03,s-study-habits-03,study-habits,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0023,g1_s_0023,Family Jobs Topic 03,s-family-jobs-03,family-jobs,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0024,g1_s_0024,Home Routines Topic 03,s-home-routines-03,home-routines,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0025,g1_s_0025,Health Topic 03,s-health-03,health,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0026,g1_s_0026,Science Topic 03,s-science-03,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0027,g1_s_0027,Travel Topic 03,s-travel-03,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0028,g1_s_0028,Hobby Topic 03,s-hobby-03,hobby,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0029,g1_s_0029,Community Topic 03,s-community-03,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0030,g1_s_0030,Nature Topic 03,s-nature-03,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0031,g1_s_0031,School Life Topic 04,s-school-life-04,school-life,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0032,g1_s_0032,Study Habits Topic 04,s-study-habits-04,study-habits,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0033,g1_s_0033,Family Jobs Topic 04,s-family-jobs-04,family-jobs,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0034,g1_s_0034,Home Routines Topic 04,s-home-routines-04,home-routines,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0035,g1_s_0035,Health Topic 04,s-health-04,health,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0036,g1_s_0036,Science Topic 04,s-science-04,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0037,g1_s_0037,Travel Topic 04,s-travel-04,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0038,g1_s_0038,Hobby Topic 04,s-hobby-04,hobby,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0039,g1_s_0039,Community Topic 04,s-community-04,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0040,g1_s_0040,Nature Topic 04,s-nature-04,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0041,g1_s_0041,School Life Topic 05,s-school-life-05,school-life,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0042,g1_s_0042,Study Habits Topic 05,s-study-habits-05,study-habits,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0043,g1_s_0043,Family Jobs Topic 05,s-family-jobs-05,family-jobs,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0044,g1_s_0044,Home Routines Topic 05,s-home-routines-05,home-routines,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0045,g1_s_0045,Health Topic 05,s-health-05,health,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0046,g1_s_0046,Science Topic 05,s-science-05,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0047,g1_s_0047,Travel Topic 05,s-travel-05,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0048,g1_s_0048,Hobby Topic 05,s-hobby-05,hobby,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0049,g1_s_0049,Community Topic 05,s-community-05,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0050,g1_s_0050,Nature Topic 05,s-nature-05,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0051,g1_s_0051,School Life Topic 06,s-school-life-06,school-life,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0052,g1_s_0052,Study Habits Topic 06,s-study-habits-06,study-habits,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0053,g1_s_0053,Family Jobs Topic 06,s-family-jobs-06,family-jobs,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0054,g1_s_0054,Home Routines Topic 06,s-home-routines-06,home-routines,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0055,g1_s_0055,Health Topic 06,s-health-06,health,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0056,g1_s_0056,Science Topic 06,s-science-06,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0057,g1_s_0057,Travel Topic 06,s-travel-06,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0058,g1_s_0058,Hobby Topic 06,s-hobby-06,hobby,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0059,g1_s_0059,Community Topic 06,s-community-06,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0060,g1_s_0060,Nature Topic 06,s-nature-06,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0061,g1_s_0061,School Life Topic 07,s-school-life-07,school-life,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0062,g1_s_0062,Study Habits Topic 07,s-study-habits-07,study-habits,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0063,g1_s_0063,Family Jobs Topic 07,s-family-jobs-07,family-jobs,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0064,g1_s_0064,Home Routines Topic 07,s-home-routines-07,home-routines,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0065,g1_s_0065,Health Topic 07,s-health-07,health,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0066,g1_s_0066,Science Topic 07,s-science-07,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0067,g1_s_0067,Travel Topic 07,s-travel-07,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0068,g1_s_0068,Hobby Topic 07,s-hobby-07,hobby,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0069,g1_s_0069,Community Topic 07,s-community-07,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0070,g1_s_0070,Nature Topic 07,s-nature-07,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0071,g1_s_0071,School Life Topic 08,s-school-life-08,school-life,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0072,g1_s_0072,Study Habits Topic 08,s-study-habits-08,study-habits,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0073,g1_s_0073,Family Jobs Topic 08,s-family-jobs-08,family-jobs,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0074,g1_s_0074,Home Routines Topic 08,s-home-routines-08,home-routines,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0075,g1_s_0075,Health Topic 08,s-health-08,health,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0076,g1_s_0076,Science Topic 08,s-science-08,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0077,g1_s_0077,Travel Topic 08,s-travel-08,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0078,g1_s_0078,Hobby Topic 08,s-hobby-08,hobby,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0079,g1_s_0079,Community Topic 08,s-community-08,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0080,g1_s_0080,Nature Topic 08,s-nature-08,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0081,g1_s_0081,School Life Topic 09,s-school-life-09,school-life,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0082,g1_s_0082,Study Habits Topic 09,s-study-habits-09,study-habits,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0083,g1_s_0083,Family Jobs Topic 09,s-family-jobs-09,family-jobs,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0084,g1_s_0084,Home Routines Topic 09,s-home-routines-09,home-routines,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0085,g1_s_0085,Health Topic 09,s-health-09,health,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0086,g1_s_0086,Science Topic 09,s-science-09,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0087,g1_s_0087,Travel Topic 09,s-travel-09,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0088,g1_s_0088,Hobby Topic 09,s-hobby-09,hobby,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0089,g1_s_0089,Community Topic 09,s-community-09,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0090,g1_s_0090,Nature Topic 09,s-nature-09,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0091,g1_s_0091,School Life Topic 10,s-school-life-10,school-life,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0092,g1_s_0092,Study Habits Topic 10,s-study-habits-10,study-habits,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0093,g1_s_0093,Family Jobs Topic 10,s-family-jobs-10,family-jobs,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0094,g1_s_0094,Home Routines Topic 10,s-home-routines-10,home-routines,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0095,g1_s_0095,Health Topic 10,s-health-10,health,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0096,g1_s_0096,Science Topic 10,s-science-10,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0097,g1_s_0097,Travel Topic 10,s-travel-10,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0098,g1_s_0098,Hobby Topic 10,s-hobby-10,hobby,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0099,g1_s_0099,Community Topic 10,s-community-10,community,planned,Replace placeholder topic text with reviewed content before student release.
+G1,S,0100,g1_s_0100,Nature Topic 10,s-nature-10,nature,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0001,g1_mgt_0001,School Projects Topic 01,mgt-school-projects-01,school-projects,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0002,g1_mgt_0002,Community Events Topic 01,mgt-community-events-01,community-events,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0003,g1_mgt_0003,Science Topic 01,mgt-science-01,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0004,g1_mgt_0004,Environment Topic 01,mgt-environment-01,environment,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0005,g1_mgt_0005,History Topic 01,mgt-history-01,history,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0006,g1_mgt_0006,Art Topic 01,mgt-art-01,art,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0007,g1_mgt_0007,Travel Topic 01,mgt-travel-01,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0008,g1_mgt_0008,Technology Topic 01,mgt-technology-01,technology,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0009,g1_mgt_0009,Teamwork Topic 01,mgt-teamwork-01,teamwork,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0010,g1_mgt_0010,Problem Solving Topic 01,mgt-problem-solving-01,problem-solving,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0011,g1_mgt_0011,School Projects Topic 02,mgt-school-projects-02,school-projects,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0012,g1_mgt_0012,Community Events Topic 02,mgt-community-events-02,community-events,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0013,g1_mgt_0013,Science Topic 02,mgt-science-02,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0014,g1_mgt_0014,Environment Topic 02,mgt-environment-02,environment,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0015,g1_mgt_0015,History Topic 02,mgt-history-02,history,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0016,g1_mgt_0016,Art Topic 02,mgt-art-02,art,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0017,g1_mgt_0017,Travel Topic 02,mgt-travel-02,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0018,g1_mgt_0018,Technology Topic 02,mgt-technology-02,technology,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0019,g1_mgt_0019,Teamwork Topic 02,mgt-teamwork-02,teamwork,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0020,g1_mgt_0020,Problem Solving Topic 02,mgt-problem-solving-02,problem-solving,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0021,g1_mgt_0021,School Projects Topic 03,mgt-school-projects-03,school-projects,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0022,g1_mgt_0022,Community Events Topic 03,mgt-community-events-03,community-events,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0023,g1_mgt_0023,Science Topic 03,mgt-science-03,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0024,g1_mgt_0024,Environment Topic 03,mgt-environment-03,environment,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0025,g1_mgt_0025,History Topic 03,mgt-history-03,history,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0026,g1_mgt_0026,Art Topic 03,mgt-art-03,art,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0027,g1_mgt_0027,Travel Topic 03,mgt-travel-03,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0028,g1_mgt_0028,Technology Topic 03,mgt-technology-03,technology,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0029,g1_mgt_0029,Teamwork Topic 03,mgt-teamwork-03,teamwork,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0030,g1_mgt_0030,Problem Solving Topic 03,mgt-problem-solving-03,problem-solving,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0031,g1_mgt_0031,School Projects Topic 04,mgt-school-projects-04,school-projects,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0032,g1_mgt_0032,Community Events Topic 04,mgt-community-events-04,community-events,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0033,g1_mgt_0033,Science Topic 04,mgt-science-04,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0034,g1_mgt_0034,Environment Topic 04,mgt-environment-04,environment,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0035,g1_mgt_0035,History Topic 04,mgt-history-04,history,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0036,g1_mgt_0036,Art Topic 04,mgt-art-04,art,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0037,g1_mgt_0037,Travel Topic 04,mgt-travel-04,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0038,g1_mgt_0038,Technology Topic 04,mgt-technology-04,technology,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0039,g1_mgt_0039,Teamwork Topic 04,mgt-teamwork-04,teamwork,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0040,g1_mgt_0040,Problem Solving Topic 04,mgt-problem-solving-04,problem-solving,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0041,g1_mgt_0041,School Projects Topic 05,mgt-school-projects-05,school-projects,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0042,g1_mgt_0042,Community Events Topic 05,mgt-community-events-05,community-events,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0043,g1_mgt_0043,Science Topic 05,mgt-science-05,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0044,g1_mgt_0044,Environment Topic 05,mgt-environment-05,environment,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0045,g1_mgt_0045,History Topic 05,mgt-history-05,history,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0046,g1_mgt_0046,Art Topic 05,mgt-art-05,art,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0047,g1_mgt_0047,Travel Topic 05,mgt-travel-05,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0048,g1_mgt_0048,Technology Topic 05,mgt-technology-05,technology,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0049,g1_mgt_0049,Teamwork Topic 05,mgt-teamwork-05,teamwork,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0050,g1_mgt_0050,Problem Solving Topic 05,mgt-problem-solving-05,problem-solving,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0051,g1_mgt_0051,School Projects Topic 06,mgt-school-projects-06,school-projects,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0052,g1_mgt_0052,Community Events Topic 06,mgt-community-events-06,community-events,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0053,g1_mgt_0053,Science Topic 06,mgt-science-06,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0054,g1_mgt_0054,Environment Topic 06,mgt-environment-06,environment,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0055,g1_mgt_0055,History Topic 06,mgt-history-06,history,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0056,g1_mgt_0056,Art Topic 06,mgt-art-06,art,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0057,g1_mgt_0057,Travel Topic 06,mgt-travel-06,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0058,g1_mgt_0058,Technology Topic 06,mgt-technology-06,technology,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0059,g1_mgt_0059,Teamwork Topic 06,mgt-teamwork-06,teamwork,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0060,g1_mgt_0060,Problem Solving Topic 06,mgt-problem-solving-06,problem-solving,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0061,g1_mgt_0061,School Projects Topic 07,mgt-school-projects-07,school-projects,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0062,g1_mgt_0062,Community Events Topic 07,mgt-community-events-07,community-events,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0063,g1_mgt_0063,Science Topic 07,mgt-science-07,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0064,g1_mgt_0064,Environment Topic 07,mgt-environment-07,environment,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0065,g1_mgt_0065,History Topic 07,mgt-history-07,history,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0066,g1_mgt_0066,Art Topic 07,mgt-art-07,art,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0067,g1_mgt_0067,Travel Topic 07,mgt-travel-07,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0068,g1_mgt_0068,Technology Topic 07,mgt-technology-07,technology,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0069,g1_mgt_0069,Teamwork Topic 07,mgt-teamwork-07,teamwork,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0070,g1_mgt_0070,Problem Solving Topic 07,mgt-problem-solving-07,problem-solving,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0071,g1_mgt_0071,School Projects Topic 08,mgt-school-projects-08,school-projects,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0072,g1_mgt_0072,Community Events Topic 08,mgt-community-events-08,community-events,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0073,g1_mgt_0073,Science Topic 08,mgt-science-08,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0074,g1_mgt_0074,Environment Topic 08,mgt-environment-08,environment,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0075,g1_mgt_0075,History Topic 08,mgt-history-08,history,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0076,g1_mgt_0076,Art Topic 08,mgt-art-08,art,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0077,g1_mgt_0077,Travel Topic 08,mgt-travel-08,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0078,g1_mgt_0078,Technology Topic 08,mgt-technology-08,technology,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0079,g1_mgt_0079,Teamwork Topic 08,mgt-teamwork-08,teamwork,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0080,g1_mgt_0080,Problem Solving Topic 08,mgt-problem-solving-08,problem-solving,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0081,g1_mgt_0081,School Projects Topic 09,mgt-school-projects-09,school-projects,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0082,g1_mgt_0082,Community Events Topic 09,mgt-community-events-09,community-events,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0083,g1_mgt_0083,Science Topic 09,mgt-science-09,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0084,g1_mgt_0084,Environment Topic 09,mgt-environment-09,environment,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0085,g1_mgt_0085,History Topic 09,mgt-history-09,history,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0086,g1_mgt_0086,Art Topic 09,mgt-art-09,art,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0087,g1_mgt_0087,Travel Topic 09,mgt-travel-09,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0088,g1_mgt_0088,Technology Topic 09,mgt-technology-09,technology,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0089,g1_mgt_0089,Teamwork Topic 09,mgt-teamwork-09,teamwork,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0090,g1_mgt_0090,Problem Solving Topic 09,mgt-problem-solving-09,problem-solving,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0091,g1_mgt_0091,School Projects Topic 10,mgt-school-projects-10,school-projects,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0092,g1_mgt_0092,Community Events Topic 10,mgt-community-events-10,community-events,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0093,g1_mgt_0093,Science Topic 10,mgt-science-10,science,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0094,g1_mgt_0094,Environment Topic 10,mgt-environment-10,environment,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0095,g1_mgt_0095,History Topic 10,mgt-history-10,history,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0096,g1_mgt_0096,Art Topic 10,mgt-art-10,art,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0097,g1_mgt_0097,Travel Topic 10,mgt-travel-10,travel,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0098,g1_mgt_0098,Technology Topic 10,mgt-technology-10,technology,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0099,g1_mgt_0099,Teamwork Topic 10,mgt-teamwork-10,teamwork,planned,Replace placeholder topic text with reviewed content before student release.
+G1,MGT,0100,g1_mgt_0100,Problem Solving Topic 10,mgt-problem-solving-10,problem-solving,planned,Replace placeholder topic text with reviewed content before student release.

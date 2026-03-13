@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0064",
+    "level": "MGT",
+    "topic": "Recycling Corner Redesign",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Recycling Corner Redesign",
+    "text": "The eco club wanted younger students to sort recycling more correctly. At first, the team used one poster that listed every rule in small writing, but students still dropped paper and plastic into the wrong bins. A practice class said \"I can see the bins, but I am not sure which one is right.\" After hearing that, the team gave each bin one strong color and one simple symbol and placed the same color signs above the matching shelves. They also set a reminder card by the door to the recycling corner so students saw a real example before making a choice. On the next test day, more students sorted their materials correctly on the next clean-up day. The team noticed that clear examples helped more than long rule lists. Because of that result, the eco club planned to redesign more green spaces with the same system.",
+    "word_count": 148
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Painting a room with brighter colors",
+        "Buying more books for a library sale",
+        "Writing long reports about class rules",
+        "Improving eco signs so younger students can sort materials correctly"
+      ],
+      "answer_index": 3,
+      "rationale": "The whole passage focuses on improving a system for younger students."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first plan?",
+      "choices": [
+        "The first plan had too many steps",
+        "Students could not tell what to do next",
+        "Students still put materials into the wrong bins",
+        "The labels were too small to read quickly"
+      ],
+      "answer_index": 2,
+      "rationale": "The early part of the passage explains what did not work well."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the team place next to each bin?",
+      "choices": [
+        "Color blocks",
+        "One example item",
+        "Larger arrows",
+        "Short signs"
+      ],
+      "answer_index": 1,
+      "rationale": "The middle of the passage tells what the team added or changed."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does hesitation mean in the seventh sentence?",
+      "choices": [
+        "A pause caused by not feeling sure",
+        "A room that is easy to clean",
+        "A rule about lunch time",
+        "A person who leads the school"
+      ],
+      "answer_index": 0,
+      "rationale": "The word meaning comes from the way the passage uses it."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did the new design work better for younger students?",
+      "choices": [
+        "It made the room much larger",
+        "It reduced the number of students",
+        "It removed every sign from the area",
+        "The new system showed clearer differences between each eco choice"
+      ],
+      "answer_index": 3,
+      "rationale": "You have to connect the redesign changes with the later results."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the team most likely do next?",
+      "choices": [
+        "Remove every sign from the room",
+        "Ask students to memorize everything",
+        "Use the same clearer system in more eco areas",
+        "Use the same clearer style in more places"
+      ],
+      "answer_index": 2,
+      "rationale": "The last sentence points to the team's next likely action."
+    }
+  ]
+}

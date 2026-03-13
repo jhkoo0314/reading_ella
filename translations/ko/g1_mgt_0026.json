@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0026",
+    "lang": "ko",
+    "version": "0.1",
+    "source": "rule_based_seed"
+  },
+  "passage": {
+    "title_translated": "Color Exhibit 지도 프로젝트",
+    "text_translated": "이 글은 어린 학생들이 더 쉽게 이해하고 움직이도록 안내 체계를 고친 내용입니다. 처음 계획에서는 borders hid 중요한 안내. 그래서 팀은 quick 지도를 더하거나 바꾸었습니다. 그 결과 학생들이 다음 순서나 방향을 더 쉽게 알 수 있게 되었습니다."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt_translated": "이 글은 주로 무엇에 대한 글인가요?",
+      "choices_translated": [
+        "학급 규칙에 대한 긴 보고서 쓰기",
+        "전시실 길 더 쉬운 아이들 이해하다 더 쉽게 만들기",
+        "방을 더 밝은 색으로 칠하기",
+        "도서관 판매용 책 더 사기"
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt_translated": "학생들은 처음 계획의 어떤 문제를 말했나요?",
+      "choices_translated": [
+        "borders hid 중요한 안내",
+        "라벨이 너무 작아서 빨리 읽기 어려웠다",
+        "처음 계획에는 단계가 너무 많았다",
+        "학생들은 다음에 무엇을 해야 할지 알기 어려웠다"
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt_translated": "그 group은 무엇을 장소 near 전시실 entrance했나요?",
+      "choices_translated": [
+        "더 큰 화살표",
+        "짧은 표지판",
+        "색 블록",
+        "quick 지도"
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt_translated": "두 번째 문장에서 decorative는 무슨 뜻인가요?",
+      "choices_translated": [
+        "점심 시간 규칙",
+        "학교를 이끄는 사람",
+        "만들었다 look pretty",
+        "청소하기 쉬운 방"
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt_translated": "왜 새 디자인이 더 어린 학생들에게 더 잘 맞았나요?",
+      "choices_translated": [
+        "그 구역의 표지판을 모두 없앴다",
+        "중요한 안내 stood out 더 분명하게",
+        "방을 훨씬 더 크게 만들었다",
+        "학생 수를 줄였다"
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt_translated": "팀은 다음에 무엇을 할 가능성이 가장 큰가요?",
+      "choices_translated": [
+        "Apply 경로 체계 future 학교 미술 shows",
+        "더 많은 곳에 같은 더 분명한 방식을 쓰기",
+        "방의 표지판을 모두 없애기",
+        "학생들에게 모든 것을 외우라고 하기"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_gt_0016",
+    "level": "GT",
+    "topic": "Animal Corner Board",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Animal Corner Board",
+    "text": "Our group keeps a feeding turn board next to the fish tank. After lunch, Sora checks it before story time. The feeding turn board has name tags for feeding and tank check turns for the day's job. Mr. Lee asks us to take care of the class pet on time. Sometimes we compare today's tag with yesterday's tag and notice one small change. We like the feeding turn board because it helps us finish pet work safely.",
+    "word_count": 77
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        "Cleaning a noisy hallway",
+        "Buying new school supplies",
+        "Painting a class poster",
+        "Using the feeding turn board"
+      ],
+      "answer_index": 3,
+      "rationale": "The whole passage explains how the feeding turn board is used."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "Where is the feeding turn board?",
+      "choices": [
+        "near the window",
+        "next to the sink",
+        "next to the fish tank",
+        "by the door"
+      ],
+      "answer_index": 2,
+      "rationale": "The first sentence says the feeding turn board is next to the fish tank."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "When does Sora use the feeding turn board?",
+      "choices": [
+        "On Saturday morning",
+        "After lunch",
+        "In the morning",
+        "Before bed"
+      ],
+      "answer_index": 1,
+      "rationale": "The second sentence says Sora uses it after lunch."
+    },
+    {
+      "id": "q4",
+      "skill": "detail",
+      "prompt": "What does the feeding turn board have?",
+      "choices": [
+        "Name tags",
+        "Picture cards",
+        "Animal cards",
+        "Short notes"
+      ],
+      "answer_index": 0,
+      "rationale": "The third sentence says the feeding turn board has name tags."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does compare mean in the fifth sentence?",
+      "choices": [
+        "Start a noisy game",
+        "Hide something quickly",
+        "Finish all the work",
+        "Look at two things together"
+      ],
+      "answer_index": 3,
+      "rationale": "Compare means to look at two things and think about them together."
+    },
+    {
+      "id": "q6",
+      "skill": "vocab_in_context",
+      "prompt": "What does notice mean in the fifth sentence?",
+      "choices": [
+        "Carry a heavy box",
+        "Draw a new picture",
+        "See something important",
+        "Make a loud sound"
+      ],
+      "answer_index": 2,
+      "rationale": "Notice means to see and pay attention to something."
+    }
+  ]
+}

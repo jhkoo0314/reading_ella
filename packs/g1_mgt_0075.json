@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0075",
+    "level": "MGT",
+    "topic": "History Corner Update",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "History Corner Update",
+    "text": "A museum helper group hoped first graders could move through a past-events exhibit with less confusion. At first, the helpers made decorated signs with too many story details in each box, but the notes were interesting but too dense for one quick look. Several younger students said \"There are many facts here, and the order feels hard to follow.\" After hearing that, the team used one strong date strip across the whole wall and made the event titles larger than the extra facts. They also hung one reminder sign halfway through the wall so children got another clue before the wall changed direction. On the next test day, the younger group reached the final exhibit with fewer mistakes. The team noticed that students needed the order of events to stand out first. Because of that result, the team decided to update the rest of the exhibit in the clearer style.",
+    "word_count": 151
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Redesigning a museum wall for first graders",
+        "Painting a room with brighter colors",
+        "Buying more books for a library sale",
+        "Writing long reports about class rules"
+      ],
+      "answer_index": 0,
+      "rationale": "The whole passage focuses on improving a system for younger students."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first plan?",
+      "choices": [
+        "The labels were too small to read quickly",
+        "The first plan had too many steps",
+        "Students could not tell what to do next",
+        "The notes were too dense for a quick look"
+      ],
+      "answer_index": 3,
+      "rationale": "The early part of the passage explains what did not work well."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the helpers add under every event card?",
+      "choices": [
+        "Short signs",
+        "Color blocks",
+        "One short question",
+        "Larger arrows"
+      ],
+      "answer_index": 2,
+      "rationale": "The middle of the passage tells what the team added or changed."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does exhibit mean in the sixth sentence?",
+      "choices": [
+        "A person who leads the school",
+        "A display that people come to see",
+        "A room that is easy to clean",
+        "A rule about lunch time"
+      ],
+      "answer_index": 1,
+      "rationale": "The word meaning comes from the way the passage uses it."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did the new design work better for younger students?",
+      "choices": [
+        "Students received clearer clues about where the story began and ended",
+        "It made the room much larger",
+        "It reduced the number of students",
+        "It removed every sign from the area"
+      ],
+      "answer_index": 0,
+      "rationale": "You have to connect the redesign changes with the later results."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the team most likely do next?",
+      "choices": [
+        "Use the same clearer style in more places",
+        "Remove every sign from the room",
+        "Ask students to memorize everything",
+        "Update the rest of the exhibit in the clearer style"
+      ],
+      "answer_index": 3,
+      "rationale": "The last sentence points to the team's next likely action."
+    }
+  ]
+}

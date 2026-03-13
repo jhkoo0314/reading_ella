@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0014",
+    "level": "MGT",
+    "topic": "Garden Tool Sign Update",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Garden Tool Sign Update",
+    "text": "A green team hoped first graders could use the garden tool area with less confusion. At first, the helpers made large bins with labels that looked similar to one another, but the labels looked alike, so younger students hesitated. Several first graders said \"The pictures are pretty, yet the labels feel too similar.\" After hearing that, the team shortened every rule to a few clear words and added one example item next to each bin. They also hung a quick-check board beside the tool hooks so children could check the key rule again before they used the area. On the next test day, the younger class used the garden area with fewer mistakes. The team noticed that strong colors and simple symbols reduced hesitation. Because of that result, the team decided to update the rest of the recycling area in the clearer style.",
+    "word_count": 144
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Writing long reports about class rules",
+        "Redesigning an environmental work area for first graders",
+        "Painting a room with brighter colors",
+        "Buying more books for a library sale"
+      ],
+      "answer_index": 1,
+      "rationale": "The whole passage focuses on improving a system for younger students."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first plan?",
+      "choices": [
+        "The labels looked too similar",
+        "The labels were too small to read quickly",
+        "The first plan had too many steps",
+        "Students could not tell what to do next"
+      ],
+      "answer_index": 0,
+      "rationale": "The early part of the passage explains what did not work well."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the group hang beside the tool hooks?",
+      "choices": [
+        "Larger arrows",
+        "Short signs",
+        "Color blocks",
+        "A quick-check board"
+      ],
+      "answer_index": 3,
+      "rationale": "The middle of the passage tells what the team added or changed."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does compost mean in the fifth sentence?",
+      "choices": [
+        "A rule about lunch time",
+        "A person who leads the school",
+        "A place for food scraps and plant waste",
+        "A room that is easy to clean"
+      ],
+      "answer_index": 2,
+      "rationale": "The word meaning comes from the way the passage uses it."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did the new design work better for younger students?",
+      "choices": [
+        "It removed every sign from the area",
+        "Students could use examples and colors to make faster decisions",
+        "It made the room much larger",
+        "It reduced the number of students"
+      ],
+      "answer_index": 1,
+      "rationale": "You have to connect the redesign changes with the later results."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the team most likely do next?",
+      "choices": [
+        "Update the rest of the recycling space in the new style",
+        "Use the same clearer style in more places",
+        "Remove every sign from the room",
+        "Ask students to memorize everything"
+      ],
+      "answer_index": 0,
+      "rationale": "The last sentence points to the team's next likely action."
+    }
+  ]
+}

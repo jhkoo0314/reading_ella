@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_s_0083",
+    "level": "S",
+    "topic": "Family Helper Check",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Family Helper Check",
+    "text": "Our family tested two ways to remember evening chores last month. Lina used one big family note, but Evan used color chore slips. After a busy week, Evan needed fewer reminders because the color slips were simple to check quickly. Our family marked each finished chore on a chart by the table. When Lina saw the difference, she changed to color chore slips. After another day, her home jobs were done in a calmer order. The students talked about the test before choosing a better method. The group learned that one-step job tools can make chores less confusing.",
+    "word_count": 99
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mostly about?",
+      "choices": [
+        "Finding an easier system for home chores",
+        "Buying decorations for a party",
+        "Painting a classroom wall",
+        "Packing clothes for a trip"
+      ],
+      "answer_index": 0,
+      "rationale": "The whole passage follows one test and what the group learned from it."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What did Evan use to remember his jobs?",
+      "choices": [
+        "A long paper list",
+        "A toy basket",
+        "A paint brush",
+        "Color chore slips"
+      ],
+      "answer_index": 3,
+      "rationale": "The second sentence directly tells which tool or place was used."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the group check or write down?",
+      "choices": [
+        "The lunch menu",
+        "The weather report",
+        "Each finished chore",
+        "The test results"
+      ],
+      "answer_index": 2,
+      "rationale": "The fourth sentence explains what the group checked or recorded."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does difference mean in the fifth sentence?",
+      "choices": [
+        "A loud sound in a room",
+        "The way two things are not the same",
+        "A list of class rules",
+        "A place to store tools"
+      ],
+      "answer_index": 1,
+      "rationale": "Difference means the two results did not match each other."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does chore mean in the first sentence?",
+      "choices": [
+        "A home job that someone needs to do",
+        "A color on the wall",
+        "A person who visits a club",
+        "A kind of snack"
+      ],
+      "answer_index": 0,
+      "rationale": "The word meaning comes from how it is used in the passage."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "Why did Lina switch to color chore slips?",
+      "choices": [
+        "The teacher told the student to stop working",
+        "The group wanted to decorate the room more",
+        "The first tool was missing from the class",
+        "She thought color slips would help her check each task faster"
+      ],
+      "answer_index": 3,
+      "rationale": "The student changed after seeing which method worked better."
+    }
+  ]
+}

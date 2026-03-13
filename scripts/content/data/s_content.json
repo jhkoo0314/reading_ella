@@ -1,0 +1,1137 @@
+{
+  "main_idea_distractors": [
+    "Buying decorations for a party",
+    "Painting a classroom wall",
+    "Packing clothes for a trip",
+    "Choosing a movie for the weekend"
+  ],
+  "record_pool": [
+    "The test results",
+    "The lunch menu",
+    "The weather report",
+    "A library story",
+    "A music list"
+  ],
+  "topics": {
+    "school-life": {
+      "titles": [
+        "Rainy Day Folder Test",
+        "Paper Holder Check",
+        "Take-Home Bag Trial"
+      ],
+      "intros": [
+        "Our reading team tested two ways to carry take-home papers"
+      ],
+      "actor1s": [
+        "Mina",
+        "Yuna",
+        "Sora"
+      ],
+      "method1s": [
+        "a thin plastic folder",
+        "a loose paper folder",
+        "an open paper file"
+      ],
+      "actor2s": [
+        "Joon",
+        "Noah",
+        "Theo"
+      ],
+      "method2s": [
+        "a zip bag",
+        "a sealed pouch",
+        "a snap bag"
+      ],
+      "durations": [
+        "one rainy week",
+        "five school days",
+        "one wet week"
+      ],
+      "result_subjects": [
+        "Joon's papers",
+        "Noah's papers",
+        "Theo's papers"
+      ],
+      "result_changes": [
+        "stayed drier",
+        "looked neater",
+        "came home in better shape"
+      ],
+      "reasons": [
+        "the bag closed tightly on the walk home",
+        "the pouch kept water away",
+        "the snap bag protected the edges"
+      ],
+      "record_sentences": [
+        "The team checked each folder and wrote the results in a notebook."
+      ],
+      "record_answers": [
+        "The results"
+      ],
+      "observers": [
+        "Mina",
+        "Yuna",
+        "Sora"
+      ],
+      "observer_pronouns": [
+        "she",
+        "she",
+        "she"
+      ],
+      "better_methods": [
+        "a zip bag",
+        "a sealed pouch",
+        "a snap bag"
+      ],
+      "later_sentences": [
+        "Two days later, her papers also stayed neat on the walk home.",
+        "After the next rain, her pages still looked clean and flat.",
+        "By Friday, her work came back without bent corners."
+      ],
+      "lessons": [
+        "a small change in storage can protect school papers better",
+        "the right holder can keep homework safe",
+        "simple storage choices can make school work easier to keep neat"
+      ],
+      "q2_prompts": [
+        "Which kind of holder did Joon use?",
+        "Which kind of holder did Noah use?",
+        "Which kind of holder did Theo use?"
+      ],
+      "q2_answers": [
+        "A zip bag",
+        "A sealed pouch",
+        "A snap bag"
+      ],
+      "vocab_prompts": [
+        "What does folder mean in the second sentence?"
+      ],
+      "vocab_answers": [
+        "A cover that keeps papers together"
+      ],
+      "inference_prompts": [
+        "Why did Mina switch to a zip bag?",
+        "Why did Yuna switch to a sealed pouch?",
+        "Why did Sora switch to a snap bag?"
+      ],
+      "inference_answers": [
+        "She thought it would protect her papers better",
+        "She thought it would keep her work drier",
+        "She thought it would stop the pages from bending"
+      ],
+      "main_answers": [
+        "Learning which holder keeps school papers safe",
+        "Testing a better way to carry take-home papers",
+        "Finding a bag that protects homework on rainy days"
+      ]
+    },
+    "study-habits": {
+      "titles": [
+        "Word Card Study Test",
+        "New Word Review Check",
+        "Memory Card Trial"
+      ],
+      "intros": [
+        "Our reading club tested two ways to remember new words"
+      ],
+      "actor1s": [
+        "Sora",
+        "Lina",
+        "Hana"
+      ],
+      "method1s": [
+        "one big notebook",
+        "a long word list",
+        "one large study page"
+      ],
+      "actor2s": [
+        "Theo",
+        "Evan",
+        "Noah"
+      ],
+      "method2s": [
+        "small word cards",
+        "tiny review cards",
+        "short word slips"
+      ],
+      "durations": [
+        "one week",
+        "five days",
+        "a school week"
+      ],
+      "result_subjects": [
+        "Theo",
+        "Evan",
+        "Noah"
+      ],
+      "result_changes": [
+        "remembered more words",
+        "answered faster",
+        "used the words more clearly"
+      ],
+      "reasons": [
+        "he could review the cards many times",
+        "the small cards were easy to carry",
+        "the short slips helped him check one word at a time"
+      ],
+      "record_sentences": [
+        "The club counted each correct answer and wrote the totals in a notebook."
+      ],
+      "record_answers": [
+        "The totals"
+      ],
+      "observers": [
+        "Sora",
+        "Lina",
+        "Hana"
+      ],
+      "observer_pronouns": [
+        "she",
+        "she",
+        "she"
+      ],
+      "better_methods": [
+        "small word cards",
+        "tiny review cards",
+        "short word slips"
+      ],
+      "later_sentences": [
+        "Three days later, she also answered the review game more quickly.",
+        "At the next quiz, she remembered more of the new words.",
+        "After more practice, her word checks became easier and faster."
+      ],
+      "lessons": [
+        "short review tools can help students study a little at a time",
+        "small study cards can make practice easier to repeat",
+        "breaking a big list into small parts can help memory"
+      ],
+      "q2_prompts": [
+        "What did Theo use to study?",
+        "What did Evan use to study?",
+        "What did Noah use to study?"
+      ],
+      "q2_answers": [
+        "Small word cards",
+        "Tiny review cards",
+        "Short word slips"
+      ],
+      "vocab_prompts": [
+        "What does review mean in the third sentence?"
+      ],
+      "vocab_answers": [
+        "Look at something again to remember it"
+      ],
+      "inference_prompts": [
+        "Why did Sora switch to small word cards?",
+        "Why did Lina switch to tiny review cards?",
+        "Why did Hana switch to short word slips?"
+      ],
+      "inference_answers": [
+        "She thought shorter practice would help her remember more",
+        "She thought the cards would make review easier to repeat",
+        "She thought the slips would help her check words one by one"
+      ],
+      "main_answers": [
+        "Learning a better way to remember new words",
+        "Testing which study tool helps word review",
+        "Finding an easier way to practice vocabulary"
+      ]
+    },
+    "family-jobs": {
+      "titles": [
+        "Chore Chart Test",
+        "Kitchen Job Trial",
+        "Family Helper Check"
+      ],
+      "intros": [
+        "Our family tested two ways to remember evening chores"
+      ],
+      "actor1s": [
+        "Mina",
+        "Yuna",
+        "Lina"
+      ],
+      "method1s": [
+        "one long note on the fridge",
+        "a plain paper list",
+        "one big family note"
+      ],
+      "actor2s": [
+        "Joon",
+        "Theo",
+        "Evan"
+      ],
+      "method2s": [
+        "small chore cards",
+        "job cards on a ring",
+        "color chore slips"
+      ],
+      "durations": [
+        "one week",
+        "five evenings",
+        "a busy week"
+      ],
+      "result_subjects": [
+        "Joon",
+        "Theo",
+        "Evan"
+      ],
+      "result_changes": [
+        "finished his jobs on time",
+        "missed fewer jobs",
+        "needed fewer reminders"
+      ],
+      "reasons": [
+        "the small cards showed one job at a time",
+        "the ring cards were easy to carry",
+        "the color slips were simple to check quickly"
+      ],
+      "record_sentences": [
+        "Our family marked each finished chore on a chart by the table."
+      ],
+      "record_answers": [
+        "Each finished chore"
+      ],
+      "observers": [
+        "Mina",
+        "Yuna",
+        "Lina"
+      ],
+      "observer_pronouns": [
+        "she",
+        "she",
+        "she"
+      ],
+      "better_methods": [
+        "small chore cards",
+        "job cards on a ring",
+        "color chore slips"
+      ],
+      "later_sentences": [
+        "Two evenings later, she also finished her jobs without extra reminders.",
+        "By the weekend, she remembered more tasks by herself.",
+        "After another day, her home jobs were done in a calmer order."
+      ],
+      "lessons": [
+        "clear job cards can make home chores easier to follow",
+        "small reminders can help a family share work better",
+        "one-step job tools can make chores less confusing"
+      ],
+      "q2_prompts": [
+        "What did Joon use to remember his jobs?",
+        "What did Theo use to remember his jobs?",
+        "What did Evan use to remember his jobs?"
+      ],
+      "q2_answers": [
+        "Small chore cards",
+        "Job cards on a ring",
+        "Color chore slips"
+      ],
+      "vocab_prompts": [
+        "What does chore mean in the first sentence?"
+      ],
+      "vocab_answers": [
+        "A home job that someone needs to do"
+      ],
+      "inference_prompts": [
+        "Why did Mina switch to small chore cards?",
+        "Why did Yuna switch to job cards on a ring?",
+        "Why did Lina switch to color chore slips?"
+      ],
+      "inference_answers": [
+        "She thought they would make the jobs easier to remember",
+        "She thought a smaller tool would help her follow the order",
+        "She thought color slips would help her check each task faster"
+      ],
+      "main_answers": [
+        "Learning which reminder helps with family chores",
+        "Testing a clearer way to remember evening jobs",
+        "Finding an easier system for home chores"
+      ]
+    },
+    "home-routines": {
+      "titles": [
+        "Morning Routine Check",
+        "Bedtime Routine Trial",
+        "After-School Order Test"
+      ],
+      "intros": [
+        "Our home tested two ways to follow the after-school routine"
+      ],
+      "actor1s": [
+        "Sia",
+        "Hana",
+        "Lina"
+      ],
+      "method1s": [
+        "one long spoken reminder",
+        "a simple oral list",
+        "a parent saying all the steps"
+      ],
+      "actor2s": [
+        "Noah",
+        "Theo",
+        "Evan"
+      ],
+      "method2s": [
+        "picture routine cards",
+        "a step board with photos",
+        "small routine pictures"
+      ],
+      "durations": [
+        "one week",
+        "five afternoons",
+        "a school week"
+      ],
+      "result_subjects": [
+        "Noah",
+        "Theo",
+        "Evan"
+      ],
+      "result_changes": [
+        "finished sooner",
+        "missed fewer steps",
+        "moved through the routine more calmly"
+      ],
+      "reasons": [
+        "the pictures showed the order clearly",
+        "the photo board helped him see what came next",
+        "the small pictures made each step easy to check"
+      ],
+      "record_sentences": [
+        "My mom timed each routine and wrote the minutes on a chart."
+      ],
+      "record_answers": [
+        "The minutes"
+      ],
+      "observers": [
+        "Sia",
+        "Hana",
+        "Lina"
+      ],
+      "observer_pronouns": [
+        "she",
+        "she",
+        "she"
+      ],
+      "better_methods": [
+        "picture routine cards",
+        "a step board with photos",
+        "small routine pictures"
+      ],
+      "later_sentences": [
+        "Two days later, she also finished her routine with fewer reminders.",
+        "By Thursday, she moved from snack time to homework much more smoothly.",
+        "After more practice, her steps stayed in the right order."
+      ],
+      "lessons": [
+        "clear pictures can make a routine easier to follow",
+        "seeing each step can help children move in order",
+        "simple visual reminders can improve home routines"
+      ],
+      "q2_prompts": [
+        "What did Noah use to follow the routine?",
+        "What did Theo use to follow the routine?",
+        "What did Evan use to follow the routine?"
+      ],
+      "q2_answers": [
+        "Picture routine cards",
+        "A step board with photos",
+        "Small routine pictures"
+      ],
+      "vocab_prompts": [
+        "What does routine mean in the first sentence?"
+      ],
+      "vocab_answers": [
+        "A set of steps done in the usual order"
+      ],
+      "inference_prompts": [
+        "Why did Sia switch to picture routine cards?",
+        "Why did Hana switch to a step board with photos?",
+        "Why did Lina switch to small routine pictures?"
+      ],
+      "inference_answers": [
+        "She thought the pictures would help her see each step clearly",
+        "She thought the photo board would make the order easier to follow",
+        "She thought the small pictures would help her miss fewer steps"
+      ],
+      "main_answers": [
+        "Learning a clearer way to follow a home routine",
+        "Testing which reminder helps after-school steps",
+        "Finding an easier system for daily routines"
+      ]
+    },
+    "health": {
+      "titles": [
+        "Stretch Break Test",
+        "Water Bottle Trial",
+        "Healthy Start Check"
+      ],
+      "intros": [
+        "Our class tested two ways to feel ready after a long sitting time"
+      ],
+      "actor1s": [
+        "Mina",
+        "Yuna",
+        "Sora"
+      ],
+      "method1s": [
+        "staying in the chair quietly",
+        "doing only one quick move",
+        "taking a short rest at the desk"
+      ],
+      "actor2s": [
+        "Joon",
+        "Theo",
+        "Evan"
+      ],
+      "method2s": [
+        "three simple stretches",
+        "a short stretch routine",
+        "easy arm and leg stretches"
+      ],
+      "durations": [
+        "one week",
+        "five class days",
+        "a school week"
+      ],
+      "result_subjects": [
+        "Joon",
+        "Theo",
+        "Evan"
+      ],
+      "result_changes": [
+        "looked more awake",
+        "started work faster",
+        "focused more easily"
+      ],
+      "reasons": [
+        "the stretches woke up his body",
+        "the short routine helped his body feel ready",
+        "moving his arms and legs gave him fresh energy"
+      ],
+      "record_sentences": [
+        "The teacher checked how quickly each student started the next task."
+      ],
+      "record_answers": [
+        "How quickly each student started"
+      ],
+      "observers": [
+        "Mina",
+        "Yuna",
+        "Sora"
+      ],
+      "observer_pronouns": [
+        "she",
+        "she",
+        "she"
+      ],
+      "better_methods": [
+        "three simple stretches",
+        "a short stretch routine",
+        "easy arm and leg stretches"
+      ],
+      "later_sentences": [
+        "Two days later, she also began her worksheet more quickly.",
+        "At the next break, she felt ready to work again sooner.",
+        "After more practice, her body felt less tired during lessons."
+      ],
+      "lessons": [
+        "small stretches can help students feel ready again",
+        "short movement breaks can improve focus",
+        "a simple stretch routine can help after long sitting"
+      ],
+      "q2_prompts": [
+        "What did Joon do after sitting for a long time?",
+        "What did Theo do after sitting for a long time?",
+        "What did Evan do after sitting for a long time?"
+      ],
+      "q2_answers": [
+        "Three simple stretches",
+        "A short stretch routine",
+        "Easy arm and leg stretches"
+      ],
+      "vocab_prompts": [
+        "What does stretch mean in the second sentence?"
+      ],
+      "vocab_answers": [
+        "Move the body to loosen it"
+      ],
+      "inference_prompts": [
+        "Why did Mina switch to three simple stretches?",
+        "Why did Yuna switch to a short stretch routine?",
+        "Why did Sora switch to easy arm and leg stretches?"
+      ],
+      "inference_answers": [
+        "She thought moving her body would help her feel ready",
+        "She thought the routine would help her focus faster",
+        "She thought the stretches would give her more energy"
+      ],
+      "main_answers": [
+        "Learning how a short stretch break helps students",
+        "Testing which break method helps after sitting",
+        "Finding a better way to feel ready for work again"
+      ]
+    },
+    "science": {
+      "titles": [
+        "Bean Seed Light Test",
+        "Plant Window Trial",
+        "Growth Check Notebook"
+      ],
+      "intros": [
+        "Our science club planted bean seeds in paper cups"
+      ],
+      "actor1s": [
+        "Mina",
+        "Yuna",
+        "Hana"
+      ],
+      "method1s": [
+        "a sunny window spot",
+        "the bright window ledge",
+        "the lightest place in the room"
+      ],
+      "actor2s": [
+        "Joon",
+        "Theo",
+        "Noah"
+      ],
+      "method2s": [
+        "a dark shelf",
+        "a low back shelf",
+        "a spot far from the window"
+      ],
+      "durations": [
+        "one week",
+        "seven days",
+        "five school days"
+      ],
+      "result_subjects": [
+        "Mina's plant",
+        "Yuna's plant",
+        "Hana's plant"
+      ],
+      "result_changes": [
+        "looked taller",
+        "grew faster",
+        "showed stronger leaves"
+      ],
+      "reasons": [
+        "it got more light each day",
+        "the window gave it more sunshine",
+        "the bright spot helped it make food"
+      ],
+      "record_sentences": [
+        "The club measured each stem and wrote the numbers in a notebook."
+      ],
+      "record_answers": [
+        "The stem numbers"
+      ],
+      "observers": [
+        "Joon",
+        "Theo",
+        "Noah"
+      ],
+      "observer_pronouns": [
+        "he",
+        "he",
+        "he"
+      ],
+      "better_methods": [
+        "the sunny window",
+        "the bright window ledge",
+        "a place closer to the light"
+      ],
+      "later_sentences": [
+        "Two days later, his plant started to grow faster.",
+        "After the move, his plant began to look stronger too.",
+        "By the next check, his leaves were larger than before."
+      ],
+      "lessons": [
+        "a small change in place can help a plant grow better",
+        "more light can improve plant growth",
+        "the right spot can make a plant healthier"
+      ],
+      "q2_prompts": [
+        "Where did Mina put her cup?",
+        "Where did Yuna put her cup?",
+        "Where did Hana put her cup?"
+      ],
+      "q2_answers": [
+        "Near the sunny window",
+        "On the bright window ledge",
+        "In the lightest place in the room"
+      ],
+      "vocab_prompts": [
+        "What does stem mean in the fourth sentence?"
+      ],
+      "vocab_answers": [
+        "The plant's main stalk"
+      ],
+      "inference_prompts": [
+        "Why did Joon move his cup closer to the window?",
+        "Why did Theo move his cup closer to the window?",
+        "Why did Noah move his cup closer to the light?"
+      ],
+      "inference_answers": [
+        "He thought more light would help his plant",
+        "He thought the brighter place would help it grow",
+        "He thought the plant needed a better light spot"
+      ],
+      "main_answers": [
+        "Learning how light helps plants grow",
+        "Testing which place helps a bean plant best",
+        "Finding a better spot for plant growth"
+      ]
+    },
+    "travel": {
+      "titles": [
+        "Museum Route Test",
+        "Trip Map Trial",
+        "Walking Plan Check"
+      ],
+      "intros": [
+        "Our field trip team tested two ways to walk through the museum"
+      ],
+      "actor1s": [
+        "Sora",
+        "Lina",
+        "Hana"
+      ],
+      "method1s": [
+        "one long route on a big map",
+        "a full map with every room",
+        "one detailed hallway map"
+      ],
+      "actor2s": [
+        "Theo",
+        "Noah",
+        "Evan"
+      ],
+      "method2s": [
+        "small stop cards",
+        "a simple route strip",
+        "short turn cards"
+      ],
+      "durations": [
+        "one practice day",
+        "one long morning",
+        "a trip rehearsal"
+      ],
+      "result_subjects": [
+        "Theo's group",
+        "Noah's group",
+        "Evan's group"
+      ],
+      "result_changes": [
+        "reached each stop more smoothly",
+        "got lost less often",
+        "moved between rooms more calmly"
+      ],
+      "reasons": [
+        "the short cards showed one turn at a time",
+        "the route strip was easier to follow",
+        "the turn cards helped them focus on the next step"
+      ],
+      "record_sentences": [
+        "The teachers timed each route and marked the stops on a chart."
+      ],
+      "record_answers": [
+        "The stops on the chart"
+      ],
+      "observers": [
+        "Sora",
+        "Lina",
+        "Hana"
+      ],
+      "observer_pronouns": [
+        "she",
+        "she",
+        "she"
+      ],
+      "better_methods": [
+        "small stop cards",
+        "a simple route strip",
+        "short turn cards"
+      ],
+      "later_sentences": [
+        "At the next practice, her group also moved from room to room more easily.",
+        "During the next walk, her team missed fewer turns.",
+        "Later, her group followed the museum path with less confusion."
+      ],
+      "lessons": [
+        "short step-by-step guides can help during a trip",
+        "one clear route at a time can make travel easier",
+        "simple path reminders can help groups move smoothly"
+      ],
+      "q2_prompts": [
+        "What did Theo's group use to walk through the museum?",
+        "What did Noah's group use to walk through the museum?",
+        "What did Evan's group use to walk through the museum?"
+      ],
+      "q2_answers": [
+        "Small stop cards",
+        "A simple route strip",
+        "Short turn cards"
+      ],
+      "vocab_prompts": [
+        "What does route mean in the first sentence?"
+      ],
+      "vocab_answers": [
+        "The way from one place to another"
+      ],
+      "inference_prompts": [
+        "Why did Sora switch to small stop cards?",
+        "Why did Lina switch to a simple route strip?",
+        "Why did Hana switch to short turn cards?"
+      ],
+      "inference_answers": [
+        "She thought one step at a time would be easier to follow",
+        "She thought the shorter guide would reduce confusion",
+        "She thought clear turn cards would help her group stay on course"
+      ],
+      "main_answers": [
+        "Learning which guide helps on a museum trip",
+        "Testing an easier route system for a field trip",
+        "Finding a clearer way to move through the museum"
+      ]
+    },
+    "hobby": {
+      "titles": [
+        "Bracelet Pattern Test",
+        "Craft Step Trial",
+        "Club Design Check"
+      ],
+      "intros": [
+        "Our craft club tested two ways to make bead bracelets"
+      ],
+      "actor1s": [
+        "Mina",
+        "Yuna",
+        "Sia"
+      ],
+      "method1s": [
+        "a long written list",
+        "one page of written steps",
+        "a full notebook page"
+      ],
+      "actor2s": [
+        "Joon",
+        "Theo",
+        "Evan"
+      ],
+      "method2s": [
+        "a color pattern card",
+        "small step pictures",
+        "a short bead pattern strip"
+      ],
+      "durations": [
+        "one week",
+        "three club meetings",
+        "a craft week"
+      ],
+      "result_subjects": [
+        "Joon",
+        "Theo",
+        "Evan"
+      ],
+      "result_changes": [
+        "made fewer mistakes",
+        "finished his bracelet sooner",
+        "kept the bead order more carefully"
+      ],
+      "reasons": [
+        "the pattern card showed the colors clearly",
+        "the step pictures were easy to follow",
+        "the strip helped him see the order at a glance"
+      ],
+      "record_sentences": [
+        "The club counted each finished bracelet and checked the color pattern."
+      ],
+      "record_answers": [
+        "The finished bracelets"
+      ],
+      "observers": [
+        "Mina",
+        "Yuna",
+        "Sia"
+      ],
+      "observer_pronouns": [
+        "she",
+        "she",
+        "she"
+      ],
+      "better_methods": [
+        "a color pattern card",
+        "small step pictures",
+        "a short bead pattern strip"
+      ],
+      "later_sentences": [
+        "At the next club meeting, she also finished with fewer errors.",
+        "Two days later, her bracelet colors stayed in the right order.",
+        "After more practice, her craft steps became easier to follow."
+      ],
+      "lessons": [
+        "clear patterns can help with a craft project",
+        "small visual steps can make hobby work easier",
+        "showing color order can reduce mistakes in a craft"
+      ],
+      "q2_prompts": [
+        "What did Joon use to make the bracelet?",
+        "What did Theo use to make the bracelet?",
+        "What did Evan use to make the bracelet?"
+      ],
+      "q2_answers": [
+        "A color pattern card",
+        "Small step pictures",
+        "A short bead pattern strip"
+      ],
+      "vocab_prompts": [
+        "What does pattern mean in the passage?"
+      ],
+      "vocab_answers": [
+        "A design that follows the same order"
+      ],
+      "inference_prompts": [
+        "Why did Mina switch to a color pattern card?",
+        "Why did Yuna switch to small step pictures?",
+        "Why did Sia switch to a short bead pattern strip?"
+      ],
+      "inference_answers": [
+        "She thought the colors would be easier to follow",
+        "She thought the pictures would make each step clearer",
+        "She thought the short strip would help her keep the bead order"
+      ],
+      "main_answers": [
+        "Learning a clearer way to make bead bracelets",
+        "Testing which guide helps in craft club",
+        "Finding an easier pattern system for a hobby project"
+      ]
+    },
+    "community": {
+      "titles": [
+        "Donation Box Test",
+        "Food Drive Check",
+        "Helping Hands Trial"
+      ],
+      "intros": [
+        "Our community club tested two ways to sort food-drive donations"
+      ],
+      "actor1s": [
+        "Sora",
+        "Lina",
+        "Hana"
+      ],
+      "method1s": [
+        "one large mixed box",
+        "a single big basket",
+        "one open table pile"
+      ],
+      "actor2s": [
+        "Theo",
+        "Noah",
+        "Evan"
+      ],
+      "method2s": [
+        "small labeled boxes",
+        "color donation bins",
+        "short shelf labels"
+      ],
+      "durations": [
+        "one week",
+        "three collection days",
+        "a busy drive week"
+      ],
+      "result_subjects": [
+        "Theo's team",
+        "Noah's team",
+        "Evan's team"
+      ],
+      "result_changes": [
+        "sorted food faster",
+        "made fewer mistakes",
+        "finished the job more calmly"
+      ],
+      "reasons": [
+        "the labels showed where each donation should go",
+        "the color bins were easy to spot",
+        "the shelf labels helped the team place items quickly"
+      ],
+      "record_sentences": [
+        "The club counted each donation and checked where it was placed."
+      ],
+      "record_answers": [
+        "Each donation"
+      ],
+      "observers": [
+        "Sora",
+        "Lina",
+        "Hana"
+      ],
+      "observer_pronouns": [
+        "she",
+        "she",
+        "she"
+      ],
+      "better_methods": [
+        "small labeled boxes",
+        "color donation bins",
+        "short shelf labels"
+      ],
+      "later_sentences": [
+        "At the next drive, her team also sorted the cans more quickly.",
+        "Two days later, her group needed less help from the teacher.",
+        "After more work, her team placed items in the right bins more often."
+      ],
+      "lessons": [
+        "clear labels can help during a donation drive",
+        "small sorting boxes can improve community work",
+        "easy labels can make helping work more organized"
+      ],
+      "q2_prompts": [
+        "What did Theo's team use to sort the donations?",
+        "What did Noah's team use to sort the donations?",
+        "What did Evan's team use to sort the donations?"
+      ],
+      "q2_answers": [
+        "Small labeled boxes",
+        "Color donation bins",
+        "Short shelf labels"
+      ],
+      "vocab_prompts": [
+        "What does donation mean in the first sentence?"
+      ],
+      "vocab_answers": [
+        "Something given to help others"
+      ],
+      "inference_prompts": [
+        "Why did Sora switch to small labeled boxes?",
+        "Why did Lina switch to color donation bins?",
+        "Why did Hana switch to short shelf labels?"
+      ],
+      "inference_answers": [
+        "She thought labels would make sorting easier",
+        "She thought color bins would help the group work faster",
+        "She thought shelf labels would reduce sorting mistakes"
+      ],
+      "main_answers": [
+        "Learning a better way to sort donations",
+        "Testing which system helps in a food drive",
+        "Finding an easier sorting method for community work"
+      ]
+    },
+    "nature": {
+      "titles": [
+        "Shade Garden Test",
+        "Plant Spot Trial",
+        "Sun and Shade Check"
+      ],
+      "intros": [
+        "Our garden club tested two places for young lettuce plants"
+      ],
+      "actor1s": [
+        "Mina",
+        "Yuna",
+        "Sora"
+      ],
+      "method1s": [
+        "the hot sunny bed",
+        "a bright open patch",
+        "the warmest corner"
+      ],
+      "actor2s": [
+        "Joon",
+        "Theo",
+        "Noah"
+      ],
+      "method2s": [
+        "the light shade bed",
+        "a cooler shady patch",
+        "the soft shade area"
+      ],
+      "durations": [
+        "one week",
+        "six days",
+        "a garden week"
+      ],
+      "result_subjects": [
+        "Joon's plants",
+        "Theo's plants",
+        "Noah's plants"
+      ],
+      "result_changes": [
+        "stayed greener",
+        "looked less dry",
+        "grew more evenly"
+      ],
+      "reasons": [
+        "the shade kept the soil from drying so fast",
+        "the cooler patch held water longer",
+        "the soft shade protected the leaves from too much sun"
+      ],
+      "record_sentences": [
+        "The club measured leaf size and wrote each change in a notebook."
+      ],
+      "record_answers": [
+        "Each leaf change"
+      ],
+      "observers": [
+        "Mina",
+        "Yuna",
+        "Sora"
+      ],
+      "observer_pronouns": [
+        "she",
+        "she",
+        "she"
+      ],
+      "better_methods": [
+        "the light shade bed",
+        "a cooler shady patch",
+        "the soft shade area"
+      ],
+      "later_sentences": [
+        "Two days later, her plants also looked fresher in the afternoon.",
+        "By the next check, her leaves were not curling as much.",
+        "After the move, her row stayed greener during hot weather."
+      ],
+      "lessons": [
+        "the right amount of shade can help young plants",
+        "a cooler place can improve plant health",
+        "too much sun is not always best for every plant"
+      ],
+      "q2_prompts": [
+        "Where did Joon put his young plants?",
+        "Where did Theo put his young plants?",
+        "Where did Noah put his young plants?"
+      ],
+      "q2_answers": [
+        "In the light shade bed",
+        "In a cooler shady patch",
+        "In the soft shade area"
+      ],
+      "vocab_prompts": [
+        "What does shade mean in the passage?"
+      ],
+      "vocab_answers": [
+        "A place with less direct sunlight"
+      ],
+      "inference_prompts": [
+        "Why did Mina move her plants to the light shade bed?",
+        "Why did Yuna move her plants to a cooler shady patch?",
+        "Why did Sora move her plants to the soft shade area?"
+      ],
+      "inference_answers": [
+        "She thought the plants needed less hot sun",
+        "She thought the cooler patch would help the plants stay healthy",
+        "She thought softer light would keep the leaves from drying"
+      ],
+      "main_answers": [
+        "Learning which place helps young plants stay healthy",
+        "Testing sun and shade for garden plants",
+        "Finding a better growing spot in the garden"
+      ]
+    }
+  }
+}

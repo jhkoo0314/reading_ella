@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_gt_0097",
+    "level": "GT",
+    "topic": "Snack Choice Chart",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Snack Choice Chart",
+    "text": "Our group keeps a fruit table board next to the cup shelf. During snack time, Joon reads it before eating together. The fruit table board has apple, banana, and grape cards for the day's job. Our teacher asks us to remember what we are serving today. Sometimes we compare today's card with yesterday's card and notice one small change. We like the fruit table board because it helps us share food jobs fairly.",
+    "word_count": 73
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is this passage mostly about?",
+      "choices": [
+        "Buying new school supplies",
+        "Painting a class poster",
+        "Using the fruit table board",
+        "Cleaning a noisy hallway"
+      ],
+      "answer_index": 2,
+      "rationale": "The whole passage explains how the fruit table board is used."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "Where is the fruit table board?",
+      "choices": [
+        "next to the sink",
+        "next to the cup shelf",
+        "by the door",
+        "near the window"
+      ],
+      "answer_index": 1,
+      "rationale": "The first sentence says the fruit table board is next to the cup shelf."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "When does Joon use the fruit table board?",
+      "choices": [
+        "During snack time",
+        "In the morning",
+        "After lunch",
+        "Before bed"
+      ],
+      "answer_index": 0,
+      "rationale": "The second sentence says Joon uses it during snack time."
+    },
+    {
+      "id": "q4",
+      "skill": "detail",
+      "prompt": "What does the fruit table board have?",
+      "choices": [
+        "Picture cards",
+        "Name tags",
+        "Animal cards",
+        "Fruit cards"
+      ],
+      "answer_index": 3,
+      "rationale": "The third sentence says the fruit table board has fruit cards."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does compare mean in the fifth sentence?",
+      "choices": [
+        "Hide something quickly",
+        "Finish all the work",
+        "Look at two things together",
+        "Start a noisy game"
+      ],
+      "answer_index": 2,
+      "rationale": "Compare means to look at two things and think about them together."
+    },
+    {
+      "id": "q6",
+      "skill": "vocab_in_context",
+      "prompt": "What does notice mean in the fifth sentence?",
+      "choices": [
+        "Draw a new picture",
+        "See something important",
+        "Make a loud sound",
+        "Carry a heavy box"
+      ],
+      "answer_index": 1,
+      "rationale": "Notice means to see and pay attention to something."
+    }
+  ]
+}

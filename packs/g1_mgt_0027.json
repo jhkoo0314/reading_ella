@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_mgt_0027",
+    "level": "MGT",
+    "topic": "Trip Transfer Map Project",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Trip Transfer Map Project",
+    "text": "The map team wanted children to understand a transfer path more clearly. At first, the group made a transfer chart with too many notes in each section, but children lost track of the next stop when each section showed too much text. Trip leaders said \"There are many notes here, and I forget where to change buses.\" After hearing that, the team split the transfer path into smaller sign sections and placed mini maps at every transfer point. They also placed one extra route card before the final turn so the extra card repeated the final change before confusion could grow. On the next test day, children reached each travel stop more smoothly after the redesign. The team noticed that smaller route sections were easier to follow than one crowded map. Because of that result, the school decided to apply the transfer format to other field trips.",
+    "word_count": 147
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mainly about?",
+      "choices": [
+        "Making a transfer path easier for children to understand",
+        "Painting a room with brighter colors",
+        "Buying more books for a library sale",
+        "Writing long reports about class rules"
+      ],
+      "answer_index": 0,
+      "rationale": "The whole passage focuses on improving a system for younger students."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "What problem did students mention about the first plan?",
+      "choices": [
+        "The labels were too small to read quickly",
+        "The first plan had too many steps",
+        "Students could not tell what to do next",
+        "Each section showed too much text"
+      ],
+      "answer_index": 3,
+      "rationale": "The early part of the passage explains what did not work well."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the group add between each travel step?",
+      "choices": [
+        "Short signs",
+        "Color blocks",
+        "One simple arrow",
+        "Larger arrows"
+      ],
+      "answer_index": 2,
+      "rationale": "The middle of the passage tells what the team added or changed."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does confirm mean in the fifth sentence?",
+      "choices": [
+        "A person who leads the school",
+        "Check that something is correct",
+        "A room that is easy to clean",
+        "A rule about lunch time"
+      ],
+      "answer_index": 1,
+      "rationale": "The word meaning comes from the way the passage uses it."
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "prompt": "Why did the new design work better for younger students?",
+      "choices": [
+        "Repeated route signs reduced confusion during transfers",
+        "It made the room much larger",
+        "It reduced the number of students",
+        "It removed every sign from the area"
+      ],
+      "answer_index": 0,
+      "rationale": "You have to connect the redesign changes with the later results."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "What will the team most likely do next?",
+      "choices": [
+        "Use the same clearer style in more places",
+        "Remove every sign from the room",
+        "Ask students to memorize everything",
+        "Apply the transfer format to other field trips"
+      ],
+      "answer_index": 3,
+      "rationale": "The last sentence points to the team's next likely action."
+    }
+  ]
+}

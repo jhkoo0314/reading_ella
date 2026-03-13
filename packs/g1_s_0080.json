@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "pack_id": "g1_s_0080",
+    "level": "S",
+    "topic": "Plant Spot Trial",
+    "created_at": "2026-03-13",
+    "version": "0.1"
+  },
+  "passage": {
+    "title": "Plant Spot Trial",
+    "text": "Our garden club tested two places for young lettuce plants last month. Yuna used a bright open patch, but Theo used a cooler shady patch. After six days, Theo's plants looked less dry because the cooler patch held water longer. The club measured leaf size and wrote each change in a notebook. When Yuna saw the difference, she changed to a cooler shady patch. By the next check, her leaves were not curling as much. The students talked about the test before choosing a better method. The group learned that a cooler place can improve plant health.",
+    "word_count": 97
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "skill": "main_idea",
+      "prompt": "What is the passage mostly about?",
+      "choices": [
+        "Buying decorations for a party",
+        "Painting a classroom wall",
+        "Packing clothes for a trip",
+        "Testing sun and shade for garden plants"
+      ],
+      "answer_index": 3,
+      "rationale": "The whole passage follows one test and what the group learned from it."
+    },
+    {
+      "id": "q2",
+      "skill": "detail",
+      "prompt": "Where did Theo put his young plants?",
+      "choices": [
+        "A toy basket",
+        "A paint brush",
+        "In a cooler shady patch",
+        "A long paper list"
+      ],
+      "answer_index": 2,
+      "rationale": "The second sentence directly tells which tool or place was used."
+    },
+    {
+      "id": "q3",
+      "skill": "detail",
+      "prompt": "What did the group check or write down?",
+      "choices": [
+        "The weather report",
+        "Each leaf change",
+        "The test results",
+        "The lunch menu"
+      ],
+      "answer_index": 1,
+      "rationale": "The fourth sentence explains what the group checked or recorded."
+    },
+    {
+      "id": "q4",
+      "skill": "vocab_in_context",
+      "prompt": "What does difference mean in the fifth sentence?",
+      "choices": [
+        "The way two things are not the same",
+        "A list of class rules",
+        "A place to store tools",
+        "A loud sound in a room"
+      ],
+      "answer_index": 0,
+      "rationale": "Difference means the two results did not match each other."
+    },
+    {
+      "id": "q5",
+      "skill": "vocab_in_context",
+      "prompt": "What does shade mean in the passage?",
+      "choices": [
+        "A color on the wall",
+        "A person who visits a club",
+        "A kind of snack",
+        "A place with less direct sunlight"
+      ],
+      "answer_index": 3,
+      "rationale": "The word meaning comes from how it is used in the passage."
+    },
+    {
+      "id": "q6",
+      "skill": "inference",
+      "prompt": "Why did Yuna move her plants to a cooler shady patch?",
+      "choices": [
+        "The group wanted to decorate the room more",
+        "The first tool was missing from the class",
+        "She thought the cooler patch would help the plants stay healthy",
+        "The teacher told the student to stop working"
+      ],
+      "answer_index": 2,
+      "rationale": "The student changed after seeing which method worked better."
+    }
+  ]
+}
