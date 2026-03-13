@@ -56,6 +56,20 @@ cd C:\reading_ella
 pnpm dev:all
 ```
 
+지금 기본 백엔드는 `0.0.0.0:8000`으로 열리도록 맞춰져 있어서,
+같은 와이파이에 있는 태블릿도 내 PC IP로 붙을 수 있습니다.
+
+예를 들어 내 PC IP가 `192.168.219.200`이면:
+
+- 백엔드 주소: `http://192.168.219.200:8000/api/v1`
+- 태블릿 브라우저나 Vercel 프론트는 이 주소를 API 주소로 사용
+
+주의:
+
+- PC와 태블릿은 같은 네트워크에 있어야 합니다.
+- 윈도우 방화벽이 `8000` 포트를 막으면 태블릿에서 안 열릴 수 있습니다.
+- Vercel 프론트를 쓸 때는 백엔드 `CORS`에 Vercel 주소를 넣어야 합니다.
+
 ## 자주 쓰는 명령
 
 ```powershell
@@ -116,6 +130,7 @@ pnpm check:final
 
 - `frontend/.env.local`
 - 대표값: `NEXT_PUBLIC_API_BASE_URL=http://127.0.0.1:8000/api/v1`
+- 태블릿/같은 와이파이 예시: `NEXT_PUBLIC_API_BASE_URL=http://내PC_IP:8000/api/v1`
 
 백엔드:
 
@@ -123,6 +138,8 @@ pnpm check:final
 - 예시 파일: `backend/.env.example`
 - Gemini 키도 여기에 넣습니다.
 - 예: `GEMINI_API_KEY=...`
+- Vercel 프론트를 쓸 때는 예:
+  `READING_ELLA_CORS_ORIGINS=https://내버셀주소.vercel.app`
 
 현재 보조 모델 기준:
 
