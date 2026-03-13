@@ -12,7 +12,18 @@ from pathlib import Path
 def _parse_csv_list(raw_value: str | None, *, default: list[str]) -> list[str]:
     if raw_value is None or not raw_value.strip():
         return default
-    return [item.strip().rstrip("/") for item in raw_value.split(",") if item.strip()]
+
+    merged: list[str] = list(default)
+    seen = {item.rstrip("/") for item in merged}
+
+    for raw_item in raw_value.split(","):
+        item = raw_item.strip().rstrip("/")
+        if not item or item in seen:
+            continue
+        merged.append(item)
+        seen.add(item)
+
+    return merged
 
 
 def _discover_local_ipv4_hosts() -> list[str]:
@@ -82,6 +93,8 @@ def _load_env_file(path: Path) -> None:
     if not path.exists():
         return
 
+    file_values: dict[str, str] = {}
+
     for raw_line in path.read_text(encoding="utf-8").splitlines():
         line = raw_line.strip()
         if not line or line.startswith("#"):
@@ -100,6 +113,9 @@ def _load_env_file(path: Path) -> None:
         if len(env_value) >= 2 and env_value[0] == env_value[-1] and env_value[0] in {"'", '"'}:
             env_value = env_value[1:-1]
 
+        file_values[env_key] = env_value
+
+    for env_key, env_value in file_values.items():
         os.environ.setdefault(env_key, env_value)
 
 
