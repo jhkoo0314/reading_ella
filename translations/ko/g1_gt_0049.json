@@ -3,19 +3,19 @@
     "pack_id": "g1_gt_0049",
     "lang": "ko",
     "version": "0.1",
-    "source": "rule_based_seed"
+    "source": "gemini_batch_seed"
   },
   "passage": {
-    "title_translated": "도서관 Return 카드",
-    "text_translated": "이 글은 교실이나 집에서 쓰는 한 가지 도움판에 대한 글입니다. 이 도구는 front desk 옆에 있고 아침에 사용합니다. 안에는 Return 쪽지들가 있어 하루 일과나 역할을 확인하는 데 도움을 줍니다."
+    "title_translated": "도서관 반납 카드",
+    "text_translated": "우리 모둠은 안내 데스크 옆에 정원 도우미 차트를 붙여둡니다. 아침에 하나는 정리 시간 전에 그것을 확인합니다. 정원 도우미 차트에는 오늘의 업무를 위한 책과 잡지 반납 전표가 있습니다. 우리 선생님은 우리에게 알맞은 쪽지를 알맞은 교실로 가져가라고 하십니다. 가끔 우리는 오늘의 전표와 어제의 전표를 비교하며 작은 변화 하나를 알아차립니다. 우리는 정원 도우미 차트가 도우미 일을 제시간에 끝내도록 도와주기 때문에 그것을 좋아합니다."
   },
   "questions": [
     {
       "id": "q1",
-      "prompt_translated": "이 글은 주로 무엇에 대한 글인가요?",
+      "prompt_translated": "이 글은 주로 무엇에 관한 것인가요?",
       "choices_translated": [
         "새 학용품 사기",
-        "반 포스터 그리기",
+        "학급 포스터 그리기",
         "정원 도우미 차트 사용하기",
         "시끄러운 복도 청소하기"
       ]
@@ -24,19 +24,19 @@
       "id": "q2",
       "prompt_translated": "정원 도우미 차트는 어디에 있나요?",
       "choices_translated": [
-        "싱크대 옆에",
-        "front desk 옆에",
-        "문 옆에",
-        "창문 근처에"
+        "싱크대 옆",
+        "안내 데스크 옆",
+        "문 옆",
+        "창문 근처"
       ]
     },
     {
       "id": "q3",
-      "prompt_translated": "Hana는 언제 정원 도우미 차트를 사용하나요?",
+      "prompt_translated": "하나는 언제 정원 도우미 차트를 사용하나요?",
       "choices_translated": [
         "아침에",
-        "점심 후에",
-        "잠자기 전에",
+        "점심 식사 후",
+        "자기 전",
         "토요일 아침에"
       ]
     },
@@ -47,12 +47,12 @@
         "그림 카드",
         "이름표",
         "동물 카드",
-        "Return 쪽지들"
+        "반납 전표"
       ]
     },
     {
       "id": "q5",
-      "prompt_translated": "다섯 번째 문장에서 compare는 무슨 뜻인가요?",
+      "prompt_translated": "다섯 번째 문장에서 'compare(비교하다)'는 무슨 뜻인가요?",
       "choices_translated": [
         "무언가를 빨리 숨기다",
         "모든 일을 끝내다",
@@ -62,10 +62,10 @@
     },
     {
       "id": "q6",
-      "prompt_translated": "다섯 번째 문장에서 notice는 무슨 뜻인가요?",
+      "prompt_translated": "다섯 번째 문장에서 'notice(알아차리다)'는 무슨 뜻인가요?",
       "choices_translated": [
         "새 그림을 그리다",
-        "중요한 것을 알아차리다",
+        "중요한 것을 보다",
         "큰 소리를 내다",
         "무거운 상자를 나르다"
       ]

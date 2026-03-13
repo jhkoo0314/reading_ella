@@ -3,48 +3,48 @@
     "pack_id": "g1_gt_0056",
     "lang": "ko",
     "version": "0.1",
-    "source": "rule_based_seed"
+    "source": "gemini_batch_seed"
   },
   "passage": {
-    "title_translated": "Feeding 차례 카드",
-    "text_translated": "이 글은 교실이나 집에서 쓰는 한 가지 도움판에 대한 글입니다. 이 도구는 반 pet cage 옆에 있고 첫 쉬는 시간에 사용합니다. 안에는 Pet 그림들가 있어 하루 일과나 역할을 확인하는 데 도움을 줍니다."
+    "title_translated": "먹이 주기 순서 카드",
+    "text_translated": "우리 모둠은 학급 애완동물 우리 옆에 애완동물 돌보기 차트를 둡니다. 첫 번째 쉬는 시간에 노아는 과학 시간 전에 그것을 읽습니다. 애완동물 돌보기 차트에는 그날의 할 일인 애완동물 돌보기 단계를 위한 작은 그림들이 있습니다. 선생님께서는 우리에게 각 돌보기 단계를 순서대로 따르라고 하십니다. 때때로 우리는 오늘의 그림과 어제의 그림을 비교하며 작은 변화 하나를 발견합니다. 우리는 애완동물 돌보기 차트가 애완동물을 친절하게 돌보도록 도와주기 때문에 이 차트를 좋아합니다."
   },
   "questions": [
     {
       "id": "q1",
-      "prompt_translated": "이 글은 주로 무엇에 대한 글인가요?",
+      "prompt_translated": "이 글은 주로 무엇에 관한 것인가요?",
       "choices_translated": [
         "시끄러운 복도 청소하기",
         "새 학용품 사기",
-        "반 포스터 그리기",
-        "반려동물 돌봄 차트 사용하기"
+        "학급 포스터 그리기",
+        "애완동물 돌보기 차트 사용하기"
       ]
     },
     {
       "id": "q2",
-      "prompt_translated": "반려동물 돌봄 차트는 어디에 있나요?",
+      "prompt_translated": "애완동물 돌보기 차트는 어디에 있나요?",
       "choices_translated": [
         "창문 근처에",
         "싱크대 옆에",
-        "반 pet cage 옆에",
+        "학급 애완동물 우리 옆에",
         "문 옆에"
       ]
     },
     {
       "id": "q3",
-      "prompt_translated": "Noah는 언제 반려동물 돌봄 차트를 사용하나요?",
+      "prompt_translated": "노아는 언제 애완동물 돌보기 차트를 사용하나요?",
       "choices_translated": [
-        "잠자기 전에",
-        "첫 쉬는 시간에",
+        "자기 전",
+        "첫 번째 쉬는 시간 동안",
         "아침에",
-        "점심 후에"
+        "점심 식사 후"
       ]
     },
     {
       "id": "q4",
-      "prompt_translated": "반려동물 돌봄 차트에는 무엇이 있나요?",
+      "prompt_translated": "애완동물 돌보기 차트에는 무엇이 있나요?",
       "choices_translated": [
-        "Pet 그림들",
+        "애완동물 그림",
         "그림 카드",
         "이름표",
         "동물 카드"
@@ -52,7 +52,7 @@
     },
     {
       "id": "q5",
-      "prompt_translated": "다섯 번째 문장에서 compare는 무슨 뜻인가요?",
+      "prompt_translated": "다섯 번째 문장에서 'compare'는 무슨 뜻인가요?",
       "choices_translated": [
         "시끄러운 게임을 시작하다",
         "무언가를 빨리 숨기다",
@@ -62,11 +62,11 @@
     },
     {
       "id": "q6",
-      "prompt_translated": "다섯 번째 문장에서 notice는 무슨 뜻인가요?",
+      "prompt_translated": "다섯 번째 문장에서 'notice'는 무슨 뜻인가요?",
       "choices_translated": [
         "무거운 상자를 나르다",
         "새 그림을 그리다",
-        "중요한 것을 알아차리다",
+        "중요한 것을 발견하다",
         "큰 소리를 내다"
       ]
     }

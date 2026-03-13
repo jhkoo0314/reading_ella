@@ -3,19 +3,19 @@
     "pack_id": "g1_gt_0097",
     "lang": "ko",
     "version": "0.1",
-    "source": "rule_based_seed"
+    "source": "gemini_batch_seed"
   },
   "passage": {
-    "title_translated": "Snack Choice 차트",
-    "text_translated": "이 글은 교실이나 집에서 쓰는 한 가지 도움판에 대한 글입니다. 이 도구는 컵 선반 옆에 있고 간식 시간에 사용합니다. 안에는 과일 카드가 있어 하루 일과나 역할을 확인하는 데 도움을 줍니다."
+    "title_translated": "간식 선택 차트",
+    "text_translated": "우리 모둠은 컵 선반 옆에 과일 테이블 게시판을 두고 있습니다. 간식 시간에 준은 함께 먹기 전에 그것을 읽습니다. 과일 테이블 게시판에는 그날의 할 일인 사과, 바나나, 포도 카드가 있습니다. 우리 선생님은 오늘 우리가 무엇을 대접할지 기억하라고 하십니다. 가끔 우리는 오늘의 카드와 어제의 카드를 비교하며 작은 변화 하나를 알아차립니다. 우리는 과일 테이블 게시판이 음식 관련 업무를 공평하게 나누는 데 도움을 주기 때문에 좋아합니다."
   },
   "questions": [
     {
       "id": "q1",
-      "prompt_translated": "이 글은 주로 무엇에 대한 글인가요?",
+      "prompt_translated": "이 글은 주로 무엇에 관한 것인가요?",
       "choices_translated": [
         "새 학용품 사기",
-        "반 포스터 그리기",
+        "학급 포스터 그리기",
         "과일 테이블 게시판 사용하기",
         "시끄러운 복도 청소하기"
       ]
@@ -32,12 +32,12 @@
     },
     {
       "id": "q3",
-      "prompt_translated": "Joon은 언제 과일 테이블 게시판를 사용하나요?",
+      "prompt_translated": "준은 언제 과일 테이블 게시판을 사용하나요?",
       "choices_translated": [
         "간식 시간에",
         "아침에",
-        "점심 후에",
-        "잠자기 전에"
+        "점심 식사 후에",
+        "자기 전에"
       ]
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "id": "q5",
-      "prompt_translated": "다섯 번째 문장에서 compare는 무슨 뜻인가요?",
+      "prompt_translated": "다섯 번째 문장에서 'compare(비교하다)'는 무슨 뜻인가요?",
       "choices_translated": [
         "무언가를 빨리 숨기다",
         "모든 일을 끝내다",
@@ -62,10 +62,10 @@
     },
     {
       "id": "q6",
-      "prompt_translated": "다섯 번째 문장에서 notice는 무슨 뜻인가요?",
+      "prompt_translated": "다섯 번째 문장에서 'notice(알아차리다)'는 무슨 뜻인가요?",
       "choices_translated": [
         "새 그림을 그리다",
-        "중요한 것을 알아차리다",
+        "중요한 것을 발견하다",
         "큰 소리를 내다",
         "무거운 상자를 나르다"
       ]

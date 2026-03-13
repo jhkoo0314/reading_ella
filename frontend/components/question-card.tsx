@@ -85,19 +85,19 @@ export function QuestionCard({
         })}
       </fieldset>
 
-      <div className="question-card__actions" style={{ marginTop: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-        <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-          <button className="badge badge--muted" type="button" onClick={onToggleQuestionTranslation} style={{ border: '1px solid var(--border)', background: 'var(--surface-muted)' }}>
-            {questionTranslationOpen ? "문항 번역 닫기" : "문항 번역 열기"}
+      <div className="question-card__actions" style={{ marginTop: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+        <div className="inline-button-row" style={{ justifyContent: "flex-start" }}>
+          <button className="inline-button" type="button" onClick={onToggleQuestionTranslation}>
+            {questionTranslationOpen ? "🙈 문항 번역 숨기기" : "👀 문항 번역 보기"}
           </button>
         </div>
 
-        <div style={{ display: 'flex', gap: '1rem' }}>
+        <div style={{ display: "flex", gap: "1rem", justifyContent: "flex-start" }}>
           <TtsControls playLabel="문항 전체 읽기" isPlaying={isQuestionBlockPlaying} onPlay={onPlayQuestionBlock} onStop={onStopTts} />
         </div>
       </div>
 
-      <div style={{ marginTop: '1rem' }}>
+      <div style={{ marginTop: "1rem" }}>
         {questionTranslationOpen ? <TranslationPanel state={questionTranslationState} /> : null}
       </div>
     </motion.article>

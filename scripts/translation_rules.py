@@ -5,6 +5,15 @@ from __future__ import annotations
 import re
 from typing import Any
 
+try:
+    from backend.app.core.config import get_settings as get_backend_settings
+    from backend.app.services.gemini_client import generate_json_response
+    from backend.app.services.model_router import select_translation_model
+except Exception:  # pragma: no cover - script fallback
+    get_backend_settings = None
+    generate_json_response = None
+    select_translation_model = None
+
 
 PROMPT_EXACT_MAP = {
     "What is this passage mostly about?": "이 글은 주로 무엇에 대한 글인가요?",
@@ -787,55 +796,61 @@ def _correct_choice(question: dict[str, Any]) -> str:
     return ""
 
 
-def _build_gt_summary(pack: dict[str, Any], translated_questions: list[dict[str, Any]]) -> str:
-    answers = {entry["id"]: _correct_choice({**entry, "answer_index": pack["questions"][index]["answer_index"]}) for index, entry in enumerate(translated_questions)}
-    location = answers.get("q2", "교실 한곳")
-    when = answers.get("q3", "하루 중 한때")
-    has_what = answers.get("q4", "여러 카드")
-    return " ".join(
-        [
-            "이 글은 교실이나 집에서 쓰는 한 가지 도움판에 대한 글입니다.",
-            f"이 도구는 {location} 있고 {when} 사용합니다.",
-            f"안에는 {has_what}가 있어 하루 일과나 역할을 확인하는 데 도움을 줍니다.",
-        ]
+def _translate_passage_with_live_model(text: str, *, lang: str = "ko") -> str | None:
+    if get_backend_settings is None or generate_json_response is None or select_translation_model is None:
+        return None
+
+    settings = get_backend_settings()
+    if not settings.gemini_api_key:
+        return None
+
+    translated = generate_json_response(
+        model=select_translation_model(scope="passage"),
+        system_instruction=(
+            "You translate short English reading passages for Korean elementary learners. "
+            "Keep every sentence faithful to the original passage. "
+            "Use simple, natural Korean. Do not summarize or add new information. "
+            "Return JSON only."
+        ),
+        user_prompt=(
+            f"Translate the following passage into {lang}.\n"
+            'Return exactly this JSON shape: {"translated_text":"..."}\n'
+            "Keep the full meaning of each sentence. Do not summarize.\n"
+            f"PASSAGE: {text}"
+        ),
+        temperature=0.1,
     )
 
+    if not isinstance(translated, dict):
+        return None
 
-def _build_s_summary(pack: dict[str, Any], translated_questions: list[dict[str, Any]]) -> str:
-    answers = {entry["id"]: _correct_choice({**entry, "answer_index": pack["questions"][index]["answer_index"]}) for index, entry in enumerate(translated_questions)}
-    tool = answers.get("q2", "한 가지 도구")
-    record = answers.get("q3", "결과")
-    return " ".join(
-        [
-            "이 글은 두 가지 방법을 비교해 더 좋은 방법을 찾아보는 내용입니다.",
-            f"학생들은 서로 다른 방법을 시험했고, 한 학생은 {_with_particle(tool, '을', '를')} 사용했습니다.",
-            f"모둠은 {record}를 확인하거나 적어 두었습니다.",
-            "그 뒤 더 좋은 방법이라고 생각해 다른 도구로 바꾸었습니다.",
-        ]
-    )
+    translated_text = str(translated.get("translated_text") or "").strip()
+    return translated_text or None
 
 
-def _build_mgt_summary(pack: dict[str, Any], translated_questions: list[dict[str, Any]]) -> str:
-    answers = {entry["id"]: _correct_choice({**entry, "answer_index": pack["questions"][index]["answer_index"]}) for index, entry in enumerate(translated_questions)}
-    problem = answers.get("q2", "처음 계획에 문제가 있었다")
-    change = answers.get("q3", "새 안내를 더했다")
-    return " ".join(
-        [
-            "이 글은 어린 학생들이 더 쉽게 이해하고 움직이도록 안내 체계를 고친 내용입니다.",
-            f"처음 계획에서는 {problem}.",
-            f"그래서 팀은 {_with_particle(change, '을', '를')} 더하거나 바꾸었습니다.",
-            "그 결과 학생들이 다음 순서나 방향을 더 쉽게 알 수 있게 되었습니다.",
-        ]
-    )
+def _translate_passage_fallback(text: str) -> str:
+    # Live translation is preferred. This fallback keeps the original sentences
+    # instead of replacing them with a summary template.
+    return text
 
 
-def translate_passage_summary(pack: dict[str, Any], translated_questions: list[dict[str, Any]]) -> str:
-    level = str(pack["meta"]["level"]).upper()
-    if level == "GT":
-        return _build_gt_summary(pack, translated_questions)
-    if level == "S":
-        return _build_s_summary(pack, translated_questions)
-    return _build_mgt_summary(pack, translated_questions)
+def translate_passage_text(pack: dict[str, Any], *, lang: str = "ko") -> str:
+    passage = pack.get("passage")
+    if not isinstance(passage, dict):
+        return ""
+
+    text = str(passage.get("text") or "").strip()
+    if not text:
+        return ""
+
+    try:
+        translated_text = _translate_passage_with_live_model(text, lang=lang)
+    except Exception:  # pragma: no cover - network/provider fallback
+        translated_text = None
+
+    if translated_text:
+        return translated_text
+    return _translate_passage_fallback(text)
 
 
 def build_seed_translation(pack: dict[str, Any], *, lang: str = "ko", source: str = "rule_based_seed") -> dict[str, Any]:
@@ -850,7 +865,7 @@ def build_seed_translation(pack: dict[str, Any], *, lang: str = "ko", source: st
         },
         "passage": {
             "title_translated": translate_title(str(pack["passage"]["title"])),
-            "text_translated": translate_passage_summary(pack, translated_questions),
+            "text_translated": translate_passage_text(pack, lang=lang),
         },
         "questions": translated_questions,
     }

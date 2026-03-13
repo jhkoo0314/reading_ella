@@ -3,20 +3,20 @@
     "pack_id": "g1_gt_0020",
     "lang": "ko",
     "version": "0.1",
-    "source": "rule_based_seed"
+    "source": "gemini_batch_seed"
   },
   "passage": {
     "title_translated": "정원 관찰 게시판",
-    "text_translated": "이 글은 교실이나 집에서 쓰는 한 가지 도움판에 대한 글입니다. 이 도구는 창문 근처에 있고 쉬는 시간 후에 사용합니다. 안에는 Nature 메모가 있어 하루 일과나 역할을 확인하는 데 도움을 줍니다."
+    "text_translated": "우리 모둠은 창문 근처에 나무 계절 게시판을 붙여둡니다. 쉬는 시간 후에 소라는 정리 시간 전에 그것을 확인합니다. 나무 계절 게시판에는 그날의 업무를 위한 꽃, 벌레, 비에 관한 작은 쪽지가 있습니다. 최 선생님은 우리에게 식물을 관찰하고 변화에 대해 이야기하라고 하십니다. 가끔 우리는 오늘의 쪽지와 어제의 쪽지를 비교해 보고 작은 변화 하나를 알아차립니다. 우리는 나무 계절 게시판이 식물을 더 잘 돌보도록 도와주기 때문에 그것을 좋아합니다."
   },
   "questions": [
     {
       "id": "q1",
-      "prompt_translated": "이 글은 주로 무엇에 대한 글인가요?",
+      "prompt_translated": "이 글은 주로 무엇에 관한 것인가요?",
       "choices_translated": [
         "시끄러운 복도 청소하기",
         "새 학용품 사기",
-        "반 포스터 그리기",
+        "학급 포스터 그리기",
         "나무 계절 게시판 사용하기"
       ]
     },
@@ -24,27 +24,27 @@
       "id": "q2",
       "prompt_translated": "나무 계절 게시판은 어디에 있나요?",
       "choices_translated": [
-        "싱크대 옆에",
-        "시계 아래에",
-        "창문 근처에",
-        "문 옆에"
+        "싱크대 옆",
+        "시계 아래",
+        "창문 근처",
+        "문 옆"
       ]
     },
     {
       "id": "q3",
-      "prompt_translated": "Sora는 언제 나무 계절 게시판를 사용하나요?",
+      "prompt_translated": "소라는 언제 나무 계절 게시판을 사용하나요?",
       "choices_translated": [
-        "잠자기 전에",
-        "쉬는 시간 후에",
+        "자기 전",
+        "쉬는 시간 후",
         "아침에",
-        "점심 후에"
+        "점심 식사 후"
       ]
     },
     {
       "id": "q4",
       "prompt_translated": "나무 계절 게시판에는 무엇이 있나요?",
       "choices_translated": [
-        "Nature 메모",
+        "자연 쪽지",
         "그림 카드",
         "이름표",
         "동물 카드"
@@ -52,7 +52,7 @@
     },
     {
       "id": "q5",
-      "prompt_translated": "다섯 번째 문장에서 compare는 무슨 뜻인가요?",
+      "prompt_translated": "다섯 번째 문장에서 'compare'는 무슨 뜻인가요?",
       "choices_translated": [
         "시끄러운 게임을 시작하다",
         "무언가를 빨리 숨기다",
@@ -62,7 +62,7 @@
     },
     {
       "id": "q6",
-      "prompt_translated": "다섯 번째 문장에서 notice는 무슨 뜻인가요?",
+      "prompt_translated": "다섯 번째 문장에서 'notice'는 무슨 뜻인가요?",
       "choices_translated": [
         "무거운 상자를 나르다",
         "새 그림을 그리다",

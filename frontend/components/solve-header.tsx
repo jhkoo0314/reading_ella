@@ -28,56 +28,51 @@ export function SolveHeader({
   return (
     <motion.header 
       className="solve-header"
+      style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '1rem 2rem' }}
       initial={{ opacity: 0, y: -20, scale: 0.98 }}
       animate={{ opacity: 1, y: 0, scale: 1 }}
       transition={{ duration: 0.5, type: "spring", bounce: 0.4 }}
     >
-      <div className="solve-header__meta">
-        <span className="badge badge--accent">{level} 반</span>
-        <span className="badge">{packId} 세트</span>
+      <div className="solve-header__meta" style={{ flexDirection: 'column', alignItems: 'flex-start', gap: '0.4rem', margin: 0 }}>
+        <div style={{ display: 'flex', gap: '0.4rem' }}>
+          <span className="badge badge--accent">{level} 반</span>
+          <span className="badge">{packId} 세트</span>
+        </div>
         {unansweredCount > 0 ? (
-          <span className="badge badge--muted">🔥 {unansweredCount}문제 남았어요!</span>
+          <span className="badge badge--muted" style={{ fontSize: '0.8rem', minHeight: 'auto', padding: '0.1rem 0.5rem' }}>🔥 {unansweredCount}문제 남았어요!</span>
         ) : (
-          <span className="badge badge--accent">✨ 와! 다 풀었어요!</span>
+          <span className="badge badge--accent" style={{ fontSize: '0.8rem', minHeight: 'auto', padding: '0.1rem 0.5rem' }}>✨ 와! 다 풀었어요!</span>
         )}
       </div>
 
-      <div className="solve-header__body">
-        <div>
-          <p className="solve-header__eyebrow">🚀 오늘의 미션 ({totalQuestions - unansweredCount} / {totalQuestions})</p>
-          <div style={{ width: "100%", height: "8px", background: "var(--surface)", borderRadius: "4px", marginTop: "4px", marginBottom: "12px", overflow: "hidden" }}>
-             <motion.div 
-               initial={{ width: 0 }}
-               animate={{ width: `${((totalQuestions - unansweredCount) / totalQuestions) * 100}%` }}
-               transition={{ duration: 0.5 }}
-               style={{ height: "100%", background: "var(--accent)", borderRadius: "4px" }} 
-             />
-          </div>
-          <h1 className="solve-header__title">{topic}</h1>
-          <p className="solve-header__description">그림책을 읽듯이 천천히 읽어봐요!</p>
-        </div>
-        <div className="inline-button-row">
-          <motion.button 
-            className="inline-button" 
-            type="button" 
-            onClick={onHomeClick} 
-            disabled={isSubmitting}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            🏠 홈으로 가기
-          </motion.button>
-          <motion.button
-            className="button button--primary"
-            type="button"
-            disabled={unansweredCount > 0 || isSubmitting}
-            onClick={onSubmitClick}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            {isSubmitting ? "채점 중..." : "🚀 다 했어요!"}
-          </motion.button>
-        </div>
+      <div className="solve-header__body" style={{ flex: 1, padding: '0 2rem' }}>
+        <p className="solve-header__eyebrow" style={{ marginBottom: '0.2rem' }}>🚀 오늘의 미션 ({totalQuestions - unansweredCount} / {totalQuestions})</p>
+        <h1 className="solve-header__title" style={{ fontSize: '1.5rem', marginBottom: 0 }}>{topic}</h1>
+      </div>
+
+      <div className="inline-button-row" style={{ gap: '0.8rem' }}>
+        <motion.button 
+          className="inline-button" 
+          style={{ padding: '0.6rem 1rem', fontSize: '0.9rem' }}
+          type="button" 
+          onClick={onHomeClick} 
+          disabled={isSubmitting}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          🏠 홈
+        </motion.button>
+        <motion.button
+          className="button button--primary"
+          style={{ padding: '0.6rem 1rem', fontSize: '1rem' }}
+          type="button"
+          disabled={unansweredCount > 0 || isSubmitting}
+          onClick={onSubmitClick}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          {isSubmitting ? "채점 중..." : "🚀 제출"}
+        </motion.button>
       </div>
     </motion.header>
   );

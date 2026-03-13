@@ -360,54 +360,48 @@ export function SolvePageClient() {
         onSubmitClick={handleSubmitIntent}
       />
 
-      <div className="solve-canvas">
-        <div className="solve-canvas__left">
-          <PassageSection
-            title={pack.passage.title}
-            text={pack.passage.text}
-            topic={pack.topic}
-            wordCount={pack.passage.word_count}
-            translationOpen={passageTranslationOpen}
-            translationState={passageTranslationState}
-            isPlaying={playingKey === "passage"}
-            onToggleTranslation={handleTogglePassageTranslation}
-            onPlay={() => speakText("passage", pack.passage.text)}
-            onStop={stopSpeech}
-          />
-        </div>
+      <div className="solve-canvas" style={{ flexDirection: 'column', height: 'auto', gap: '3rem', paddingBottom: '8rem' }}>
+        <PassageSection
+          title={pack.passage.title}
+          text={pack.passage.text}
+          topic={pack.topic}
+          wordCount={pack.passage.word_count}
+          translationOpen={passageTranslationOpen}
+          translationState={passageTranslationState}
+          isPlaying={playingKey === "passage"}
+          onToggleTranslation={handleTogglePassageTranslation}
+          onPlay={() => speakText("passage", pack.passage.text)}
+          onStop={stopSpeech}
+        />
 
-        <div className="solve-canvas__right">
-          <div className="card-stack-container" style={{ 
-            alignItems: 'flex-start', 
-            justifyContent: 'flex-start', 
-            overflowY: 'auto', 
-            padding: '1rem', 
-            paddingBottom: '8rem',
-            gap: '2rem',
-            flexDirection: 'column'
-          }}>
-            {pack.questions.map((question, index) => (
-              <QuestionCard
-                key={question.id}
-                style={{ position: 'relative', maxWidth: '100%', marginBottom: '2rem' }}
-                question={question}
-                questionNumber={index + 1}
-                selectedIndex={answers[question.id]}
-                questionTranslationOpen={Boolean(questionTranslationOpenMap[question.id])}
-                questionTranslationState={questionTranslationStateMap[question.id] ?? idleTranslationState}
-                isQuestionBlockPlaying={playingKey === `question-block:${question.id}`}
-                onSelect={(choiceIndex) => handleChoiceSelect(question.id, choiceIndex)}
-                onToggleQuestionTranslation={() => handleToggleQuestionTranslation(question.id)}
-                onPlayQuestionBlock={() =>
-                  speakText(
-                    `question-block:${question.id}`,
-                    buildQuestionWithChoicesSpeechText(question.prompt, question.choices),
-                  )
-                }
-                onStopTts={stopSpeech}
-              />
-            ))}
-          </div>
+        <div className="card-stack-container" style={{ 
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'stretch', 
+          justifyContent: 'flex-start', 
+          gap: '2.5rem'
+        }}>
+          {pack.questions.map((question, index) => (
+            <QuestionCard
+              key={question.id}
+              style={{ position: 'relative', width: '100%' }}
+              question={question}
+              questionNumber={index + 1}
+              selectedIndex={answers[question.id]}
+              questionTranslationOpen={Boolean(questionTranslationOpenMap[question.id])}
+              questionTranslationState={questionTranslationStateMap[question.id] ?? idleTranslationState}
+              isQuestionBlockPlaying={playingKey === `question-block:${question.id}`}
+              onSelect={(choiceIndex) => handleChoiceSelect(question.id, choiceIndex)}
+              onToggleQuestionTranslation={() => handleToggleQuestionTranslation(question.id)}
+              onPlayQuestionBlock={() =>
+                speakText(
+                  `question-block:${question.id}`,
+                  buildQuestionWithChoicesSpeechText(question.prompt, question.choices),
+                )
+              }
+              onStopTts={stopSpeech}
+            />
+          ))}
         </div>
       </div>
 
