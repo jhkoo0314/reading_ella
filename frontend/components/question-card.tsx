@@ -7,14 +7,11 @@ type QuestionCardProps = {
   question: PublicQuestion;
   questionNumber: number;
   selectedIndex: number | undefined;
-  promptTranslationOpen: boolean;
-  promptTranslationState: TranslationPanelState;
-  choiceTranslationOpen: boolean;
-  choiceTranslationState: TranslationPanelState;
+  questionTranslationOpen: boolean;
+  questionTranslationState: TranslationPanelState;
   isQuestionBlockPlaying: boolean;
   onSelect: (choiceIndex: number) => void;
-  onTogglePromptTranslation: () => void;
-  onToggleChoiceTranslation: () => void;
+  onToggleQuestionTranslation: () => void;
   onPlayQuestionBlock: () => void;
   onStopTts: () => void;
   style?: React.CSSProperties; // Added to let parent stack cards
@@ -35,14 +32,11 @@ export function QuestionCard({
   question,
   questionNumber,
   selectedIndex,
-  promptTranslationOpen,
-  promptTranslationState,
-  choiceTranslationOpen,
-  choiceTranslationState,
+  questionTranslationOpen,
+  questionTranslationState,
   isQuestionBlockPlaying,
   onSelect,
-  onTogglePromptTranslation,
-  onToggleChoiceTranslation,
+  onToggleQuestionTranslation,
   onPlayQuestionBlock,
   onStopTts,
   style
@@ -93,11 +87,8 @@ export function QuestionCard({
 
       <div className="question-card__actions" style={{ marginTop: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-          <button className="badge badge--muted" type="button" onClick={onTogglePromptTranslation} style={{ border: '1px solid var(--border)', background: 'var(--surface-muted)' }}>
-            {promptTranslationOpen ? "문항 번역 닫기" : "문항 번역 열기"}
-          </button>
-          <button className="badge badge--muted" type="button" onClick={onToggleChoiceTranslation} style={{ border: '1px solid var(--border)', background: 'var(--surface-muted)' }}>
-            {choiceTranslationOpen ? "보기 번역 닫기" : "보기 번역 열기"}
+          <button className="badge badge--muted" type="button" onClick={onToggleQuestionTranslation} style={{ border: '1px solid var(--border)', background: 'var(--surface-muted)' }}>
+            {questionTranslationOpen ? "문항 번역 닫기" : "문항 번역 열기"}
           </button>
         </div>
 
@@ -107,8 +98,7 @@ export function QuestionCard({
       </div>
 
       <div style={{ marginTop: '1rem' }}>
-        {promptTranslationOpen ? <TranslationPanel state={promptTranslationState} /> : null}
-        {choiceTranslationOpen ? <TranslationPanel state={choiceTranslationState} /> : null}
+        {questionTranslationOpen ? <TranslationPanel state={questionTranslationState} /> : null}
       </div>
     </motion.article>
   );

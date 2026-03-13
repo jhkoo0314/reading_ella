@@ -25,7 +25,7 @@ def _require_question_id(request: TranslationRequest) -> str:
     if request.scope == "passage":
         return ""
     if request.question_id is None or not request.question_id.strip():
-        raise AssistRequestError("question_prompt 또는 question_choices 범위는 question_id가 필요합니다.")
+        raise AssistRequestError("question_full 범위는 question_id가 필요합니다.")
     return request.question_id.strip()
 
 
@@ -67,21 +67,9 @@ def _build_local_response(request: TranslationRequest) -> TranslationResponse | 
     if question_entry is None:
         return None
 
-    if request.scope == "question_prompt":
-        translated_prompt = str(question_entry.get("prompt_translated") or "").strip() or None
-        if translated_prompt is None:
-            return None
-        return TranslationResponse(
-            source="local_overlay",
-            pack_id=request.pack_id,
-            target_lang=request.target_lang,
-            scope=request.scope,
-            question_id=question_id,
-            translated_prompt=translated_prompt,
-        )
-
+    translated_prompt = str(question_entry.get("prompt_translated") or "").strip() or None
     translated_choices = _normalize_choices(question_entry.get("choices_translated"))
-    if translated_choices is None:
+    if translated_prompt is None and translated_choices is None:
         return None
     return TranslationResponse(
         source="local_overlay",
@@ -89,6 +77,7 @@ def _build_local_response(request: TranslationRequest) -> TranslationResponse | 
         target_lang=request.target_lang,
         scope=request.scope,
         question_id=question_id,
+        translated_prompt=translated_prompt,
         translated_choices=translated_choices,
     )
 
@@ -137,33 +126,6 @@ def _build_gemini_translation_response(request: TranslationRequest, *, provider:
         )
 
     question = get_question(payload, question_id)
-    if request.scope == "question_prompt":
-        translated = generate_json_response(
-            model=model_used,
-            system_instruction=(
-                "You translate English reading questions for young learners. "
-                "Keep the answer intent unchanged. Return JSON only."
-            ),
-            user_prompt=(
-                f"Translate this question into {target_lang}.\n"
-                'Return exactly this JSON shape: {"translated_prompt":"..."}\n'
-                f"QUESTION: {str(question.get('prompt') or '')}"
-            ),
-            temperature=0.2,
-        )
-        if not isinstance(translated, dict):
-            raise AssistRequestError("Gemini 문항 번역 응답 형식이 잘못되었습니다.")
-        return TranslationResponse(
-            source="api_live",
-            provider_used=provider,
-            model_used=model_used,
-            pack_id=request.pack_id,
-            target_lang=target_lang,
-            scope=request.scope,
-            question_id=question_id,
-            translated_prompt=str(translated.get("translated_prompt") or "").strip() or None,
-        )
-
     raw_choices = question.get("choices")
     if not isinstance(raw_choices, list):
         raise AssistRequestError("문항 choices 정보가 없습니다.")
@@ -171,28 +133,29 @@ def _build_gemini_translation_response(request: TranslationRequest, *, provider:
     translated = generate_json_response(
         model=model_used,
         system_instruction=(
-            "You translate multiple-choice answers for young learners. "
+            "You translate English reading questions for young learners. "
+            "Translate the question and all answer choices together. "
             "Preserve the subtle difference between choices. "
             "Return JSON only."
         ),
         user_prompt=(
-            f"Translate these answer choices into {target_lang}.\n"
-            'Return exactly this JSON shape: {"translated_choices":["...", "..."]}\n'
+            f"Translate this question and its answer choices into {target_lang}.\n"
+            'Return exactly this JSON shape: {"translated_prompt":"...","translated_choices":["...", "..."]}\n'
             f"QUESTION: {str(question.get('prompt') or '')}\n"
             f"CHOICES: {json.dumps([str(choice or '') for choice in raw_choices], ensure_ascii=False)}"
         ),
         temperature=0.2,
     )
     if not isinstance(translated, dict):
-        raise AssistRequestError("Gemini 보기 번역 응답 형식이 잘못되었습니다.")
+        raise AssistRequestError("Gemini 문항 번역 응답 형식이 잘못되었습니다.")
 
     translated_choices = translated.get("translated_choices")
     if not isinstance(translated_choices, list):
-        raise AssistRequestError("Gemini 보기 번역 목록 형식이 잘못되었습니다.")
+        raise AssistRequestError("Gemini 문항 번역 목록 형식이 잘못되었습니다.")
 
     normalized_choices = [str(choice or "").strip() for choice in translated_choices]
     if len(normalized_choices) != len(raw_choices):
-        raise AssistRequestError("Gemini 보기 번역 수가 원본 보기 수와 다릅니다.")
+        raise AssistRequestError("Gemini 문항 번역 수가 원본 보기 수와 다릅니다.")
 
     return TranslationResponse(
         source="api_live",
@@ -202,6 +165,7 @@ def _build_gemini_translation_response(request: TranslationRequest, *, provider:
         target_lang=target_lang,
         scope=request.scope,
         question_id=question_id,
+        translated_prompt=str(translated.get("translated_prompt") or "").strip() or None,
         translated_choices=normalized_choices,
     )
 
@@ -248,23 +212,11 @@ def _build_api_response(request: TranslationRequest) -> TranslationResponse:
         )
 
     question = get_question(payload, question_id)
-    if request.scope == "question_prompt":
-        translated_prompt = _mock_translate_text(str(question.get("prompt") or ""), target_lang=request.target_lang)
-        return TranslationResponse(
-            source="api_live",
-            provider_used=provider,
-            model_used=model_used,
-            pack_id=request.pack_id,
-            target_lang=request.target_lang,
-            scope=request.scope,
-            question_id=question_id,
-            translated_prompt=translated_prompt,
-        )
-
     raw_choices = question.get("choices")
     if not isinstance(raw_choices, list):
         raise AssistRequestError("문항 choices 정보가 없습니다.")
 
+    translated_prompt = _mock_translate_text(str(question.get("prompt") or ""), target_lang=request.target_lang)
     translated_choices = [
         _mock_translate_text(str(choice or ""), target_lang=request.target_lang)
         for choice in raw_choices
@@ -277,6 +229,7 @@ def _build_api_response(request: TranslationRequest) -> TranslationResponse:
         target_lang=request.target_lang,
         scope=request.scope,
         question_id=question_id,
+        translated_prompt=translated_prompt,
         translated_choices=translated_choices,
     )
 

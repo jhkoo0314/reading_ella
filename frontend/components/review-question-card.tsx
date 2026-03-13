@@ -6,7 +6,7 @@ import { ExplanationPanel, type ExplanationPanelState } from "@/components/expla
 import { TranslationPanel, type TranslationPanelState } from "@/components/translation-panel";
 import { TtsControls } from "@/components/tts-controls";
 import { ApiClientError, requestExplanation, requestTranslation } from "@/lib/api/client";
-import type { ExplanationDetailLevel, ExplanationResponse, ReviewQuestionItem, TranslationResponse } from "@/lib/types/api";
+import type { ExplanationResponse, ReviewQuestionItem, TranslationResponse } from "@/lib/types/api";
 import type { AssistToggles } from "@/lib/types/app";
 
 
@@ -37,28 +37,15 @@ function getSkillLabel(skill: ReviewQuestionItem["skill"]) {
 
 
 function getTranslationState(response: TranslationResponse): TranslationPanelState {
-  if (response.scope === "question_prompt") {
-    if (!response.translated_prompt) {
-      return { status: "error", message: "이 문항 번역은 아직 준비되지 않았습니다." };
-    }
-
-    return {
-      status: "ready",
-      data: {
-        text: response.translated_prompt,
-        sourceLabel: response.source === "local_overlay" ? "저장된 번역" : "실시간 번역",
-      },
-    };
-  }
-
-  if (!response.translated_choices || response.translated_choices.length === 0) {
-    return { status: "error", message: "이 보기 번역은 아직 준비되지 않았습니다." };
+  if (!response.translated_prompt && (!response.translated_choices || response.translated_choices.length === 0)) {
+    return { status: "error", message: "이 문항 번역은 아직 준비되지 않았습니다." };
   }
 
   return {
     status: "ready",
     data: {
-      choices: response.translated_choices,
+      text: response.translated_prompt ?? undefined,
+      choices: response.translated_choices ?? undefined,
       sourceLabel: response.source === "local_overlay" ? "저장된 번역" : "실시간 번역",
     },
   };
@@ -114,33 +101,30 @@ export function ReviewQuestionCard({
   onPlayQuestionBlock,
   onStopTts,
 }: ReviewQuestionCardProps) {
-  const [promptTranslationOpen, setPromptTranslationOpen] = useState(false);
-  const [promptTranslationState, setPromptTranslationState] = useState<TranslationPanelState>(idleTranslationState);
-  const [choiceTranslationOpen, setChoiceTranslationOpen] = useState(false);
-  const [choiceTranslationState, setChoiceTranslationState] = useState<TranslationPanelState>(idleTranslationState);
+  const [questionTranslationOpen, setQuestionTranslationOpen] = useState(false);
+  const [questionTranslationState, setQuestionTranslationState] = useState<TranslationPanelState>(idleTranslationState);
   const [explanationState, setExplanationState] = useState<ExplanationPanelState>(idleExplanationState);
 
   const allowExternalTranslationApi = toggles.useAssistApi && toggles.useApiTranslation;
   const allowExternalExplanationApi = toggles.useAssistApi && toggles.useApiExplain;
 
-  async function loadTranslation(scope: "question_prompt" | "question_choices") {
-    const setState = scope === "question_prompt" ? setPromptTranslationState : setChoiceTranslationState;
-    setState({ status: "loading" });
+  async function loadTranslation() {
+    setQuestionTranslationState({ status: "loading" });
 
     try {
       const response = await requestTranslation({
         pack_id: item.pack_id,
-        scope,
+        scope: "question_full",
         question_id: item.question_id,
         allow_external_api: allowExternalTranslationApi,
       });
-      setState(getTranslationState(response));
+      setQuestionTranslationState(getTranslationState(response));
     } catch (error) {
-      setState({ status: "error", message: getTranslationErrorMessage(error) });
+      setQuestionTranslationState({ status: "error", message: getTranslationErrorMessage(error) });
     }
   }
 
-  async function loadExplanation(detailLevel: ExplanationDetailLevel) {
+  async function loadExplanation() {
     setExplanationState({ status: "loading" });
 
     try {
@@ -148,7 +132,7 @@ export function ReviewQuestionCard({
         pack_id: item.pack_id,
         question_id: item.question_id,
         chosen_index: item.chosen_index,
-        detail_level: detailLevel,
+        detail_level: allowExternalExplanationApi ? "deep" : "short",
         allow_external_api: allowExternalExplanationApi,
       });
       setExplanationState(getExplanationState(response));
@@ -157,21 +141,12 @@ export function ReviewQuestionCard({
     }
   }
 
-  function handleTogglePromptTranslation() {
-    const nextOpen = !promptTranslationOpen;
-    setPromptTranslationOpen(nextOpen);
+  function handleToggleQuestionTranslation() {
+    const nextOpen = !questionTranslationOpen;
+    setQuestionTranslationOpen(nextOpen);
 
-    if (nextOpen && promptTranslationState.status === "idle") {
-      void loadTranslation("question_prompt");
-    }
-  }
-
-  function handleToggleChoiceTranslation() {
-    const nextOpen = !choiceTranslationOpen;
-    setChoiceTranslationOpen(nextOpen);
-
-    if (nextOpen && choiceTranslationState.status === "idle") {
-      void loadTranslation("question_choices");
+    if (nextOpen && questionTranslationState.status === "idle") {
+      void loadTranslation();
     }
   }
 
@@ -204,17 +179,11 @@ export function ReviewQuestionCard({
       </div>
 
       <div className="inline-button-row">
-        <button className="inline-button" type="button" onClick={() => void loadExplanation("short")}>
-          💡 힌트 보기
+        <button className="inline-button" type="button" onClick={() => void loadExplanation()}>
+          💡 해설 보기
         </button>
-        <button className="inline-button" type="button" onClick={() => void loadExplanation("deep")}>
-          🕵️‍♀️ 선생님 설명 듣기
-        </button>
-        <button className="inline-button" type="button" onClick={handleTogglePromptTranslation}>
-          {promptTranslationOpen ? "🙈 문제 해석 숨기기" : "👀 문제 해석 보기"}
-        </button>
-        <button className="inline-button" type="button" onClick={handleToggleChoiceTranslation}>
-          {choiceTranslationOpen ? "🙈 보기 해석 숨기기" : "👀 보기 해석 보기"}
+        <button className="inline-button" type="button" onClick={handleToggleQuestionTranslation}>
+          {questionTranslationOpen ? "🙈 문항 번역 숨기기" : "👀 문항 번역 보기"}
         </button>
       </div>
 
@@ -222,8 +191,7 @@ export function ReviewQuestionCard({
         <TtsControls playLabel="문항 전체 읽기" isPlaying={questionBlockPlaying} onPlay={onPlayQuestionBlock} onStop={onStopTts} />
       </div>
 
-      {promptTranslationOpen ? <TranslationPanel state={promptTranslationState} /> : null}
-      {choiceTranslationOpen ? <TranslationPanel state={choiceTranslationState} /> : null}
+      {questionTranslationOpen ? <TranslationPanel state={questionTranslationState} /> : null}
       <ExplanationPanel state={explanationState} />
     </article>
   );

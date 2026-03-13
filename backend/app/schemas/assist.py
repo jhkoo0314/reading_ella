@@ -5,7 +5,7 @@ from typing import Literal
 from pydantic import BaseModel, Field
 
 
-TranslationScope = Literal["passage", "question_prompt", "question_choices"]
+TranslationScope = Literal["passage", "question_full"]
 ExplanationDetailLevel = Literal["short", "deep"]
 TtsScope = Literal["passage", "question_prompt", "question_choices"]
 

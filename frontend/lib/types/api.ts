@@ -1,6 +1,6 @@
 export type Level = "GT" | "S" | "MGT";
 export type Skill = "main_idea" | "detail" | "inference" | "vocab_in_context";
-export type TranslationScope = "passage" | "question_prompt" | "question_choices";
+export type TranslationScope = "passage" | "question_full";
 export type ExplanationDetailLevel = "short" | "deep";
 export type TtsScope = "passage" | "question_prompt" | "question_choices";
 

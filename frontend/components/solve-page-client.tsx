@@ -18,7 +18,7 @@ import { buildAssistQueryString, readAssistTogglesFromSearchParams, readLevelFro
 import { getCurrentKstIsoTimestamp } from "@/lib/kst-time";
 import { buildQuestionWithChoicesSpeechText } from "@/lib/tts-text";
 import { useBrowserTts } from "@/lib/use-browser-tts";
-import type { Level, PackLoadResponse, TranslationResponse, TranslationScope } from "@/lib/types/api";
+import type { Level, PackLoadResponse, TranslationResponse } from "@/lib/types/api";
 
 
 const idleTranslationState: TranslationPanelState = { status: "idle" };
@@ -77,19 +77,17 @@ function buildTranslationState(response: TranslationResponse): TranslationPanelS
     );
   }
 
-  if (response.scope === "question_prompt") {
-    if (!response.translated_prompt) {
-      return { status: "error", message: "이 문항 번역은 아직 준비되지 않았습니다." };
-    }
-
-    return createTranslationReadyState({ text: response.translated_prompt }, response);
+  if (!response.translated_prompt && (!response.translated_choices || response.translated_choices.length === 0)) {
+    return { status: "error", message: "이 문항 번역은 아직 준비되지 않았습니다." };
   }
 
-  if (!response.translated_choices || response.translated_choices.length === 0) {
-    return { status: "error", message: "이 보기 번역은 아직 준비되지 않았습니다." };
-  }
-
-  return createTranslationReadyState({ choices: response.translated_choices }, response);
+  return createTranslationReadyState(
+    {
+      text: response.translated_prompt ?? undefined,
+      choices: response.translated_choices ?? undefined,
+    },
+    response,
+  );
 }
 
 
@@ -143,10 +141,8 @@ export function SolvePageClient() {
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [passageTranslationOpen, setPassageTranslationOpen] = useState(false);
   const [passageTranslationState, setPassageTranslationState] = useState<TranslationPanelState>(idleTranslationState);
-  const [promptTranslationOpenMap, setPromptTranslationOpenMap] = useState<OpenMap>({});
-  const [promptTranslationStateMap, setPromptTranslationStateMap] = useState<QuestionTranslationMap>({});
-  const [choiceTranslationOpenMap, setChoiceTranslationOpenMap] = useState<OpenMap>({});
-  const [choiceTranslationStateMap, setChoiceTranslationStateMap] = useState<QuestionTranslationMap>({});
+  const [questionTranslationOpenMap, setQuestionTranslationOpenMap] = useState<OpenMap>({});
+  const [questionTranslationStateMap, setQuestionTranslationStateMap] = useState<QuestionTranslationMap>({});
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
@@ -166,10 +162,8 @@ export function SolvePageClient() {
     setAnswers({});
     setPassageTranslationOpen(false);
     setPassageTranslationState(idleTranslationState);
-    setPromptTranslationOpenMap({});
-    setPromptTranslationStateMap({});
-    setChoiceTranslationOpenMap({});
-    setChoiceTranslationStateMap({});
+    setQuestionTranslationOpenMap({});
+    setQuestionTranslationStateMap({});
     setSubmitError(null);
     setShowSubmitConfirm(false);
     stopSpeech();
@@ -238,14 +232,12 @@ export function SolvePageClient() {
     }
   }
 
-  async function loadQuestionTranslation(scope: TranslationScope, questionId: string) {
+  async function loadQuestionTranslation(questionId: string) {
     if (!pack) {
       return;
     }
 
-    const setMap = scope === "question_prompt" ? setPromptTranslationStateMap : setChoiceTranslationStateMap;
-
-    setMap((previousState) => ({
+    setQuestionTranslationStateMap((previousState) => ({
       ...previousState,
       [questionId]: { status: "loading" },
     }));
@@ -253,17 +245,17 @@ export function SolvePageClient() {
     try {
       const response = await requestTranslation({
         pack_id: pack.pack_id,
-        scope,
+        scope: "question_full",
         question_id: questionId,
         allow_external_api: allowExternalTranslationApi,
       });
 
-      setMap((previousState) => ({
+      setQuestionTranslationStateMap((previousState) => ({
         ...previousState,
         [questionId]: buildTranslationState(response),
       }));
     } catch (error) {
-      setMap((previousState) => ({
+      setQuestionTranslationStateMap((previousState) => ({
         ...previousState,
         [questionId]: { status: "error", message: getTranslationErrorMessage(error) },
       }));
@@ -279,19 +271,16 @@ export function SolvePageClient() {
     }
   }
 
-  function handleToggleQuestionTranslation(scope: TranslationScope, questionId: string) {
-    const openMap = scope === "question_prompt" ? promptTranslationOpenMap : choiceTranslationOpenMap;
-    const setOpenMap = scope === "question_prompt" ? setPromptTranslationOpenMap : setChoiceTranslationOpenMap;
-    const stateMap = scope === "question_prompt" ? promptTranslationStateMap : choiceTranslationStateMap;
-    const nextOpen = !openMap[questionId];
+  function handleToggleQuestionTranslation(questionId: string) {
+    const nextOpen = !questionTranslationOpenMap[questionId];
 
-    setOpenMap((previousState) => ({
+    setQuestionTranslationOpenMap((previousState) => ({
       ...previousState,
       [questionId]: nextOpen,
     }));
 
-    if (nextOpen && stateMap[questionId] === undefined) {
-      void loadQuestionTranslation(scope, questionId);
+    if (nextOpen && questionTranslationStateMap[questionId] === undefined) {
+      void loadQuestionTranslation(questionId);
     }
   }
 
@@ -404,14 +393,11 @@ export function SolvePageClient() {
                 question={question}
                 questionNumber={index + 1}
                 selectedIndex={answers[question.id]}
-                promptTranslationOpen={Boolean(promptTranslationOpenMap[question.id])}
-                promptTranslationState={promptTranslationStateMap[question.id] ?? idleTranslationState}
-                choiceTranslationOpen={Boolean(choiceTranslationOpenMap[question.id])}
-                choiceTranslationState={choiceTranslationStateMap[question.id] ?? idleTranslationState}
+                questionTranslationOpen={Boolean(questionTranslationOpenMap[question.id])}
+                questionTranslationState={questionTranslationStateMap[question.id] ?? idleTranslationState}
                 isQuestionBlockPlaying={playingKey === `question-block:${question.id}`}
                 onSelect={(choiceIndex) => handleChoiceSelect(question.id, choiceIndex)}
-                onTogglePromptTranslation={() => handleToggleQuestionTranslation("question_prompt", question.id)}
-                onToggleChoiceTranslation={() => handleToggleQuestionTranslation("question_choices", question.id)}
+                onToggleQuestionTranslation={() => handleToggleQuestionTranslation(question.id)}
                 onPlayQuestionBlock={() =>
                   speakText(
                     `question-block:${question.id}`,
