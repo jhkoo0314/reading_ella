@@ -85,6 +85,9 @@ class Settings:
     translations_dir: Path
     data_dir: Path
     database_path: Path
+    gemini_api_key: str | None
+    gemini_api_base_url: str
+    gemini_timeout_seconds: float
     translation_provider: str | None
     explanation_provider: str | None
     tts_provider: str | None
@@ -94,11 +97,19 @@ class Settings:
 
     @property
     def translation_api_available(self) -> bool:
-        return self.translation_provider is not None
+        if self.translation_provider is None:
+            return False
+        if self.translation_provider.lower() == "gemini":
+            return self.gemini_api_key is not None
+        return True
 
     @property
     def explanation_api_available(self) -> bool:
-        return self.explanation_provider is not None
+        if self.explanation_provider is None:
+            return False
+        if self.explanation_provider.lower() == "gemini":
+            return self.gemini_api_key is not None
+        return True
 
     @property
     def tts_api_available(self) -> bool:
@@ -142,6 +153,12 @@ def get_settings() -> Settings:
         translations_dir=translations_dir,
         data_dir=data_dir,
         database_path=database_path,
+        gemini_api_key=_first_env("READING_ELLA_GEMINI_API_KEY", "GEMINI_API_KEY"),
+        gemini_api_base_url=os.getenv(
+            "READING_ELLA_GEMINI_API_BASE_URL",
+            "https://generativelanguage.googleapis.com/v1beta",
+        ).rstrip("/"),
+        gemini_timeout_seconds=float(os.getenv("READING_ELLA_GEMINI_TIMEOUT_SECONDS", "30")),
         translation_provider=_clean_optional(os.getenv("READING_ELLA_TRANSLATION_PROVIDER")),
         explanation_provider=_clean_optional(os.getenv("READING_ELLA_EXPLANATION_PROVIDER")),
         tts_provider=_clean_optional(os.getenv("READING_ELLA_TTS_PROVIDER")),

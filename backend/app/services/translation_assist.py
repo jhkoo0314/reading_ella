@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import json
+
 from typing import Any
 
 from backend.app.core.config import get_settings
@@ -15,6 +17,7 @@ from backend.app.services.assist_common import (
     get_translation_payload,
     get_translation_question_entry,
 )
+from backend.app.services.gemini_client import generate_json_response
 from backend.app.services.model_router import select_translation_model
 
 
@@ -94,6 +97,115 @@ def _mock_translate_text(value: str, *, target_lang: str) -> str:
     return f"[mock-{target_lang}] {value}"
 
 
+def _build_gemini_translation_response(request: TranslationRequest, *, provider: str, model_used: str) -> TranslationResponse:
+    question_id = _require_question_id(request)
+    payload = get_pack_payload(request.pack_id)
+    target_lang = request.target_lang
+
+    if request.scope == "passage":
+        passage = payload.get("passage")
+        if not isinstance(passage, dict):
+            raise AssistRequestError("pack passage 정보가 없습니다.")
+
+        translated = generate_json_response(
+            model=model_used,
+            system_instruction=(
+                "You translate English reading materials for young learners. "
+                "Keep the meaning accurate, simple, and natural. "
+                "Return JSON only."
+            ),
+            user_prompt=(
+                f"Translate the following title and passage into {target_lang}.\n"
+                "Return exactly this JSON shape:\n"
+                '{"translated_title":"...","translated_text":"..."}\n'
+                f"TITLE: {str(passage.get('title') or '')}\n"
+                f"TEXT: {str(passage.get('text') or '')}"
+            ),
+            temperature=0.2,
+        )
+        if not isinstance(translated, dict):
+            raise AssistRequestError("Gemini 번역 응답 형식이 잘못되었습니다.")
+        return TranslationResponse(
+            source="api_live",
+            provider_used=provider,
+            model_used=model_used,
+            pack_id=request.pack_id,
+            target_lang=target_lang,
+            scope=request.scope,
+            translated_title=str(translated.get("translated_title") or "").strip() or None,
+            translated_text=str(translated.get("translated_text") or "").strip() or None,
+        )
+
+    question = get_question(payload, question_id)
+    if request.scope == "question_prompt":
+        translated = generate_json_response(
+            model=model_used,
+            system_instruction=(
+                "You translate English reading questions for young learners. "
+                "Keep the answer intent unchanged. Return JSON only."
+            ),
+            user_prompt=(
+                f"Translate this question into {target_lang}.\n"
+                'Return exactly this JSON shape: {"translated_prompt":"..."}\n'
+                f"QUESTION: {str(question.get('prompt') or '')}"
+            ),
+            temperature=0.2,
+        )
+        if not isinstance(translated, dict):
+            raise AssistRequestError("Gemini 문항 번역 응답 형식이 잘못되었습니다.")
+        return TranslationResponse(
+            source="api_live",
+            provider_used=provider,
+            model_used=model_used,
+            pack_id=request.pack_id,
+            target_lang=target_lang,
+            scope=request.scope,
+            question_id=question_id,
+            translated_prompt=str(translated.get("translated_prompt") or "").strip() or None,
+        )
+
+    raw_choices = question.get("choices")
+    if not isinstance(raw_choices, list):
+        raise AssistRequestError("문항 choices 정보가 없습니다.")
+
+    translated = generate_json_response(
+        model=model_used,
+        system_instruction=(
+            "You translate multiple-choice answers for young learners. "
+            "Preserve the subtle difference between choices. "
+            "Return JSON only."
+        ),
+        user_prompt=(
+            f"Translate these answer choices into {target_lang}.\n"
+            'Return exactly this JSON shape: {"translated_choices":["...", "..."]}\n'
+            f"QUESTION: {str(question.get('prompt') or '')}\n"
+            f"CHOICES: {json.dumps([str(choice or '') for choice in raw_choices], ensure_ascii=False)}"
+        ),
+        temperature=0.2,
+    )
+    if not isinstance(translated, dict):
+        raise AssistRequestError("Gemini 보기 번역 응답 형식이 잘못되었습니다.")
+
+    translated_choices = translated.get("translated_choices")
+    if not isinstance(translated_choices, list):
+        raise AssistRequestError("Gemini 보기 번역 목록 형식이 잘못되었습니다.")
+
+    normalized_choices = [str(choice or "").strip() for choice in translated_choices]
+    if len(normalized_choices) != len(raw_choices):
+        raise AssistRequestError("Gemini 보기 번역 수가 원본 보기 수와 다릅니다.")
+
+    return TranslationResponse(
+        source="api_live",
+        provider_used=provider,
+        model_used=model_used,
+        pack_id=request.pack_id,
+        target_lang=target_lang,
+        scope=request.scope,
+        question_id=question_id,
+        translated_choices=normalized_choices,
+    )
+
+
 def _build_api_response(request: TranslationRequest) -> TranslationResponse:
     question_id = _require_question_id(request)
     payload = get_pack_payload(request.pack_id)
@@ -109,6 +221,9 @@ def _build_api_response(request: TranslationRequest) -> TranslationResponse:
         )
 
     provider = settings.translation_provider
+    if provider == "gemini":
+        return _build_gemini_translation_response(request, provider=provider, model_used=model_used)
+
     if provider != "mock":
         raise AssistProviderUnavailableError(
             f"translation provider={provider} 는 아직 연결되지 않았습니다. 선택 모델은 {model_used} 입니다."

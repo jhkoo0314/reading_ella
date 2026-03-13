@@ -121,6 +121,8 @@ pnpm check:final
 
 - `backend/.env`
 - 예시 파일: `backend/.env.example`
+- Gemini 키도 여기에 넣습니다.
+- 예: `GEMINI_API_KEY=...`
 
 현재 보조 모델 기준:
 

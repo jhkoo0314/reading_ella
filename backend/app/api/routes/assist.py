@@ -12,6 +12,7 @@ from backend.app.schemas.assist import (
 )
 from backend.app.services.assist_common import (
     AssistExternalApiDisabledError,
+    AssistProviderRequestError,
     AssistProviderUnavailableError,
     AssistRequestError,
     AssistServiceError,
@@ -37,6 +38,8 @@ def translate_content(request: TranslationRequest) -> TranslationResponse:
         raise HTTPException(status_code=404, detail=str(exc)) from exc
     except AssistProviderUnavailableError as exc:
         raise HTTPException(status_code=501, detail=str(exc)) from exc
+    except AssistProviderRequestError as exc:
+        raise HTTPException(status_code=502, detail=str(exc)) from exc
     except PackValidationError as exc:
         raise HTTPException(status_code=500, detail=str(exc)) from exc
     except AssistServiceError as exc:
@@ -55,6 +58,8 @@ def explain_wrong_answer(request: ExplanationRequest) -> ExplanationResponse:
         raise HTTPException(status_code=404, detail=str(exc)) from exc
     except AssistProviderUnavailableError as exc:
         raise HTTPException(status_code=501, detail=str(exc)) from exc
+    except AssistProviderRequestError as exc:
+        raise HTTPException(status_code=502, detail=str(exc)) from exc
     except PackValidationError as exc:
         raise HTTPException(status_code=500, detail=str(exc)) from exc
     except AssistServiceError as exc:
@@ -71,6 +76,8 @@ def prepare_tts(request: TtsRequest) -> TtsResponse:
         raise HTTPException(status_code=404, detail=str(exc)) from exc
     except AssistProviderUnavailableError as exc:
         raise HTTPException(status_code=501, detail=str(exc)) from exc
+    except AssistProviderRequestError as exc:
+        raise HTTPException(status_code=502, detail=str(exc)) from exc
     except PackValidationError as exc:
         raise HTTPException(status_code=500, detail=str(exc)) from exc
     except AssistServiceError as exc:

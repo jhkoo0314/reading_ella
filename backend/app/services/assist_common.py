@@ -23,6 +23,10 @@ class AssistProviderUnavailableError(AssistServiceError):
     """Raised when an external provider is missing or not wired."""
 
 
+class AssistProviderRequestError(AssistServiceError):
+    """Raised when an upstream provider request fails after connection was attempted."""
+
+
 def get_pack_payload(pack_id: str) -> dict[str, Any]:
     return get_validated_pack_payload_by_id(pack_id)
 
