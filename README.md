@@ -69,6 +69,8 @@ pnpm dev:all
 - PC와 태블릿은 같은 네트워크에 있어야 합니다.
 - 윈도우 방화벽이 `8000` 포트를 막으면 태블릿에서 안 열릴 수 있습니다.
 - Vercel 프론트를 쓸 때는 백엔드 `CORS`에 Vercel 주소를 넣어야 합니다.
+- 같은 와이파이 실사용 테스트는 `Vercel 페이지`보다 `내 PC에서 직접 띄운 프론트(http://내PC_IP:3000)`를 쓰는 쪽이 더 안전합니다.
+- 이유는 `Vercel(https)` 화면이 `내 PC 백엔드(http)`를 브라우저에서 막을 수 있기 때문입니다.
 
 ## 자주 쓰는 명령
 
@@ -131,6 +133,7 @@ pnpm check:final
 - `frontend/.env.local`
 - 대표값: `NEXT_PUBLIC_API_BASE_URL=http://127.0.0.1:8000/api/v1`
 - 태블릿/같은 와이파이 예시: `NEXT_PUBLIC_API_BASE_URL=http://내PC_IP:8000/api/v1`
+- `pnpm dev`를 켜면 이제 프론트도 `0.0.0.0:3000`으로 열려서 태블릿에서 `http://내PC_IP:3000`으로 접속할 수 있습니다.
 
 백엔드:
 

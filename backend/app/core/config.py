@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import os
+import socket
 from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
@@ -11,12 +12,42 @@ from pathlib import Path
 def _parse_csv_list(raw_value: str | None, *, default: list[str]) -> list[str]:
     if raw_value is None or not raw_value.strip():
         return default
-    return [item.strip() for item in raw_value.split(",") if item.strip()]
+    return [item.strip().rstrip("/") for item in raw_value.split(",") if item.strip()]
+
+
+def _discover_local_ipv4_hosts() -> list[str]:
+    hosts: set[str] = set()
+
+    try:
+        resolved = socket.gethostbyname(socket.gethostname())
+        if resolved and not resolved.startswith("127."):
+            hosts.add(resolved)
+    except OSError:
+        pass
+
+    try:
+        for entry in socket.getaddrinfo(socket.gethostname(), None, socket.AF_INET):
+            candidate = entry[4][0]
+            if candidate and not candidate.startswith("127."):
+                hosts.add(candidate)
+    except OSError:
+        pass
+
+    try:
+        with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as probe:
+            probe.connect(("8.8.8.8", 80))
+            candidate = probe.getsockname()[0]
+            if candidate and not candidate.startswith("127."):
+                hosts.add(candidate)
+    except OSError:
+        pass
+
+    return sorted(hosts)
 
 
 def _build_default_cors_origins() -> list[str]:
     origins: list[str] = []
-    for host in ("localhost", "127.0.0.1"):
+    for host in ("localhost", "127.0.0.1", *_discover_local_ipv4_hosts()):
         for port in (3000, 3001, 3002):
             origins.append(f"http://{host}:{port}")
     return origins
